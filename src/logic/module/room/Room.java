@@ -230,13 +230,17 @@ public class Room implements Tick {
     }
 
     public void RemovePlayer(MyUser user, long time) {
+
         Iterator<RoomPlayer> it = m_players.iterator();
         boolean find = false;
         while (it.hasNext()) {
             RoomPlayer u = it.next();
             if (u != null) {
+
                 if (user.GetRoleGID() == u.getRoleId()) {
                     this.m_players.remove(u);
+                    if (this.m_state == eGameState.GAME_PLAYING)
+                        this.broadcast(RoomInterface.MID_BROADCAST_lEAVE, u.getID(), u.getRoleId());
                     u.destroy();
 
                     /* this.m_allPlayer.remove(u.getID()); */
@@ -317,7 +321,6 @@ public class Room implements Tick {
             }
         }
     }
-
 
 
     // 将该用户的数据广播给其他的人；
@@ -595,8 +598,7 @@ public class Room implements Tick {
                 Team team = this.getTeam(rp.getRoleId());
                 if (team != null) {
                     buffer.Add(team.getTeamName());
-                }
-                else{
+                } else {
                     RoomPlayer roomPlayer = this.GetPlayer(rp.getVisitID());
                     if (roomPlayer != null) {
                         buffer.Add(roomPlayer.getTeamName());
@@ -604,10 +606,10 @@ public class Room implements Tick {
                         buffer.Add(0);
                     }
                 }
-                    buffer.Add(System.currentTimeMillis());
-                    buffer.Send(rp.getUser());
-                }
+                buffer.Add(System.currentTimeMillis());
+                buffer.Send(rp.getUser());
             }
+        }
 
     }
 
@@ -708,6 +710,7 @@ public class Room implements Tick {
             }
         }
     }
+
     /*	public void broadcast(int midBroadcastSplit, int playerID, int m_xpos,
                 int m_ypos, ArrayList<Integer> list, long time) {
             // TODO Auto-generated method stub
@@ -883,8 +886,8 @@ public class Room implements Tick {
 
         m_leftTime = m_beginTime + 60 * 1000 * rr.getTime()
                 - System.currentTimeMillis();
-		/*
-		 * System.out.println("++++++++++++++++++++++++++++++++++++"+m_leftTime);
+        /*
+         * System.out.println("++++++++++++++++++++++++++++++++++++"+m_leftTime);
 		 */
         if (m_leftTime <= 0) {
             m_state = eGameState.GAME_OVER;
