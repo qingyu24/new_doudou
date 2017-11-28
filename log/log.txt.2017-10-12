@@ -1,0 +1,451 @@
+0 2017-10-12 19:05:38 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+70 2017-10-12 19:05:38 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/qiuqiu?rewriteBatchedStatements=true&characterEncoding=utf8]
+477 2017-10-12 19:05:38 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/qiuqiu?rewriteBatchedStatements=true&characterEncoding=utf8]
+572 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+607 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+628 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+664 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+753 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+859 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@14d3bc22 [ID:0] NextRunTime[1507806339515] Run[logic.module.login.Login@12d4bf7e] SpaceTime[200]]
+894 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+1039 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+1040 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+1040 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+1042 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+1043 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+1043 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+1044 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+1044 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+1045 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+1045 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+1045 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+1049 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+1050 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+1050 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+1084 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+1085 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+1085 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+1085 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+1086 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+1086 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+1087 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+1088 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加[1,2][RoomImpl,CreateRoom]
+1089 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,InitBody]
+1092 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加[1,3][RoomImpl,MoveBody]
+1093 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加[1,4][RoomImpl,EatBody]
+1093 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,SplitBody]
+1096 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加[1,7][RoomImpl,ComposeBody]
+1096 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+1096 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+1096 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+1132 2017-10-12 19:05:39 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@6e171cd7 [ID:1] NextRunTime[1507806340589] Run[core.ex.GatherInfo@402bba4f] SpaceTime[1000]]
+5640 2017-10-12 19:05:44 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@5ba88be8 [ID:2] NextRunTime[1507806494097] Run[logic.loader.UserLoader@56928307] SpaceTime[150000]]
+6000 2017-10-12 19:05:44 [GlobalLog] SYSTEM_INFO #用时[23] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@1c33c17b: SELECT * FROM account]
+6000 2017-10-12 19:05:44 [GlobalLog] SYSTEM_INFO #读取到[5]条数据
+6024 2017-10-12 19:05:44 [GlobalLog] SYSTEM_INFO #打开端口[22222]成功
+6025 2017-10-12 19:05:44 [GlobalLog] SYSTEM_INFO #打开端口[2222]成功
+6191 2017-10-12 19:05:44 [GlobalLog] SYSTEM_ERROR #java.net.BindException: Address already in use: bind
+6193 2017-10-12 19:05:44 [GlobalLog] SYSTEM_ERROR #java.net.BindException: Address already in use: bind
+6197 2017-10-12 19:05:44 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (18,'2017-10-12 19:05:44',0,'java.net.BindException: Address already in use: bind','sun.nio.ch.Net.bind0(Native Method)
+sun.nio.ch.Net.bind(Unknown Source)
+sun.nio.ch.Net.bind(Unknown Source)
+sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+core.detail.impl.socket.ListenNioBase.Init(ListenNioBase.java:82)
+core.detail.impl.mgr.NetMgrImpl._StartListen(NetMgrImpl.java:139)
+core.detail.impl.mgr.NetMgrImpl.run(NetMgrImpl.java:72)
+java.lang.Thread.run(Unknown Source)
+')
+6199 2017-10-12 19:05:44 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (18,'2017-10-12 19:05:44',0,'java.net.BindException: Address already in use: bind','sun.nio.ch.Net.bind0(Native Method)
+sun.nio.ch.Net.bind(Unknown Source)
+sun.nio.ch.Net.bind(Unknown Source)
+sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+core.detail.impl.socket.ListenNioBase.Init(ListenNioBase.java:82)
+core.detail.impl.mgr.NetMgrImpl._StartListen(NetMgrImpl.java:139)
+core.detail.impl.mgr.NetMgrImpl.run(NetMgrImpl.java:72)
+java.lang.Thread.run(Unknown Source)
+')
+6268 2017-10-12 19:05:44 [GlobalLog] SYSTEM_INFO #端口异常,正在准备重新打开端口!!!
+6271 2017-10-12 19:05:44 [GlobalLog] SYSTEM_INFO #打开端口[2223]成功
+6273 2017-10-12 19:05:44 [GlobalLog] SYSTEM_ERROR #线程[25]挂掉了 囧囧囧囧囧囧囧囧囧囧
+6275 2017-10-12 19:05:44 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:GMNET]] 2017年10月12日 19时05分44秒
+6275 2017-10-12 19:05:44 [GlobalLog] SYSTEM_INFO #线程正常停止[[25,GMNET]] 2017年10月12日 19时05分44秒
+6385 2017-10-12 19:05:44 [GlobalLog] SYSTEM_INFO #正在打开端口[2223]
+8946 2017-10-12 19:05:47 [GlobalLog] SYSTEM_INFO #服务器正准备关闭,请稍候
+8946 2017-10-12 19:05:47 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Start] 2017年10月12日 19时05分47秒
+8946 2017-10-12 19:05:47 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:2223] 2017年10月12日 19时05分47秒
+8947 2017-10-12 19:05:47 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Finish] 2017年10月12日 19时05分47秒
+8958 2017-10-12 19:05:47 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:2223] 2017年10月12日 19时05分47秒
+8959 2017-10-12 19:05:47 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:NET]] 2017年10月12日 19时05分47秒
+8959 2017-10-12 19:05:47 [GlobalLog] SYSTEM_INFO #线程正常停止[[22,NET]] 2017年10月12日 19时05分47秒
+10947 2017-10-12 19:05:49 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Start] 2017年10月12日 19时05分49秒
+10949 2017-10-12 19:05:49 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@13260453 UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年10月12日 19时05分49秒
+10950 2017-10-12 19:05:49 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Finish] 2017年10月12日 19时05分49秒
+10951 2017-10-12 19:05:49 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Start] 2017年10月12日 19时05分49秒
+10951 2017-10-12 19:05:49 [GlobalLog] SYSTEM_INFO #系统正在保存全局数据[account] 一共有[5]条数据
+10982 2017-10-12 19:05:49 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Finish] 2017年10月12日 19时05分49秒
+11982 2017-10-12 19:05:50 [GlobalLog] SYSTEM_INFO #开始停止线程[LogicMgr] 2017年10月12日 19时05分50秒
+11983 2017-10-12 19:05:50 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:LOGIC]] 2017年10月12日 19时05分50秒
+11983 2017-10-12 19:05:50 [GlobalLog] SYSTEM_INFO #线程正常停止[[23,LOGIC]] 2017年10月12日 19时05分50秒
+11984 2017-10-12 19:05:50 [GlobalLog] SYSTEM_INFO #线程正常停止[[LogicMgr正常退出]] 2017年10月12日 19时05分50秒
+11985 2017-10-12 19:05:50 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLMgr] 2017年10月12日 19时05分50秒
+11986 2017-10-12 19:05:50 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQL]] 2017年10月12日 19时05分50秒
+11986 2017-10-12 19:05:50 [GlobalLog] SYSTEM_INFO #线程正常停止[[24,SQL]] 2017年10月12日 19时05分50秒
+11987 2017-10-12 19:05:50 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLMgr正常退出]] 2017年10月12日 19时05分50秒
+11987 2017-10-12 19:05:50 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLLogMgr] 2017年10月12日 19时05分50秒
+12069 2017-10-12 19:05:50 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQLLOG]] 2017年10月12日 19时05分50秒
+12069 2017-10-12 19:05:50 [GlobalLog] SYSTEM_INFO #线程正常停止[[26,SQLLOG]] 2017年10月12日 19时05分50秒
+12070 2017-10-12 19:05:50 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLLogMgr正常退出]] 2017年10月12日 19时05分50秒
+12097 2017-10-12 19:05:50 [GlobalLog] SYSTEM_INFO #开始停止线程[ThreadTask] 2017年10月12日 19时05分50秒
+12197 2017-10-12 19:05:50 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:THREADTASK]] 2017年10月12日 19时05分50秒
+12198 2017-10-12 19:05:50 [GlobalLog] SYSTEM_INFO #线程正常停止[[27,THREADTASK]] 2017年10月12日 19时05分50秒
+12198 2017-10-12 19:05:50 [GlobalLog] SYSTEM_INFO #线程正常停止[[ThreadTask正常退出]] 2017年10月12日 19时05分50秒
+12199 2017-10-12 19:05:50 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:MAIN]] 2017年10月12日 19时05分50秒
+12199 2017-10-12 19:05:50 [GlobalLog] SYSTEM_INFO #线程正常停止[[1,MAIN]] 2017年10月12日 19时05分50秒
+0 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+3 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/qiuqiu?rewriteBatchedStatements=true&characterEncoding=utf8]
+228 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/qiuqiu?rewriteBatchedStatements=true&characterEncoding=utf8]
+270 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+299 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+321 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+323 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+372 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+390 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@14d3bc22 [ID:0] NextRunTime[1507806363014] Run[logic.module.login.Login@12d4bf7e] SpaceTime[200]]
+393 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+436 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+437 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+438 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+438 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+439 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+439 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+439 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+440 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+440 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+441 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+441 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+441 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+444 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+444 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+445 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+446 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+446 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+446 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+446 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+447 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+448 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+448 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加[1,2][RoomImpl,CreateRoom]
+448 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,InitBody]
+450 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加[1,3][RoomImpl,MoveBody]
+451 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加[1,4][RoomImpl,EatBody]
+451 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,SplitBody]
+453 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加[1,7][RoomImpl,ComposeBody]
+454 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+454 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+454 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+458 2017-10-12 19:06:02 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@6e171cd7 [ID:1] NextRunTime[1507806363883] Run[core.ex.GatherInfo@402bba4f] SpaceTime[1000]]
+966 2017-10-12 19:06:03 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@5d066c7d [ID:2] NextRunTime[1507806577391] Run[logic.loader.UserLoader@1e461e41] SpaceTime[214000]]
+982 2017-10-12 19:06:03 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3cdf2c61: SELECT * FROM account]
+982 2017-10-12 19:06:03 [GlobalLog] SYSTEM_INFO #读取到[5]条数据
+985 2017-10-12 19:06:03 [GlobalLog] SYSTEM_INFO #打开端口[22222]成功
+986 2017-10-12 19:06:03 [GlobalLog] SYSTEM_INFO #打开端口[2222]成功
+995 2017-10-12 19:06:03 [GlobalLog] SYSTEM_ERROR #java.net.BindException: Address already in use: bind
+995 2017-10-12 19:06:03 [GlobalLog] SYSTEM_ERROR #java.net.BindException: Address already in use: bind
+997 2017-10-12 19:06:03 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (18,'2017-10-12 19:06:03',0,'java.net.BindException: Address already in use: bind','sun.nio.ch.Net.bind0(Native Method)
+sun.nio.ch.Net.bind(Unknown Source)
+sun.nio.ch.Net.bind(Unknown Source)
+sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+core.detail.impl.socket.ListenNioBase.Init(ListenNioBase.java:82)
+core.detail.impl.mgr.NetMgrImpl._StartListen(NetMgrImpl.java:139)
+core.detail.impl.mgr.NetMgrImpl.run(NetMgrImpl.java:72)
+java.lang.Thread.run(Unknown Source)
+')
+997 2017-10-12 19:06:03 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (18,'2017-10-12 19:06:03',0,'java.net.BindException: Address already in use: bind','sun.nio.ch.Net.bind0(Native Method)
+sun.nio.ch.Net.bind(Unknown Source)
+sun.nio.ch.Net.bind(Unknown Source)
+sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+core.detail.impl.socket.ListenNioBase.Init(ListenNioBase.java:82)
+core.detail.impl.mgr.NetMgrImpl._StartListen(NetMgrImpl.java:139)
+core.detail.impl.mgr.NetMgrImpl.run(NetMgrImpl.java:72)
+java.lang.Thread.run(Unknown Source)
+')
+1049 2017-10-12 19:06:03 [GlobalLog] SYSTEM_INFO #端口异常,正在准备重新打开端口!!!
+1051 2017-10-12 19:06:03 [GlobalLog] SYSTEM_INFO #打开端口[2223]成功
+1051 2017-10-12 19:06:03 [GlobalLog] SYSTEM_ERROR #线程[24]挂掉了 囧囧囧囧囧囧囧囧囧囧
+1054 2017-10-12 19:06:03 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:GMNET]] 2017年10月12日 19时06分03秒
+1054 2017-10-12 19:06:03 [GlobalLog] SYSTEM_INFO #线程正常停止[[24,GMNET]] 2017年10月12日 19时06分03秒
+1065 2017-10-12 19:06:03 [GlobalLog] SYSTEM_INFO #正在打开端口[2223]
+6854 2017-10-12 19:06:09 [GlobalLog] SYSTEM_INFO #服务器正准备关闭,请稍候
+6855 2017-10-12 19:06:09 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Start] 2017年10月12日 19时06分09秒
+6855 2017-10-12 19:06:09 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:2223] 2017年10月12日 19时06分09秒
+6857 2017-10-12 19:06:09 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Finish] 2017年10月12日 19时06分09秒
+6857 2017-10-12 19:06:09 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:2223] 2017年10月12日 19时06分09秒
+6858 2017-10-12 19:06:09 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:NET]] 2017年10月12日 19时06分09秒
+6858 2017-10-12 19:06:09 [GlobalLog] SYSTEM_INFO #线程正常停止[[21,NET]] 2017年10月12日 19时06分09秒
+0 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+3 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/qiuqiu?rewriteBatchedStatements=true&characterEncoding=utf8]
+219 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/qiuqiu?rewriteBatchedStatements=true&characterEncoding=utf8]
+262 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+290 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+311 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+314 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+358 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+374 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@14d3bc22 [ID:0] NextRunTime[1507806384041] Run[logic.module.login.Login@12d4bf7e] SpaceTime[200]]
+377 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+424 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+425 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+425 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+426 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+426 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+427 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+427 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+428 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+428 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+428 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+429 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+433 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+433 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+434 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+434 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+435 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+435 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+436 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+436 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+436 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+437 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+438 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加[1,2][RoomImpl,CreateRoom]
+438 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,InitBody]
+440 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加[1,3][RoomImpl,MoveBody]
+441 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加[1,4][RoomImpl,EatBody]
+442 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,SplitBody]
+444 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加[1,7][RoomImpl,ComposeBody]
+444 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+444 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+444 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+450 2017-10-12 19:06:23 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@6e171cd7 [ID:1] NextRunTime[1507806384917] Run[core.ex.GatherInfo@402bba4f] SpaceTime[1000]]
+984 2017-10-12 19:06:24 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@5ba88be8 [ID:2] NextRunTime[1507806567451] Run[logic.loader.UserLoader@56928307] SpaceTime[183000]]
+1001 2017-10-12 19:06:24 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@1c33c17b: SELECT * FROM account]
+1001 2017-10-12 19:06:24 [GlobalLog] SYSTEM_INFO #读取到[5]条数据
+1003 2017-10-12 19:06:24 [GlobalLog] SYSTEM_INFO #打开端口[2222]成功
+1003 2017-10-12 19:06:24 [GlobalLog] SYSTEM_INFO #打开端口[22222]成功
+1017 2017-10-12 19:06:24 [GlobalLog] SYSTEM_INFO #正在打开端口[22222]
+1017 2017-10-12 19:06:24 [GlobalLog] SYSTEM_INFO #正在打开端口[2222]
+4410 2017-10-12 19:06:27 [GlobalLog] SYSTEM_INFO #服务器正准备关闭,请稍候
+4411 2017-10-12 19:06:27 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Start] 2017年10月12日 19时06分27秒
+4411 2017-10-12 19:06:27 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:2222] 2017年10月12日 19时06分27秒
+4413 2017-10-12 19:06:27 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:2222] 2017年10月12日 19时06分27秒
+4413 2017-10-12 19:06:27 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Finish] 2017年10月12日 19时06分27秒
+4413 2017-10-12 19:06:27 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:NET]] 2017年10月12日 19时06分27秒
+4414 2017-10-12 19:06:27 [GlobalLog] SYSTEM_INFO #线程正常停止[[21,NET]] 2017年10月12日 19时06分27秒
+6413 2017-10-12 19:06:29 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Start] 2017年10月12日 19时06分29秒
+6413 2017-10-12 19:06:29 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@193dad0e UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年10月12日 19时06分29秒
+6914 2017-10-12 19:06:30 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@193dad0e UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年10月12日 19时06分30秒
+6915 2017-10-12 19:06:30 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Finish] 2017年10月12日 19时06分30秒
+6915 2017-10-12 19:06:30 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Start] 2017年10月12日 19时06分30秒
+6916 2017-10-12 19:06:30 [GlobalLog] SYSTEM_INFO #系统正在保存全局数据[account] 一共有[5]条数据
+6920 2017-10-12 19:06:30 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Finish] 2017年10月12日 19时06分30秒
+7921 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #开始停止线程[LogicMgr] 2017年10月12日 19时06分31秒
+7922 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:LOGIC]] 2017年10月12日 19时06分31秒
+7922 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[22,LOGIC]] 2017年10月12日 19时06分31秒
+7923 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[LogicMgr正常退出]] 2017年10月12日 19时06分31秒
+7924 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLMgr] 2017年10月12日 19时06分31秒
+7925 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQL]] 2017年10月12日 19时06分31秒
+7925 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[23,SQL]] 2017年10月12日 19时06分31秒
+7926 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLMgr正常退出]] 2017年10月12日 19时06分31秒
+7926 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLLogMgr] 2017年10月12日 19时06分31秒
+8004 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQLLOG]] 2017年10月12日 19时06分31秒
+8005 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[25,SQLLOG]] 2017年10月12日 19时06分31秒
+8005 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLLogMgr正常退出]] 2017年10月12日 19时06分31秒
+8010 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #开始停止线程[ThreadTask] 2017年10月12日 19时06分31秒
+8110 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:THREADTASK]] 2017年10月12日 19时06分31秒
+8110 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[26,THREADTASK]] 2017年10月12日 19时06分31秒
+8112 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[ThreadTask正常退出]] 2017年10月12日 19时06分31秒
+8113 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #开始停止线程[GMNetMgr] 2017年10月12日 19时06分31秒
+8113 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:22222] 2017年10月12日 19时06分31秒
+8113 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:22222] 2017年10月12日 19时06分31秒
+8114 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:GMNET]] 2017年10月12日 19时06分31秒
+8114 2017-10-12 19:06:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[24,GMNET]] 2017年10月12日 19时06分31秒
+38116 2017-10-12 19:07:01 [GlobalLog] SYSTEM_INFO #线程正常停止[[GMNetMgr正常退出]] 2017年10月12日 19时07分01秒
+38116 2017-10-12 19:07:01 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:MAIN]] 2017年10月12日 19时07分01秒
+38117 2017-10-12 19:07:01 [GlobalLog] SYSTEM_INFO #线程正常停止[[1,MAIN]] 2017年10月12日 19时07分01秒
+39116 2017-10-12 19:07:02 [GlobalLog] SYSTEM_INFO #服务器执行完清理工作,GameOver:2017年10月12日 19时07分02秒
+0 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+4 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/qiuqiu?rewriteBatchedStatements=true&characterEncoding=utf8]
+237 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/qiuqiu?rewriteBatchedStatements=true&characterEncoding=utf8]
+286 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+313 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+334 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+336 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+377 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+392 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@14d3bc22 [ID:0] NextRunTime[1507810218879] Run[logic.module.login.Login@12d4bf7e] SpaceTime[200]]
+396 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+440 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+441 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+441 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+442 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+442 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+442 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+443 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+443 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+443 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+444 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+444 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+447 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+447 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+447 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+448 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+449 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+449 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+449 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+449 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+450 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+451 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+451 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #添加[1,2][RoomImpl,CreateRoom]
+452 2017-10-12 20:10:18 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,InitBody]
+8932 2017-10-12 20:10:27 [GlobalLog] SYSTEM_INFO #服务器正准备关闭,请稍候
+8932 2017-10-12 20:10:27 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Start] 2017年10月12日 20时10分27秒
+8933 2017-10-12 20:10:27 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:0] 2017年10月12日 20时10分27秒
+8933 2017-10-12 20:10:27 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Finish] 2017年10月12日 20时10分27秒
+10933 2017-10-12 20:10:29 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Start] 2017年10月12日 20时10分29秒
+10935 2017-10-12 20:10:29 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@34f4edb7 UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年10月12日 20时10分29秒
+11436 2017-10-12 20:10:29 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@34f4edb7 UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年10月12日 20时10分29秒
+11936 2017-10-12 20:10:30 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@34f4edb7 UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年10月12日 20时10分30秒
+12437 2017-10-12 20:10:30 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@34f4edb7 UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年10月12日 20时10分30秒
+0 2017-10-12 20:12:03 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+4 2017-10-12 20:12:03 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/qiuqiu?rewriteBatchedStatements=true&characterEncoding=utf8]
+226 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/qiuqiu?rewriteBatchedStatements=true&characterEncoding=utf8]
+266 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+291 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+311 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+313 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+360 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+377 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@14d3bc22 [ID:0] NextRunTime[1507810324548] Run[logic.module.login.Login@12d4bf7e] SpaceTime[200]]
+381 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+425 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+426 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+426 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+427 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+427 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+428 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+428 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+428 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+429 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+429 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+430 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+432 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+433 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+433 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+435 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+436 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+436 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+437 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+437 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+438 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+439 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,SplitBody]
+439 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #添加[1,2][RoomImpl,CreateRoom]
+440 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+441 2017-10-12 20:12:04 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,InitBody]
+9305 2017-10-12 20:12:13 [GlobalLog] SYSTEM_INFO #服务器正准备关闭,请稍候
+9305 2017-10-12 20:12:13 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Start] 2017年10月12日 20时12分13秒
+9305 2017-10-12 20:12:13 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:0] 2017年10月12日 20时12分13秒
+9306 2017-10-12 20:12:13 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Finish] 2017年10月12日 20时12分13秒
+11306 2017-10-12 20:12:15 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Start] 2017年10月12日 20时12分15秒
+11308 2017-10-12 20:12:15 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@5b48580f UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年10月12日 20时12分15秒
+11809 2017-10-12 20:12:15 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@5b48580f UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年10月12日 20时12分15秒
+12311 2017-10-12 20:12:16 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@5b48580f UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年10月12日 20时12分16秒
+12812 2017-10-12 20:12:16 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@5b48580f UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年10月12日 20时12分16秒
+13313 2017-10-12 20:12:17 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@5b48580f UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年10月12日 20时12分17秒
+0 2017-10-12 20:13:24 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+3 2017-10-12 20:13:24 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/qiuqiu?rewriteBatchedStatements=true&characterEncoding=utf8]
+227 2017-10-12 20:13:24 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/qiuqiu?rewriteBatchedStatements=true&characterEncoding=utf8]
+277 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+310 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+341 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+344 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+387 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+407 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@14d3bc22 [ID:0] NextRunTime[1507810405379] Run[logic.module.login.Login@12d4bf7e] SpaceTime[200]]
+411 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+454 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+455 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+455 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+456 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+456 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+457 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+457 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+458 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+458 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+458 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+458 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+461 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+461 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+461 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+462 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+463 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+463 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+463 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+463 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+464 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+465 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+465 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[1,2][RoomImpl,CreateRoom]
+465 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,InitBody]
+466 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[1,3][RoomImpl,MoveBody]
+467 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,SplitBody]
+469 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[1,7][RoomImpl,ComposeBody]
+469 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[1,4][RoomImpl,EatBody]
+470 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加[1,13][RoomImpl,EatFood]
+470 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+470 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+470 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+477 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@479d31f3 [ID:1] NextRunTime[1507810406248] Run[core.ex.GatherInfo@40ef3420] SpaceTime[1000]]
+982 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@3b96c42e [ID:2] NextRunTime[1507810555754] Run[logic.loader.UserLoader@5d066c7d] SpaceTime[150000]]
+1000 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #用时[4] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4f0100a7: SELECT * FROM account]
+1001 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #读取到[5]条数据
+1002 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #打开端口[2222]成功
+1004 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #打开端口[22222]成功
+1025 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #正在打开端口[22222]
+1025 2017-10-12 20:13:25 [GlobalLog] SYSTEM_INFO #正在打开端口[2222]
+3548 2017-10-12 20:13:28 [GlobalLog] SYSTEM_INFO #服务器正准备关闭,请稍候
+3548 2017-10-12 20:13:28 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Start] 2017年10月12日 20时13分28秒
+3549 2017-10-12 20:13:28 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:2222] 2017年10月12日 20时13分28秒
+3550 2017-10-12 20:13:28 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:2222] 2017年10月12日 20时13分28秒
+3550 2017-10-12 20:13:28 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Finish] 2017年10月12日 20时13分28秒
+3550 2017-10-12 20:13:28 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:NET]] 2017年10月12日 20时13分28秒
+3550 2017-10-12 20:13:28 [GlobalLog] SYSTEM_INFO #线程正常停止[[21,NET]] 2017年10月12日 20时13分28秒
+5550 2017-10-12 20:13:30 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Start] 2017年10月12日 20时13分30秒
+5550 2017-10-12 20:13:30 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@11ecc7de UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年10月12日 20时13分30秒
+6051 2017-10-12 20:13:30 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@11ecc7de UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年10月12日 20时13分30秒
+6052 2017-10-12 20:13:30 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Finish] 2017年10月12日 20时13分30秒
+6052 2017-10-12 20:13:30 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Start] 2017年10月12日 20时13分30秒
+6053 2017-10-12 20:13:30 [GlobalLog] SYSTEM_INFO #系统正在保存全局数据[account] 一共有[5]条数据
+6059 2017-10-12 20:13:30 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Finish] 2017年10月12日 20时13分30秒
+7059 2017-10-12 20:13:31 [GlobalLog] SYSTEM_INFO #开始停止线程[LogicMgr] 2017年10月12日 20时13分31秒
+7060 2017-10-12 20:13:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:LOGIC]] 2017年10月12日 20时13分31秒
+7060 2017-10-12 20:13:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[22,LOGIC]] 2017年10月12日 20时13分31秒
+7060 2017-10-12 20:13:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[LogicMgr正常退出]] 2017年10月12日 20时13分31秒
+7061 2017-10-12 20:13:31 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLMgr] 2017年10月12日 20时13分31秒
+7062 2017-10-12 20:13:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQL]] 2017年10月12日 20时13分31秒
+7062 2017-10-12 20:13:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[23,SQL]] 2017年10月12日 20时13分31秒
+7063 2017-10-12 20:13:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLMgr正常退出]] 2017年10月12日 20时13分31秒
+7063 2017-10-12 20:13:31 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLLogMgr] 2017年10月12日 20时13分31秒
+7212 2017-10-12 20:13:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQLLOG]] 2017年10月12日 20时13分31秒
+7213 2017-10-12 20:13:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[25,SQLLOG]] 2017年10月12日 20时13分31秒
+7213 2017-10-12 20:13:31 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLLogMgr正常退出]] 2017年10月12日 20时13分31秒
+7217 2017-10-12 20:13:31 [GlobalLog] SYSTEM_INFO #开始停止线程[ThreadTask] 2017年10月12日 20时13分31秒
+7317 2017-10-12 20:13:32 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:THREADTASK]] 2017年10月12日 20时13分32秒
+7317 2017-10-12 20:13:32 [GlobalLog] SYSTEM_INFO #线程正常停止[[26,THREADTASK]] 2017年10月12日 20时13分32秒
+7318 2017-10-12 20:13:32 [GlobalLog] SYSTEM_INFO #线程正常停止[[ThreadTask正常退出]] 2017年10月12日 20时13分32秒
+7318 2017-10-12 20:13:32 [GlobalLog] SYSTEM_INFO #开始停止线程[GMNetMgr] 2017年10月12日 20时13分32秒
+7318 2017-10-12 20:13:32 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:22222] 2017年10月12日 20时13分32秒
+7318 2017-10-12 20:13:32 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:22222] 2017年10月12日 20时13分32秒
+7319 2017-10-12 20:13:32 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:GMNET]] 2017年10月12日 20时13分32秒
+7319 2017-10-12 20:13:32 [GlobalLog] SYSTEM_INFO #线程正常停止[[24,GMNET]] 2017年10月12日 20时13分32秒
+7319 2017-10-12 20:13:32 [GlobalLog] SYSTEM_INFO #线程正常停止[[GMNetMgr正常退出]] 2017年10月12日 20时13分32秒
+7319 2017-10-12 20:13:32 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:MAIN]] 2017年10月12日 20时13分32秒
+7320 2017-10-12 20:13:32 [GlobalLog] SYSTEM_INFO #线程正常停止[[1,MAIN]] 2017年10月12日 20时13分32秒
+8319 2017-10-12 20:13:33 [GlobalLog] SYSTEM_INFO #服务器执行完清理工作,GameOver:2017年10月12日 20时13分33秒

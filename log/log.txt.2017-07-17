@@ -1,0 +1,1513 @@
+0 2017-07-17 13:38:01 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+81 2017-07-17 13:38:01 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+306 2017-07-17 13:38:01 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+373 2017-07-17 13:38:01 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+444 2017-07-17 13:38:01 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+463 2017-07-17 13:38:01 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+488 2017-07-17 13:38:01 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+533 2017-07-17 13:38:01 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+555 2017-07-17 13:38:01 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MahJongConfig.xls]
+666 2017-07-17 13:38:01 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MahJongConfig.xls]
+821 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@147ed70f [ID:0] NextRunTime[1500269882255] Run[logic.module.login.Login@61dd025] SpaceTime[200]]
+866 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+1042 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+1043 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[0,4][Login,ThirdLogin]
+1044 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+1045 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+1047 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+1048 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+1049 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+1049 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+1050 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+1050 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+1050 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+1051 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+1055 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+1055 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+1055 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+1069 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+1071 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+1072 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+1072 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+1073 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+1153 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+1154 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+1158 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,OperCard]
+1159 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[1,4][RoomImpl,InitCard]
+1159 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,GameReady]
+1160 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[1,8][RoomImpl,LeaveRoom]
+1160 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[1,12][RoomImpl,Reconnect]
+1160 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[1,13][RoomImpl,ApplyDismiss]
+1161 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[1,14][RoomImpl,AgreeDismiss]
+1161 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[1,15][RoomImpl,DismissRoom]
+1161 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[1,0][RoomImpl,CreateRoom]
+1162 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[1,17][RoomImpl,TestCard]
+1162 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[1,19][RoomImpl,SendChat]
+1163 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[1,23][RoomImpl,KouCard]
+1163 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+1163 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+1163 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+1191 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+1192 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[2,3][ProxyImpl,GetUser]
+1193 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[2,1][ProxyImpl,GetAllUser]
+1195 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[2,2][ProxyImpl,AddScore]
+1195 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加[2,4][ProxyImpl,GeChargeRecord]
+1196 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+1196 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+1196 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+1286 2017-07-17 13:38:02 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@6dc17b83 [ID:1] NextRunTime[1500269883521] Run[core.ex.GatherInfo@5e0826e7] SpaceTime[1000]]
+3318 2017-07-17 13:38:04 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@35432107 [ID:2] NextRunTime[1500270046553] Run[logic.loader.UserLoader@7b420819] SpaceTime[162000]]
+3726 2017-07-17 13:38:04 [GlobalLog] SYSTEM_INFO #用时[80] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@517566b: SELECT * FROM account]
+3726 2017-07-17 13:38:04 [GlobalLog] SYSTEM_INFO #读取到[1051]条数据
+3738 2017-07-17 13:38:04 [GlobalLog] SYSTEM_INFO #打开端口[1111]成功
+3740 2017-07-17 13:38:04 [GlobalLog] SYSTEM_INFO #打开端口[11111]成功
+3755 2017-07-17 13:38:04 [GlobalLog] SYSTEM_INFO #正在打开端口[11111]
+3755 2017-07-17 13:38:04 [GlobalLog] SYSTEM_INFO #正在打开端口[1111]
+152723 2017-07-17 13:40:33 [UserLog1162405724] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@31b46445]创建了用户[logic.MyUser@4548e75c[,0,]]
+152837 2017-07-17 13:40:34 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[833905733] userhash[1162405724]
+165376 2017-07-17 13:40:46 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@24c68ceb用时[28] SQL:[core.DBLoaderEx$SaveGlobalMethod@24c68ceb]
+165578 2017-07-17 13:40:46 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:40:46',1,1,0,28)
+165914 2017-07-17 13:40:47 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:40:47',1,1,0,0,30)
+166789 2017-07-17 13:40:48 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:40:48',1,1,98,98,1,0)
+166795 2017-07-17 13:40:48 [GlobalLog] INFO [0]*(Login#Enter:qq005,1,2017年07月17日 13时40分48秒)
+166901 2017-07-17 13:40:48 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:qq005,1,2017年07月17日 13时40分48秒,result:true,size:1)
+166911 2017-07-17 13:40:48 [GlobalLog] SYSTEM_INFO #添加一个定时器[3][core.detail.impl.mgr.timer.TickEvent@654e6c31 [ID:3] NextRunTime[1500270048445] Run[logic.PackBuffer@6734f5de] SpaceTime[300]]
+166912 2017-07-17 13:40:48 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:qq005,2017年07月17日 13时40分48秒,result:)
+166915 2017-07-17 13:40:48 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4b0bafd8: select * from account where openid = 'qq005']
+166915 2017-07-17 13:40:48 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+166919 2017-07-17 13:40:48 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:40:48',1,2,0,0,129)
+166924 2017-07-17 13:40:48 [GlobalLog] SYSTEM_INFO #用时[11] SQL:[logic.methodex.LoginMethod@47fd96f]
+166925 2017-07-17 13:40:48 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@4548e75c[qq005,0,])
+167109 2017-07-17 13:40:48 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:40:48',1,2,0,32)
+167922 2017-07-17 13:40:49 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:40:49',1,3,0,0,2)
+169213 2017-07-17 13:40:50 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:40:50',1,2,98,196,1,0)
+169213 2017-07-17 13:40:50 [GlobalLog] INFO [0]*(Login#Register:qq005,1,2017年07月17日 13时40分50秒)
+169244 2017-07-17 13:40:50 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:qq005,1,2017年07月17日 13时40分50秒,result:true,size:1)
+169245 2017-07-17 13:40:50 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:qq005,2017年07月17日 13时40分50秒,result:)
+169246 2017-07-17 13:40:50 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4b0bafd8: select * from account where openid = 'qq005']
+169247 2017-07-17 13:40:50 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+169268 2017-07-17 13:40:50 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@143821ed: SELECT * FROM account ORDER BY ROLEID DESC LIMIT 1]
+169268 2017-07-17 13:40:50 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+169269 2017-07-17 13:40:50 [GlobalLog] SYSTEM_INFO #读取配置文件:[用[81064793303178928初始化角色生成器,下一个生成的值为:81064793303188928]
+169318 2017-07-17 13:40:50 [GlobalLog] SYSTEM_INFO #用时[46] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@1d638e84: insert into account(RoleID, nickName, Password, openid, headIcon, sex) values (81064793303188928, 'random8296.039402172626', '123','qq005','',1)]
+169319 2017-07-17 13:40:50 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4b0bafd8: select * from account where openid = 'qq005']
+169319 2017-07-17 13:40:50 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+169320 2017-07-17 13:40:50 [GlobalLog] SYSTEM_INFO #用时[75] SQL:[logic.methodex.LoginMethod@2a52ced1]
+169320 2017-07-17 13:40:50 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@4548e75c[qq005,81064793303188928,random8296.039402172626])
+169615 2017-07-17 13:40:50 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:40:50',1,3,0,75)
+169759 2017-07-17 13:40:50 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4759e2d5: SELECT RoleID,Password,TID,openid,nickName,headIcon,roomCard,unionid,province,city,sex,prizecount,manager_up_id,actualCard,totalCard,createTime,lastLoginTime,status,isGame FROM account WHERE RoleID=81064793303188928]
+169759 2017-07-17 13:40:50 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+169801 2017-07-17 13:40:51 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@752d15c: SELECT GID,RoleID,TargetRoleID,card,DateTime,Name FROM charge_record WHERE RoleID=81064793303188928]
+169801 2017-07-17 13:40:51 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+169801 2017-07-17 13:40:51 [GlobalLog] SYSTEM_INFO #用时[86] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@4548e75c[qq005,81064793303188928,random8296.039402172626],)]
+169802 2017-07-17 13:40:51 [GlobalLog] SYSTEM_INFO #添加一个定时器[4][core.detail.impl.mgr.timer.TickEvent@6a835b84 [ID:4] NextRunTime[1500270351037] Run[logic.MyUser@4548e75c[qq005,81064793303188928,random8296.039402172626]] SpaceTime[300000]]
+169803 2017-07-17 13:40:51 [UserLog1162405724] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@4548e75c[qq005,81064793303188928,random8296.039402172626],)UserMgr添加一个用户,nk[random8296.039402172626@1] gid[81064793303188928] netid[0] this[logic.MyUser@4548e75c[qq005,81064793303188928,random8296.039402172626]]
+169804 2017-07-17 13:40:51 [UserLog1162405724] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@4548e75c[qq005,81064793303188928,random8296.039402172626],)UserMgr成功添加一个用户,nk[random8296.039402172626@1] gid[81064793303188928] netid[0] this[logic.MyUser@4548e75c[qq005,81064793303188928,random8296.039402172626]]
+169926 2017-07-17 13:40:51 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:40:51',3,6,0,0,32)
+170117 2017-07-17 13:40:51 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:40:51',1,4,0,86)
+176728 2017-07-17 13:40:57 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:40:57',2,4,52,248,1,1)
+176733 2017-07-17 13:40:57 [GlobalLog] SYSTEM_INFO #添加一个定时器[5][core.detail.impl.mgr.timer.TickEvent@42350238 [ID:5] NextRunTime[1500270058968] Run[logic.module.room.Room@788907ee] SpaceTime[1000]]
+176752 2017-07-17 13:40:57 [GlobalLog] DEBUG [0]*牌的操记录:81064793303188928 : 81064793303188928 创建房间:994706
+176935 2017-07-17 13:40:58 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:40:58',1,7,0,0,67)
+177248 2017-07-17 13:40:58 [GlobalLog] DEBUG [0]*牌的操记录:81064793303188928 : 81064793303188928 进入房间:994706
+177937 2017-07-17 13:40:59 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:40:59',1,8,0,0,21)
+182245 2017-07-17 13:41:03 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:41:03',2,6,36,284,1,1)
+182944 2017-07-17 13:41:04 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:41:04',1,9,0,0,0)
+222928 2017-07-17 13:41:44 [UserLog1162405724] SYSTEM_ERROR #Link::OnRead异常,导致关闭 uid[81064793303188928] user[logic.MyUser@4548e75c[qq005,81064793303188928,random8296.039402172626]]
+222929 2017-07-17 13:41:44 [UserLog1162405724] SYSTEM_INFO #断开了连接[core.detail.impl.socket.LinkNio@31b46445]
+222930 2017-07-17 13:41:44 [UserLog1162405724] SYSTEM_INFO #准备从管理器去掉用户[core.detail.impl.socket.LinkNio@31b46445][logic.MyUser@4548e75c[qq005,81064793303188928,random8296.039402172626]]
+222931 2017-07-17 13:41:44 [UserLog1162405724] SYSTEM_INFO #User对象断开了 nk[random8296.039402172626] gid[81064793303188928] netid[0] this[logic.MyUser@4548e75c[qq005,81064793303188928,random8296.039402172626]] reason:[-4] ex:[0]
+222936 2017-07-17 13:41:44 [GlobalLog] SQL INSERT INTO _CloseLog (ServerID,Tm,UserName,RoleID,HashCode,Reason,Ex) VALUES (18,'2017-07-17 13:41:44','qq005',81064793303188928,1162405724,-4,0)
+222938 2017-07-17 13:41:44 [GlobalLog] SYSTEM_INFO #用户下线导致移除了一个定时器[4]
+223296 2017-07-17 13:41:44 [UserLog1162405724] SYSTEM_INFO #平时检查释放的User对象  nk[random8296.039402172626] gid[81064793303188928] netid[0] this[logic.MyUser@4548e75c[qq005,81064793303188928,random8296.039402172626]]
+223297 2017-07-17 13:41:44 [UserLog1162405724] SYSTEM_INFO #UserMgr成功释放一个用户,nk[random8296.039402172626@1] gid[81064793303188928] netid[0] this[logic.MyUser@4548e75c[qq005,81064793303188928,random8296.039402172626]]
+223300 2017-07-17 13:41:44 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@1260e3b9: UPDATE account Set roomCard = 4,createTime = '2017-07-17 13:40:50' WHERE RoleID = 81064793303188928]
+223301 2017-07-17 13:41:44 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[core.detail.impl.SaveMethod@15e4c28c]
+223725 2017-07-17 13:41:44 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:41:44',1,5,0,86)
+223987 2017-07-17 13:41:45 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:41:45',1,10,0,0,2)
+327323 2017-07-17 13:43:28 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@335a100用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@335a100]
+327437 2017-07-17 13:43:28 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:43:28',1,6,0,86)
+328093 2017-07-17 13:43:29 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:43:29',1,11,0,0,0)
+415810 2017-07-17 13:44:57 [UserLog2043231911] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@431f4766]创建了用户[logic.MyUser@79c93ea7[,0,]]
+415811 2017-07-17 13:44:57 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[1126123366] userhash[2043231911]
+419316 2017-07-17 13:45:00 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:45:00',1,7,98,382,1,0)
+419317 2017-07-17 13:45:00 [GlobalLog] INFO [0]*(Login#Enter:qq005,1,2017年07月17日 13时45分00秒)
+419319 2017-07-17 13:45:00 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:qq005,1,2017年07月17日 13时45分00秒,result:true,size:1)
+419420 2017-07-17 13:45:00 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:qq005,2017年07月17日 13时45分00秒,result:)
+419422 2017-07-17 13:45:00 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4b0bafd8: select * from account where openid = 'qq005']
+419422 2017-07-17 13:45:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+419423 2017-07-17 13:45:00 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[logic.methodex.LoginMethod@19dcb621]
+419424 2017-07-17 13:45:00 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@79c93ea7[qq005,81064793303188928,random8296.039402172626])
+419622 2017-07-17 13:45:00 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:45:00',1,7,0,86)
+419822 2017-07-17 13:45:01 [GlobalLog] SYSTEM_INFO #用时[4] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4759e2d5: SELECT RoleID,Password,TID,openid,nickName,headIcon,roomCard,unionid,province,city,sex,prizecount,manager_up_id,actualCard,totalCard,createTime,lastLoginTime,status,isGame FROM account WHERE RoleID=81064793303188928]
+419822 2017-07-17 13:45:01 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+419824 2017-07-17 13:45:01 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@752d15c: SELECT GID,RoleID,TargetRoleID,card,DateTime,Name FROM charge_record WHERE RoleID=81064793303188928]
+419824 2017-07-17 13:45:01 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+419824 2017-07-17 13:45:01 [GlobalLog] SYSTEM_INFO #用时[6] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@79c93ea7[qq005,81064793303188928,random8296.039402172626],)]
+419825 2017-07-17 13:45:01 [GlobalLog] SYSTEM_INFO #添加一个定时器[6][core.detail.impl.mgr.timer.TickEvent@1f9454df [ID:6] NextRunTime[1500270601060] Run[logic.MyUser@79c93ea7[qq005,81064793303188928,random8296.039402172626]] SpaceTime[300000]]
+419825 2017-07-17 13:45:01 [UserLog2043231911] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@79c93ea7[qq005,81064793303188928,random8296.039402172626],)UserMgr添加一个用户,nk[random8296.039402172626@1] gid[81064793303188928] netid[0] this[logic.MyUser@79c93ea7[qq005,81064793303188928,random8296.039402172626]]
+419825 2017-07-17 13:45:01 [UserLog2043231911] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@79c93ea7[qq005,81064793303188928,random8296.039402172626],)UserMgr成功添加一个用户,nk[random8296.039402172626@1] gid[81064793303188928] netid[0] this[logic.MyUser@79c93ea7[qq005,81064793303188928,random8296.039402172626]]
+420124 2017-07-17 13:45:01 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:45:01',1,8,0,86)
+420275 2017-07-17 13:45:01 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:45:01',3,14,0,0,3)
+420325 2017-07-17 13:45:01 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:45:01',2,9,28,410,1,1)
+421287 2017-07-17 13:45:02 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:45:02',1,15,0,0,11)
+431904 2017-07-17 13:45:13 [UserLog448942338] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@64d4ec92]创建了用户[logic.MyUser@1ac25102[,0,]]
+431904 2017-07-17 13:45:13 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[1691675794] userhash[448942338]
+435910 2017-07-17 13:45:17 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:45:17',1,10,98,508,2,1)
+435911 2017-07-17 13:45:17 [GlobalLog] INFO [0]*(Login#Enter:qq004,1,2017年07月17日 13时45分17秒)
+435911 2017-07-17 13:45:17 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:qq004,1,2017年07月17日 13时45分17秒,result:true,size:1)
+436020 2017-07-17 13:45:17 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:qq004,2017年07月17日 13时45分17秒,result:)
+436022 2017-07-17 13:45:17 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4f5b7333: select * from account where openid = 'qq004']
+436022 2017-07-17 13:45:17 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+436023 2017-07-17 13:45:17 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[logic.methodex.LoginMethod@d6e2b13]
+436024 2017-07-17 13:45:17 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@1ac25102[qq004,81064793303178928,random3765.142727516706])
+436165 2017-07-17 13:45:17 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:45:17',1,9,0,86)
+436303 2017-07-17 13:45:17 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:45:17',2,17,0,0,1)
+436413 2017-07-17 13:45:17 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4759e2d5: SELECT RoleID,Password,TID,openid,nickName,headIcon,roomCard,unionid,province,city,sex,prizecount,manager_up_id,actualCard,totalCard,createTime,lastLoginTime,status,isGame FROM account WHERE RoleID=81064793303178928]
+436413 2017-07-17 13:45:17 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+436414 2017-07-17 13:45:17 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@752d15c: SELECT GID,RoleID,TargetRoleID,card,DateTime,Name FROM charge_record WHERE RoleID=81064793303178928]
+436415 2017-07-17 13:45:17 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+436415 2017-07-17 13:45:17 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@1ac25102[qq004,81064793303178928,random3765.142727516706],)]
+436416 2017-07-17 13:45:17 [GlobalLog] SYSTEM_INFO #添加一个定时器[7][core.detail.impl.mgr.timer.TickEvent@41651882 [ID:7] NextRunTime[1500270617651] Run[logic.MyUser@1ac25102[qq004,81064793303178928,random3765.142727516706]] SpaceTime[300000]]
+436416 2017-07-17 13:45:17 [UserLog448942338] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@1ac25102[qq004,81064793303178928,random3765.142727516706],)UserMgr添加一个用户,nk[random3765.142727516706@1] gid[81064793303178928] netid[0] this[logic.MyUser@1ac25102[qq004,81064793303178928,random3765.142727516706]]
+436416 2017-07-17 13:45:17 [UserLog448942338] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@1ac25102[qq004,81064793303178928,random3765.142727516706],)UserMgr成功添加一个用户,nk[random3765.142727516706@1] gid[81064793303178928] netid[1] this[logic.MyUser@1ac25102[qq004,81064793303178928,random3765.142727516706]]
+436668 2017-07-17 13:45:17 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:45:17',1,10,0,86)
+437306 2017-07-17 13:45:18 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:45:18',1,18,0,0,2)
+454930 2017-07-17 13:45:36 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:45:36',2,12,28,536,2,2)
+454931 2017-07-17 13:45:36 [GlobalLog] DEBUG [0]*牌的操记录:81064793303178928 : 81064793303178928 进入房间:994706
+455326 2017-07-17 13:45:36 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:45:36',1,19,0,0,2)
+456431 2017-07-17 13:45:37 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:45:37',1,13,18,554,2,2)
+457329 2017-07-17 13:45:38 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:45:38',1,20,0,0,0)
+466880 2017-07-17 13:45:48 [UserLog1832570692] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@12f2b19d]创建了用户[logic.MyUser@6d3acf44[,0,]]
+466880 2017-07-17 13:45:48 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[317895069] userhash[1832570692]
+471387 2017-07-17 13:45:52 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:45:52',1,14,98,652,3,2)
+471388 2017-07-17 13:45:52 [GlobalLog] INFO [0]*(Login#Enter:qq003,1,2017年07月17日 13时45分52秒)
+471389 2017-07-17 13:45:52 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:qq003,1,2017年07月17日 13时45分52秒,result:true,size:1)
+471420 2017-07-17 13:45:52 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:qq003,2017年07月17日 13时45分52秒,result:)
+471422 2017-07-17 13:45:52 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3380c5e2: select * from account where openid = 'qq003']
+471422 2017-07-17 13:45:52 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+471423 2017-07-17 13:45:52 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[logic.methodex.LoginMethod@2368c2fa]
+471424 2017-07-17 13:45:52 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@6d3acf44[qq003,81064793303168928,random7874.5645120743675])
+471740 2017-07-17 13:45:52 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:45:52',1,11,0,86)
+471890 2017-07-17 13:45:53 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4759e2d5: SELECT RoleID,Password,TID,openid,nickName,headIcon,roomCard,unionid,province,city,sex,prizecount,manager_up_id,actualCard,totalCard,createTime,lastLoginTime,status,isGame FROM account WHERE RoleID=81064793303168928]
+471891 2017-07-17 13:45:53 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+471892 2017-07-17 13:45:53 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@752d15c: SELECT GID,RoleID,TargetRoleID,card,DateTime,Name FROM charge_record WHERE RoleID=81064793303168928]
+471892 2017-07-17 13:45:53 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+471892 2017-07-17 13:45:53 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@6d3acf44[qq003,81064793303168928,random7874.5645120743675],)]
+471893 2017-07-17 13:45:53 [GlobalLog] SYSTEM_INFO #添加一个定时器[8][core.detail.impl.mgr.timer.TickEvent@2ec73b0 [ID:8] NextRunTime[1500270653128] Run[logic.MyUser@6d3acf44[qq003,81064793303168928,random7874.5645120743675]] SpaceTime[300000]]
+471893 2017-07-17 13:45:53 [UserLog1832570692] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@6d3acf44[qq003,81064793303168928,random7874.5645120743675],)UserMgr添加一个用户,nk[random7874.5645120743675@1] gid[81064793303168928] netid[0] this[logic.MyUser@6d3acf44[qq003,81064793303168928,random7874.5645120743675]]
+471893 2017-07-17 13:45:53 [UserLog1832570692] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@6d3acf44[qq003,81064793303168928,random7874.5645120743675],)UserMgr成功添加一个用户,nk[random7874.5645120743675@1] gid[81064793303168928] netid[2] this[logic.MyUser@6d3acf44[qq003,81064793303168928,random7874.5645120743675]]
+472243 2017-07-17 13:45:53 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:45:53',1,12,0,86)
+472345 2017-07-17 13:45:53 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:45:53',3,23,0,0,1)
+480400 2017-07-17 13:46:01 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:46:01',2,16,28,680,3,3)
+480400 2017-07-17 13:46:01 [GlobalLog] DEBUG [0]*牌的操记录:81064793303168928 : 81064793303168928 进入房间:994706
+481356 2017-07-17 13:46:02 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:46:02',1,24,0,0,2)
+481900 2017-07-17 13:46:03 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:46:03',1,17,18,698,3,3)
+482358 2017-07-17 13:46:03 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:46:03',1,25,0,0,1)
+489322 2017-07-17 13:46:10 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@371b9429用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@371b9429]
+489367 2017-07-17 13:46:10 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:46:10',1,26,0,0,6)
+489783 2017-07-17 13:46:11 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:46:11',1,13,0,86)
+491984 2017-07-17 13:46:13 [UserLog1166145741] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@7c435bb2]创建了用户[logic.MyUser@4581f8cd[,0,]]
+491984 2017-07-17 13:46:13 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[2084789170] userhash[1166145741]
+495490 2017-07-17 13:46:16 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:46:16',1,18,98,796,4,3)
+495491 2017-07-17 13:46:16 [GlobalLog] INFO [0]*(Login#Enter:qq002,1,2017年07月17日 13时46分16秒)
+495492 2017-07-17 13:46:16 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:qq002,1,2017年07月17日 13时46分16秒,result:true,size:1)
+495620 2017-07-17 13:46:16 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:qq002,2017年07月17日 13时46分16秒,result:)
+495624 2017-07-17 13:46:16 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3e2bd4d7: select * from account where openid = 'qq002']
+495624 2017-07-17 13:46:16 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+495624 2017-07-17 13:46:16 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[logic.methodex.LoginMethod@55fab89d]
+495625 2017-07-17 13:46:16 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@4581f8cd[qq002,81064793303158928,random23.176388961649863])
+495796 2017-07-17 13:46:17 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:46:17',1,14,0,86)
+495993 2017-07-17 13:46:17 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4759e2d5: SELECT RoleID,Password,TID,openid,nickName,headIcon,roomCard,unionid,province,city,sex,prizecount,manager_up_id,actualCard,totalCard,createTime,lastLoginTime,status,isGame FROM account WHERE RoleID=81064793303158928]
+495993 2017-07-17 13:46:17 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+495994 2017-07-17 13:46:17 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@752d15c: SELECT GID,RoleID,TargetRoleID,card,DateTime,Name FROM charge_record WHERE RoleID=81064793303158928]
+495994 2017-07-17 13:46:17 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+495994 2017-07-17 13:46:17 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@4581f8cd[qq002,81064793303158928,random23.176388961649863],)]
+495995 2017-07-17 13:46:17 [GlobalLog] SYSTEM_INFO #添加一个定时器[9][core.detail.impl.mgr.timer.TickEvent@3f9ee475 [ID:9] NextRunTime[1500270677230] Run[logic.MyUser@4581f8cd[qq002,81064793303158928,random23.176388961649863]] SpaceTime[300000]]
+495995 2017-07-17 13:46:17 [UserLog1166145741] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@4581f8cd[qq002,81064793303158928,random23.176388961649863],)UserMgr添加一个用户,nk[random23.176388961649863@1] gid[81064793303158928] netid[0] this[logic.MyUser@4581f8cd[qq002,81064793303158928,random23.176388961649863]]
+495995 2017-07-17 13:46:17 [UserLog1166145741] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@4581f8cd[qq002,81064793303158928,random23.176388961649863],)UserMgr成功添加一个用户,nk[random23.176388961649863@1] gid[81064793303158928] netid[3] this[logic.MyUser@4581f8cd[qq002,81064793303158928,random23.176388961649863]]
+496298 2017-07-17 13:46:17 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:46:17',1,15,0,86)
+496375 2017-07-17 13:46:17 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:46:17',3,29,0,0,1)
+507001 2017-07-17 13:46:28 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:46:28',2,20,28,824,4,4)
+507002 2017-07-17 13:46:28 [GlobalLog] DEBUG [0]*牌的操记录:81064793303158928 : 81064793303158928 进入房间:994706
+507387 2017-07-17 13:46:28 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:46:28',1,30,0,0,1)
+508504 2017-07-17 13:46:29 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:46:29',1,21,18,842,4,4)
+508505 2017-07-17 13:46:29 [GlobalLog] DEBUG [0]*牌的操记录:0 : -----------------------------------开始发牌 
+
+508507 2017-07-17 13:46:29 [GlobalLog] DEBUG [0]*牌的操记录:81064793303188928 : 初始化的牌:一条[1-1-1]|九条[36-1-9]|一筒[37-2-10]|九筒[72-2-18]|一万[73-3-19]|九万[108-3-27]|东风[109-4-28]|南风[113-5-29]|西北[117-6-30]|北风[121-7-31]|红中[125-8-32]|白皮[129-9-33]|发财[133-10-34]|二条[6-1-2]| 
+
+508524 2017-07-17 13:46:29 [UserLog2043231911] SQL INSERT INTO roomcardlog (RoleID,RoomID,Operate,CardTID,HandCard) VALUES (81064793303188928,994706,'init',-1,'一条[1-1-1]|九条[36-1-9]|一筒[37-2-10]|九筒[72-2-18]|一万[73-3-19]|九万[108-3-27]|东风[109-4-28]|南风[113-5-29]|西北[117-6-30]|北风[121-7-31]|红中[125-8-32]|白皮[129-9-33]|发财[133-10-34]|二条[6-1-2]|')
+508526 2017-07-17 13:46:29 [GlobalLog] DEBUG [0]*牌的操记录:81064793303178928 : 初始化的牌:北风[124-7-31]|五条[19-1-5]|二筒[42-2-11]|西北[120-6-30]|北风[122-7-31]|四条[13-1-4]|红中[127-8-32]|九筒[71-2-18]|七筒[64-2-16]|发财[135-10-34]|九条[34-1-9]|七万[99-3-25]|六筒[57-2-15]| 
+
+508526 2017-07-17 13:46:29 [UserLog448942338] SQL INSERT INTO roomcardlog (RoleID,RoomID,Operate,CardTID,HandCard) VALUES (81064793303178928,994706,'init',-1,'北风[124-7-31]|五条[19-1-5]|二筒[42-2-11]|西北[120-6-30]|北风[122-7-31]|四条[13-1-4]|红中[127-8-32]|九筒[71-2-18]|七筒[64-2-16]|发财[135-10-34]|九条[34-1-9]|七万[99-3-25]|六筒[57-2-15]|')
+508528 2017-07-17 13:46:29 [GlobalLog] DEBUG [0]*牌的操记录:81064793303168928 : 初始化的牌:一万[76-3-19]|一条[4-1-1]|七筒[61-2-16]|九万[107-3-27]|七条[25-1-7]|九万[105-3-27]|六条[24-1-6]|一筒[39-2-10]|七万[97-3-25]|八筒[65-2-17]|七筒[62-2-16]|四条[14-1-4]|四筒[51-2-13]| 
+
+508528 2017-07-17 13:46:29 [UserLog1832570692] SQL INSERT INTO roomcardlog (RoleID,RoomID,Operate,CardTID,HandCard) VALUES (81064793303168928,994706,'init',-1,'一万[76-3-19]|一条[4-1-1]|七筒[61-2-16]|九万[107-3-27]|七条[25-1-7]|九万[105-3-27]|六条[24-1-6]|一筒[39-2-10]|七万[97-3-25]|八筒[65-2-17]|七筒[62-2-16]|四条[14-1-4]|四筒[51-2-13]|')
+508529 2017-07-17 13:46:29 [GlobalLog] DEBUG [0]*牌的操记录:81064793303158928 : 初始化的牌:发财[134-10-34]|七条[27-1-7]|五条[17-1-5]|六筒[58-2-15]|白皮[132-9-33]|南风[114-5-29]|三条[9-1-3]|五万[92-3-23]|九万[106-3-27]|五筒[55-2-14]|五条[20-1-5]|六万[93-3-24]|四筒[52-2-13]| 
+
+508529 2017-07-17 13:46:29 [UserLog1166145741] SQL INSERT INTO roomcardlog (RoleID,RoomID,Operate,CardTID,HandCard) VALUES (81064793303158928,994706,'init',-1,'发财[134-10-34]|七条[27-1-7]|五条[17-1-5]|六筒[58-2-15]|白皮[132-9-33]|南风[114-5-29]|三条[9-1-3]|五万[92-3-23]|九万[106-3-27]|五筒[55-2-14]|五条[20-1-5]|六万[93-3-24]|四筒[52-2-13]|')
+508531 2017-07-17 13:46:29 [UserLog2043231911] SQL INSERT INTO roominfolog (Master,RoomID,Users) VALUES (81064793303188928,994706,'81064793303188928|81064793303178928|81064793303168928|81064793303158928|')
+509390 2017-07-17 13:46:30 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:46:30',1,31,0,0,27)
+526733 2017-07-17 13:46:47 [GlobalLog] DEBUG [0]*牌的操记录:81064793303188928 : 打出一张牌：二条[6-1-2] 
+
+526746 2017-07-17 13:46:47 [GlobalLog] DEBUG [0]*牌的操记录:81064793303178928 : getHuCard-我现在手里的牌:二条[6-1-2],四条[13-1-4],五条[19-1-5],九条[34-1-9],二筒[42-2-11],六筒[57-2-15],七筒[64-2-16],九筒[71-2-18],七万[99-3-25],西北[120-6-30],北风[122-7-31],北风[124-7-31],红中[127-8-32],发财[135-10-34], 
+
+526746 2017-07-17 13:46:47 [GlobalLog] DEBUG [0]*牌的操记录:81064793303178928 : isQidui - 七对的判断:二条[6-1-2]
+
+526746 2017-07-17 13:46:47 [GlobalLog] DEBUG [0]*牌的操记录:81064793303168928 : getHuCard-我现在手里的牌:一条[4-1-1],二条[6-1-2],四条[14-1-4],六条[24-1-6],七条[25-1-7],一筒[39-2-10],四筒[51-2-13],七筒[61-2-16],七筒[62-2-16],八筒[65-2-17],一万[76-3-19],七万[97-3-25],九万[105-3-27],九万[107-3-27], 
+
+526746 2017-07-17 13:46:47 [GlobalLog] DEBUG [0]*牌的操记录:81064793303168928 : isQidui - 七对的判断:二条[6-1-2]
+
+526747 2017-07-17 13:46:47 [GlobalLog] DEBUG [0]*牌的操记录:81064793303158928 : getHuCard-我现在手里的牌:二条[6-1-2],三条[9-1-3],五条[17-1-5],五条[20-1-5],七条[27-1-7],四筒[52-2-13],五筒[55-2-14],六筒[58-2-15],五万[92-3-23],六万[93-3-24],九万[106-3-27],南风[114-5-29],白皮[132-9-33],发财[134-10-34], 
+
+526747 2017-07-17 13:46:47 [GlobalLog] DEBUG [0]*牌的操记录:81064793303158928 : isQidui - 七对的判断:二条[6-1-2]
+
+527149 2017-07-17 13:46:48 [UserLog2043231911] SYSTEM_ERROR #Link::OnRead异常,导致关闭 uid[81064793303188928] user[logic.MyUser@79c93ea7[qq005,81064793303188928,random8296.039402172626]]
+527149 2017-07-17 13:46:48 [UserLog2043231911] SYSTEM_INFO #断开了连接[core.detail.impl.socket.LinkNio@431f4766]
+527149 2017-07-17 13:46:48 [UserLog2043231911] SYSTEM_INFO #准备从管理器去掉用户[core.detail.impl.socket.LinkNio@431f4766][logic.MyUser@79c93ea7[qq005,81064793303188928,random8296.039402172626]]
+527150 2017-07-17 13:46:48 [UserLog2043231911] SYSTEM_INFO #User对象断开了 nk[random8296.039402172626] gid[81064793303188928] netid[0] this[logic.MyUser@79c93ea7[qq005,81064793303188928,random8296.039402172626]] reason:[-4] ex:[0]
+527150 2017-07-17 13:46:48 [GlobalLog] SQL INSERT INTO _CloseLog (ServerID,Tm,UserName,RoleID,HashCode,Reason,Ex) VALUES (18,'2017-07-17 13:46:48','qq005',81064793303188928,2043231911,-4,0)
+527152 2017-07-17 13:46:48 [GlobalLog] SYSTEM_INFO #用户下线导致移除了一个定时器[6]
+527296 2017-07-17 13:46:48 [UserLog2043231911] SYSTEM_INFO #平时检查释放的User对象  nk[random8296.039402172626] gid[81064793303188928] netid[0] this[logic.MyUser@79c93ea7[qq005,81064793303188928,random8296.039402172626]]
+527296 2017-07-17 13:46:48 [UserLog2043231911] SYSTEM_INFO #UserMgr成功释放一个用户,nk[random8296.039402172626@1] gid[81064793303188928] netid[0] this[logic.MyUser@79c93ea7[qq005,81064793303188928,random8296.039402172626]]
+527297 2017-07-17 13:46:48 [GlobalLog] SYSTEM_INFO #用时[0] SQL:[core.detail.impl.SaveMethod@6d2de753]
+527362 2017-07-17 13:46:48 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:46:48',1,16,0,86)
+527410 2017-07-17 13:46:48 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:46:48',1,32,0,0,14)
+528497 2017-07-17 13:46:49 [UserLog1832570692] SYSTEM_ERROR #Link::OnRead异常,导致关闭 uid[81064793303168928] user[logic.MyUser@6d3acf44[qq003,81064793303168928,random7874.5645120743675]]
+528497 2017-07-17 13:46:49 [UserLog1832570692] SYSTEM_INFO #断开了连接[core.detail.impl.socket.LinkNio@12f2b19d]
+528497 2017-07-17 13:46:49 [UserLog1832570692] SYSTEM_INFO #准备从管理器去掉用户[core.detail.impl.socket.LinkNio@12f2b19d][logic.MyUser@6d3acf44[qq003,81064793303168928,random7874.5645120743675]]
+528498 2017-07-17 13:46:49 [UserLog1832570692] SYSTEM_INFO #User对象断开了 nk[random7874.5645120743675] gid[81064793303168928] netid[2] this[logic.MyUser@6d3acf44[qq003,81064793303168928,random7874.5645120743675]] reason:[-4] ex:[0]
+528498 2017-07-17 13:46:49 [GlobalLog] SQL INSERT INTO _CloseLog (ServerID,Tm,UserName,RoleID,HashCode,Reason,Ex) VALUES (18,'2017-07-17 13:46:49','qq003',81064793303168928,1832570692,-4,0)
+528499 2017-07-17 13:46:49 [GlobalLog] SYSTEM_INFO #用户下线导致移除了一个定时器[8]
+528733 2017-07-17 13:46:49 [GlobalLog] DEBUG [0]*牌的操记录:81064793303178928 : 自动摸一张：东风[112-4-28] 
+
+528733 2017-07-17 13:46:49 [GlobalLog] DEBUG [0]*牌的操记录:81064793303178928 : getHuCard-我现在手里的牌:四条[13-1-4],五条[19-1-5],九条[34-1-9],二筒[42-2-11],六筒[57-2-15],七筒[64-2-16],九筒[71-2-18],七万[99-3-25],东风[112-4-28],西北[120-6-30],北风[122-7-31],北风[124-7-31],红中[127-8-32],发财[135-10-34], 
+
+528733 2017-07-17 13:46:49 [GlobalLog] DEBUG [0]*牌的操记录:81064793303178928 : isQidui - 七对的判断:东风[112-4-28]
+
+528796 2017-07-17 13:46:50 [UserLog1832570692] SYSTEM_INFO #平时检查释放的User对象  nk[random7874.5645120743675] gid[81064793303168928] netid[2] this[logic.MyUser@6d3acf44[qq003,81064793303168928,random7874.5645120743675]]
+528796 2017-07-17 13:46:50 [UserLog1832570692] SYSTEM_INFO #UserMgr成功释放一个用户,nk[random7874.5645120743675@1] gid[81064793303168928] netid[2] this[logic.MyUser@6d3acf44[qq003,81064793303168928,random7874.5645120743675]]
+528797 2017-07-17 13:46:50 [GlobalLog] SYSTEM_INFO #用时[0] SQL:[core.detail.impl.SaveMethod@32bd48d2]
+528866 2017-07-17 13:46:50 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:46:50',1,17,0,86)
+529097 2017-07-17 13:46:50 [UserLog448942338] SYSTEM_ERROR #Link::OnRead异常,导致关闭 uid[81064793303178928] user[logic.MyUser@1ac25102[qq004,81064793303178928,random3765.142727516706]]
+529097 2017-07-17 13:46:50 [UserLog448942338] SYSTEM_INFO #断开了连接[core.detail.impl.socket.LinkNio@64d4ec92]
+529097 2017-07-17 13:46:50 [UserLog448942338] SYSTEM_INFO #准备从管理器去掉用户[core.detail.impl.socket.LinkNio@64d4ec92][logic.MyUser@1ac25102[qq004,81064793303178928,random3765.142727516706]]
+529098 2017-07-17 13:46:50 [UserLog448942338] SYSTEM_INFO #User对象断开了 nk[random3765.142727516706] gid[81064793303178928] netid[1] this[logic.MyUser@1ac25102[qq004,81064793303178928,random3765.142727516706]] reason:[-4] ex:[0]
+529098 2017-07-17 13:46:50 [GlobalLog] SQL INSERT INTO _CloseLog (ServerID,Tm,UserName,RoleID,HashCode,Reason,Ex) VALUES (18,'2017-07-17 13:46:50','qq004',81064793303178928,448942338,-4,0)
+529099 2017-07-17 13:46:50 [GlobalLog] SYSTEM_INFO #用户下线导致移除了一个定时器[7]
+529296 2017-07-17 13:46:50 [UserLog448942338] SYSTEM_INFO #平时检查释放的User对象  nk[random3765.142727516706] gid[81064793303178928] netid[1] this[logic.MyUser@1ac25102[qq004,81064793303178928,random3765.142727516706]]
+529296 2017-07-17 13:46:50 [UserLog448942338] SYSTEM_INFO #UserMgr成功释放一个用户,nk[random3765.142727516706@1] gid[81064793303178928] netid[1] this[logic.MyUser@1ac25102[qq004,81064793303178928,random3765.142727516706]]
+529297 2017-07-17 13:46:50 [GlobalLog] SYSTEM_INFO #用时[0] SQL:[core.detail.impl.SaveMethod@7639bf37]
+529368 2017-07-17 13:46:50 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:46:50',1,18,0,86)
+529413 2017-07-17 13:46:50 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:46:50',2,34,0,0,1)
+530506 2017-07-17 13:46:51 [UserLog1166145741] SYSTEM_ERROR #Link::OnRead异常,导致关闭 uid[81064793303158928] user[logic.MyUser@4581f8cd[qq002,81064793303158928,random23.176388961649863]]
+530506 2017-07-17 13:46:51 [UserLog1166145741] SYSTEM_INFO #断开了连接[core.detail.impl.socket.LinkNio@7c435bb2]
+530506 2017-07-17 13:46:51 [UserLog1166145741] SYSTEM_INFO #准备从管理器去掉用户[core.detail.impl.socket.LinkNio@7c435bb2][logic.MyUser@4581f8cd[qq002,81064793303158928,random23.176388961649863]]
+530507 2017-07-17 13:46:51 [UserLog1166145741] SYSTEM_INFO #User对象断开了 nk[random23.176388961649863] gid[81064793303158928] netid[3] this[logic.MyUser@4581f8cd[qq002,81064793303158928,random23.176388961649863]] reason:[-4] ex:[0]
+530507 2017-07-17 13:46:51 [GlobalLog] SQL INSERT INTO _CloseLog (ServerID,Tm,UserName,RoleID,HashCode,Reason,Ex) VALUES (18,'2017-07-17 13:46:51','qq002',81064793303158928,1166145741,-4,0)
+530508 2017-07-17 13:46:51 [GlobalLog] SYSTEM_INFO #用户下线导致移除了一个定时器[9]
+530796 2017-07-17 13:46:52 [UserLog1166145741] SYSTEM_INFO #平时检查释放的User对象  nk[random23.176388961649863] gid[81064793303158928] netid[3] this[logic.MyUser@4581f8cd[qq002,81064793303158928,random23.176388961649863]]
+530796 2017-07-17 13:46:52 [UserLog1166145741] SYSTEM_INFO #UserMgr成功释放一个用户,nk[random23.176388961649863@1] gid[81064793303158928] netid[3] this[logic.MyUser@4581f8cd[qq002,81064793303158928,random23.176388961649863]]
+530797 2017-07-17 13:46:52 [GlobalLog] SYSTEM_INFO #用时[0] SQL:[core.detail.impl.SaveMethod@d400229]
+530919 2017-07-17 13:46:52 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:46:52',1,19,0,86)
+531419 2017-07-17 13:46:52 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:46:52',1,35,0,0,1)
+590733 2017-07-17 13:47:51 [GlobalLog] DEBUG [0]*牌的操记录:0 : 房间被删除:994706
+
+590734 2017-07-17 13:47:51 [GlobalLog] SYSTEM_INFO #逻辑层主动移除了一个定时器[5]
+594449 2017-07-17 13:47:55 [UserLog1408876187] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@5f8e0864]创建了用户[logic.MyUser@53f9be9b[,0,]]
+594449 2017-07-17 13:47:55 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[1603143780] userhash[1408876187]
+595953 2017-07-17 13:47:57 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:47:57',1,22,98,940,1,0)
+595953 2017-07-17 13:47:57 [GlobalLog] INFO [0]*(Login#Enter:qq005,1,2017年07月17日 13时47分57秒)
+595955 2017-07-17 13:47:57 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:qq005,1,2017年07月17日 13时47分57秒,result:true,size:1)
+596020 2017-07-17 13:47:57 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:qq005,2017年07月17日 13时47分57秒,result:)
+596022 2017-07-17 13:47:57 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4b0bafd8: select * from account where openid = 'qq005']
+596022 2017-07-17 13:47:57 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+596022 2017-07-17 13:47:57 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[logic.methodex.LoginMethod@2475d1bd]
+596023 2017-07-17 13:47:57 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@53f9be9b[qq005,81064793303188928,random8296.039402172626])
+596053 2017-07-17 13:47:57 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:47:57',1,20,0,86)
+596456 2017-07-17 13:47:57 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4759e2d5: SELECT RoleID,Password,TID,openid,nickName,headIcon,roomCard,unionid,province,city,sex,prizecount,manager_up_id,actualCard,totalCard,createTime,lastLoginTime,status,isGame FROM account WHERE RoleID=81064793303188928]
+596456 2017-07-17 13:47:57 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+596457 2017-07-17 13:47:57 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@752d15c: SELECT GID,RoleID,TargetRoleID,card,DateTime,Name FROM charge_record WHERE RoleID=81064793303188928]
+596457 2017-07-17 13:47:57 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+596457 2017-07-17 13:47:57 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@53f9be9b[qq005,81064793303188928,random8296.039402172626],)]
+596458 2017-07-17 13:47:57 [GlobalLog] SYSTEM_INFO #添加一个定时器[10][core.detail.impl.mgr.timer.TickEvent@587743d6 [ID:10] NextRunTime[1500270777693] Run[logic.MyUser@53f9be9b[qq005,81064793303188928,random8296.039402172626]] SpaceTime[300000]]
+596458 2017-07-17 13:47:57 [UserLog1408876187] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@53f9be9b[qq005,81064793303188928,random8296.039402172626],)UserMgr添加一个用户,nk[random8296.039402172626@1] gid[81064793303188928] netid[0] this[logic.MyUser@53f9be9b[qq005,81064793303188928,random8296.039402172626]]
+596458 2017-07-17 13:47:57 [UserLog1408876187] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@53f9be9b[qq005,81064793303188928,random8296.039402172626],)UserMgr成功添加一个用户,nk[random8296.039402172626@1] gid[81064793303188928] netid[0] this[logic.MyUser@53f9be9b[qq005,81064793303188928,random8296.039402172626]]
+596485 2017-07-17 13:47:57 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:47:57',3,38,0,0,2)
+596570 2017-07-17 13:47:57 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:47:57',1,21,0,86)
+601966 2017-07-17 13:48:03 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:48:03',2,24,52,992,1,1)
+601967 2017-07-17 13:48:03 [GlobalLog] SYSTEM_INFO #添加一个定时器[11][core.detail.impl.mgr.timer.TickEvent@1db10cd9 [ID:11] NextRunTime[1500270484202] Run[logic.module.room.Room@7f3a954a] SpaceTime[1000]]
+601972 2017-07-17 13:48:03 [GlobalLog] DEBUG [0]*牌的操记录:81064793303188928 : 81064793303188928 创建房间:980859
+602467 2017-07-17 13:48:03 [GlobalLog] DEBUG [0]*牌的操记录:81064793303188928 : 81064793303188928 进入房间:980859
+602504 2017-07-17 13:48:03 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:48:03',2,40,0,0,5)
+603859 2017-07-17 13:48:05 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+603974 2017-07-17 13:48:05 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:48:05',2,26,36,1028,1,1)
+604508 2017-07-17 13:48:05 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:48:05',1,41,0,0,0)
+614284 2017-07-17 13:48:15 [UserLog1195886194] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@2c36827]创建了用户[logic.MyUser@4747c672[,0,]]
+614284 2017-07-17 13:48:15 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[46360615] userhash[1195886194]
+619291 2017-07-17 13:48:20 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:48:20',1,27,98,1126,2,1)
+619292 2017-07-17 13:48:20 [GlobalLog] INFO [0]*(Login#Enter:qq004,1,2017年07月17日 13时48分20秒)
+619293 2017-07-17 13:48:20 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:qq004,1,2017年07月17日 13时48分20秒,result:true,size:1)
+619420 2017-07-17 13:48:20 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:qq004,2017年07月17日 13时48分20秒,result:)
+619422 2017-07-17 13:48:20 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4f5b7333: select * from account where openid = 'qq004']
+619422 2017-07-17 13:48:20 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+619422 2017-07-17 13:48:20 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[logic.methodex.LoginMethod@21bef26c]
+619423 2017-07-17 13:48:20 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@4747c672[qq004,81064793303178928,random3765.142727516706])
+619525 2017-07-17 13:48:20 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:48:20',2,43,0,0,1)
+619617 2017-07-17 13:48:20 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:48:20',1,22,0,86)
+619795 2017-07-17 13:48:21 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4759e2d5: SELECT RoleID,Password,TID,openid,nickName,headIcon,roomCard,unionid,province,city,sex,prizecount,manager_up_id,actualCard,totalCard,createTime,lastLoginTime,status,isGame FROM account WHERE RoleID=81064793303178928]
+619795 2017-07-17 13:48:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+619797 2017-07-17 13:48:21 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@752d15c: SELECT GID,RoleID,TargetRoleID,card,DateTime,Name FROM charge_record WHERE RoleID=81064793303178928]
+619797 2017-07-17 13:48:21 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+619797 2017-07-17 13:48:21 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@4747c672[qq004,81064793303178928,random3765.142727516706],)]
+619798 2017-07-17 13:48:21 [GlobalLog] SYSTEM_INFO #添加一个定时器[12][core.detail.impl.mgr.timer.TickEvent@217520b [ID:12] NextRunTime[1500270801033] Run[logic.MyUser@4747c672[qq004,81064793303178928,random3765.142727516706]] SpaceTime[300000]]
+619798 2017-07-17 13:48:21 [UserLog1195886194] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@4747c672[qq004,81064793303178928,random3765.142727516706],)UserMgr添加一个用户,nk[random3765.142727516706@1] gid[81064793303178928] netid[0] this[logic.MyUser@4747c672[qq004,81064793303178928,random3765.142727516706]]
+619798 2017-07-17 13:48:21 [UserLog1195886194] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@4747c672[qq004,81064793303178928,random3765.142727516706],)UserMgr成功添加一个用户,nk[random3765.142727516706@1] gid[81064793303178928] netid[2] this[logic.MyUser@4747c672[qq004,81064793303178928,random3765.142727516706]]
+620119 2017-07-17 13:48:21 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:48:21',1,23,0,86)
+620527 2017-07-17 13:48:21 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:48:21',1,44,0,0,1)
+629801 2017-07-17 13:48:31 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:48:31',2,29,28,1154,2,2)
+629802 2017-07-17 13:48:31 [GlobalLog] DEBUG [0]*牌的操记录:81064793303178928 : 81064793303178928 进入房间:980859
+630538 2017-07-17 13:48:31 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:48:31',1,45,0,0,1)
+630804 2017-07-17 13:48:32 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:48:32',1,30,18,1172,2,2)
+631652 2017-07-17 13:48:32 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:48:32',1,46,0,0,113)
+640604 2017-07-17 13:48:41 [UserLog1012865784] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@7a0a60e7]创建了用户[logic.MyUser@3c5f1af8[,0,]]
+640605 2017-07-17 13:48:41 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[2047500519] userhash[1012865784]
+644110 2017-07-17 13:48:45 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:48:45',1,31,98,1270,3,2)
+644111 2017-07-17 13:48:45 [GlobalLog] INFO [0]*(Login#Enter:qq003,1,2017年07月17日 13时48分45秒)
+644112 2017-07-17 13:48:45 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:qq003,1,2017年07月17日 13时48分45秒,result:true,size:1)
+644220 2017-07-17 13:48:45 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:qq003,2017年07月17日 13时48分45秒,result:)
+644222 2017-07-17 13:48:45 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3380c5e2: select * from account where openid = 'qq003']
+644223 2017-07-17 13:48:45 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+644223 2017-07-17 13:48:45 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[logic.methodex.LoginMethod@11da5e09]
+644224 2017-07-17 13:48:45 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@3c5f1af8[qq003,81064793303168928,random7874.5645120743675])
+644612 2017-07-17 13:48:45 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4759e2d5: SELECT RoleID,Password,TID,openid,nickName,headIcon,roomCard,unionid,province,city,sex,prizecount,manager_up_id,actualCard,totalCard,createTime,lastLoginTime,status,isGame FROM account WHERE RoleID=81064793303168928]
+644612 2017-07-17 13:48:45 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+644613 2017-07-17 13:48:45 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@752d15c: SELECT GID,RoleID,TargetRoleID,card,DateTime,Name FROM charge_record WHERE RoleID=81064793303168928]
+644613 2017-07-17 13:48:45 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+644614 2017-07-17 13:48:45 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@3c5f1af8[qq003,81064793303168928,random7874.5645120743675],)]
+644615 2017-07-17 13:48:45 [GlobalLog] SYSTEM_INFO #添加一个定时器[13][core.detail.impl.mgr.timer.TickEvent@64084cf6 [ID:13] NextRunTime[1500270825850] Run[logic.MyUser@3c5f1af8[qq003,81064793303168928,random7874.5645120743675]] SpaceTime[300000]]
+644615 2017-07-17 13:48:45 [UserLog1012865784] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@3c5f1af8[qq003,81064793303168928,random7874.5645120743675],)UserMgr添加一个用户,nk[random7874.5645120743675@1] gid[81064793303168928] netid[0] this[logic.MyUser@3c5f1af8[qq003,81064793303168928,random7874.5645120743675]]
+644615 2017-07-17 13:48:45 [UserLog1012865784] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@3c5f1af8[qq003,81064793303168928,random7874.5645120743675],)UserMgr成功添加一个用户,nk[random7874.5645120743675@1] gid[81064793303168928] netid[1] this[logic.MyUser@3c5f1af8[qq003,81064793303168928,random7874.5645120743675]]
+644666 2017-07-17 13:48:45 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:48:45',3,49,0,0,1)
+644669 2017-07-17 13:48:45 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:48:45',2,25,0,86)
+651322 2017-07-17 13:48:52 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@7c5fe02f用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@7c5fe02f]
+651674 2017-07-17 13:48:52 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:48:52',1,50,0,0,0)
+651684 2017-07-17 13:48:52 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:48:52',1,26,0,86)
+653120 2017-07-17 13:48:54 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:48:54',2,33,28,1298,3,3)
+653121 2017-07-17 13:48:54 [GlobalLog] DEBUG [0]*牌的操记录:81064793303168928 : 81064793303168928 进入房间:980859
+653677 2017-07-17 13:48:54 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:48:54',1,51,0,0,0)
+654123 2017-07-17 13:48:55 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:48:55',1,34,18,1316,3,3)
+654679 2017-07-17 13:48:55 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:48:55',1,52,0,0,1)
+667072 2017-07-17 13:49:08 [UserLog240080583] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@11e5f563]创建了用户[logic.MyUser@e4f56c7[,0,]]
+667073 2017-07-17 13:49:08 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[300283235] userhash[240080583]
+671580 2017-07-17 13:49:12 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:49:12',1,35,98,1414,4,3)
+671581 2017-07-17 13:49:12 [GlobalLog] INFO [0]*(Login#Enter:qq002,1,2017年07月17日 13时49分12秒)
+671582 2017-07-17 13:49:12 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:qq002,1,2017年07月17日 13时49分12秒,result:true,size:1)
+671620 2017-07-17 13:49:12 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:qq002,2017年07月17日 13时49分12秒,result:)
+671622 2017-07-17 13:49:12 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3e2bd4d7: select * from account where openid = 'qq002']
+671622 2017-07-17 13:49:12 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+671623 2017-07-17 13:49:12 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[logic.methodex.LoginMethod@a16d634]
+671624 2017-07-17 13:49:12 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@e4f56c7[qq002,81064793303158928,random23.176388961649863])
+671698 2017-07-17 13:49:12 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:49:12',2,54,0,0,1)
+671725 2017-07-17 13:49:12 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:49:12',1,27,0,86)
+672084 2017-07-17 13:49:13 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4759e2d5: SELECT RoleID,Password,TID,openid,nickName,headIcon,roomCard,unionid,province,city,sex,prizecount,manager_up_id,actualCard,totalCard,createTime,lastLoginTime,status,isGame FROM account WHERE RoleID=81064793303158928]
+672084 2017-07-17 13:49:13 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+672085 2017-07-17 13:49:13 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@752d15c: SELECT GID,RoleID,TargetRoleID,card,DateTime,Name FROM charge_record WHERE RoleID=81064793303158928]
+672085 2017-07-17 13:49:13 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+672085 2017-07-17 13:49:13 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@e4f56c7[qq002,81064793303158928,random23.176388961649863],)]
+672086 2017-07-17 13:49:13 [GlobalLog] SYSTEM_INFO #添加一个定时器[14][core.detail.impl.mgr.timer.TickEvent@29d5b4a4 [ID:14] NextRunTime[1500270853321] Run[logic.MyUser@e4f56c7[qq002,81064793303158928,random23.176388961649863]] SpaceTime[300000]]
+672086 2017-07-17 13:49:13 [UserLog240080583] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@e4f56c7[qq002,81064793303158928,random23.176388961649863],)UserMgr添加一个用户,nk[random23.176388961649863@1] gid[81064793303158928] netid[0] this[logic.MyUser@e4f56c7[qq002,81064793303158928,random23.176388961649863]]
+672086 2017-07-17 13:49:13 [UserLog240080583] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@e4f56c7[qq002,81064793303158928,random23.176388961649863],)UserMgr成功添加一个用户,nk[random23.176388961649863@1] gid[81064793303158928] netid[3] this[logic.MyUser@e4f56c7[qq002,81064793303158928,random23.176388961649863]]
+672227 2017-07-17 13:49:13 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:49:13',1,28,0,86)
+672700 2017-07-17 13:49:13 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:49:13',1,55,0,0,1)
+679089 2017-07-17 13:49:20 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:49:20',2,37,28,1442,4,4)
+679090 2017-07-17 13:49:20 [GlobalLog] DEBUG [0]*牌的操记录:81064793303158928 : 81064793303158928 进入房间:980859
+679716 2017-07-17 13:49:20 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:49:20',1,56,0,0,1)
+680092 2017-07-17 13:49:21 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:49:21',1,38,18,1460,4,4)
+680093 2017-07-17 13:49:21 [GlobalLog] DEBUG [0]*牌的操记录:0 : -----------------------------------开始发牌 
+
+680096 2017-07-17 13:49:21 [UserLog240080583] SYSTEM_ERROR #java.lang.reflect.InvocationTargetException
+680111 2017-07-17 13:49:21 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (18,'2017-07-17 13:49:21',81064793303158928,'java.lang.IllegalStateException','java.util.ArrayList$Itr.remove(Unknown Source)
+manager.CardManager.createCardGroup(CardManager.java:112)
+logic.module.room.Room.initCard(Room.java:212)
+logic.module.room.Room.changUserState(Room.java:624)
+logic.module.room.RoomImpl.GameReady(RoomImpl.java:171)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+core.detail.impl.MethodExImpl._Execute(MethodExImpl.java:292)
+core.detail.impl.MethodExImpl.RunDirect(MethodExImpl.java:223)
+core.detail.impl.MethodExImpl.Run(MethodExImpl.java:197)
+core.detail.impl.mgr.LogicMgrImpl._ExecuteNetMethodEx(LogicMgrImpl.java:212)
+core.detail.impl.mgr.LogicMgrImpl._ExecuteNetQueue(LogicMgrImpl.java:263)
+core.detail.impl.mgr.LogicMgrImpl.run(LogicMgrImpl.java:122)
+java.lang.Thread.run(Unknown Source)
+[qq002]')
+680150 2017-07-17 13:49:21 [UserLog240080583] SYSTEM_INFO #断开了连接[core.detail.impl.socket.LinkNio@11e5f563]
+680150 2017-07-17 13:49:21 [UserLog240080583] SYSTEM_INFO #准备从管理器去掉用户[core.detail.impl.socket.LinkNio@11e5f563][logic.MyUser@e4f56c7[qq002,81064793303158928,random23.176388961649863]]
+680150 2017-07-17 13:49:21 [UserLog240080583] SYSTEM_INFO #User对象断开了 nk[random23.176388961649863] gid[81064793303158928] netid[3] this[logic.MyUser@e4f56c7[qq002,81064793303158928,random23.176388961649863]] reason:[-6] ex:[0]
+680150 2017-07-17 13:49:21 [GlobalLog] SQL INSERT INTO _CloseLog (ServerID,Tm,UserName,RoleID,HashCode,Reason,Ex) VALUES (18,'2017-07-17 13:49:21','qq002',81064793303158928,240080583,-6,0)
+680151 2017-07-17 13:49:21 [GlobalLog] SYSTEM_INFO #用户下线导致移除了一个定时器[14]
+680302 2017-07-17 13:49:21 [UserLog240080583] SYSTEM_INFO #平时检查释放的User对象  nk[random23.176388961649863] gid[81064793303158928] netid[3] this[logic.MyUser@e4f56c7[qq002,81064793303158928,random23.176388961649863]]
+680302 2017-07-17 13:49:21 [UserLog240080583] SYSTEM_INFO #UserMgr成功释放一个用户,nk[random23.176388961649863@1] gid[81064793303158928] netid[3] this[logic.MyUser@e4f56c7[qq002,81064793303158928,random23.176388961649863]]
+680303 2017-07-17 13:49:21 [GlobalLog] SYSTEM_INFO #用时[0] SQL:[core.detail.impl.SaveMethod@320ff600]
+680719 2017-07-17 13:49:21 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:49:21',1,57,0,0,59)
+680746 2017-07-17 13:49:21 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:49:21',1,29,0,86)
+685669 2017-07-17 13:49:26 [UserLog1012865784] SYSTEM_ERROR #Link::OnRead异常,导致关闭 uid[81064793303168928] user[logic.MyUser@3c5f1af8[qq003,81064793303168928,random7874.5645120743675]]
+685669 2017-07-17 13:49:26 [UserLog1012865784] SYSTEM_INFO #断开了连接[core.detail.impl.socket.LinkNio@7a0a60e7]
+685669 2017-07-17 13:49:26 [UserLog1012865784] SYSTEM_INFO #准备从管理器去掉用户[core.detail.impl.socket.LinkNio@7a0a60e7][logic.MyUser@3c5f1af8[qq003,81064793303168928,random7874.5645120743675]]
+685670 2017-07-17 13:49:26 [UserLog1012865784] SYSTEM_INFO #User对象断开了 nk[random7874.5645120743675] gid[81064793303168928] netid[1] this[logic.MyUser@3c5f1af8[qq003,81064793303168928,random7874.5645120743675]] reason:[-4] ex:[0]
+685670 2017-07-17 13:49:26 [GlobalLog] SQL INSERT INTO _CloseLog (ServerID,Tm,UserName,RoleID,HashCode,Reason,Ex) VALUES (18,'2017-07-17 13:49:26','qq003',81064793303168928,1012865784,-4,0)
+685671 2017-07-17 13:49:26 [GlobalLog] SYSTEM_INFO #用户下线导致移除了一个定时器[13]
+685802 2017-07-17 13:49:27 [UserLog1012865784] SYSTEM_INFO #平时检查释放的User对象  nk[random7874.5645120743675] gid[81064793303168928] netid[1] this[logic.MyUser@3c5f1af8[qq003,81064793303168928,random7874.5645120743675]]
+685802 2017-07-17 13:49:27 [UserLog1012865784] SYSTEM_INFO #UserMgr成功释放一个用户,nk[random7874.5645120743675@1] gid[81064793303168928] netid[1] this[logic.MyUser@3c5f1af8[qq003,81064793303168928,random7874.5645120743675]]
+685803 2017-07-17 13:49:27 [GlobalLog] SYSTEM_INFO #用时[0] SQL:[core.detail.impl.SaveMethod@4cac356e]
+686258 2017-07-17 13:49:27 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:49:27',1,30,0,86)
+686604 2017-07-17 13:49:27 [UserLog1195886194] SYSTEM_ERROR #Link::OnRead异常,导致关闭 uid[81064793303178928] user[logic.MyUser@4747c672[qq004,81064793303178928,random3765.142727516706]]
+686604 2017-07-17 13:49:27 [UserLog1195886194] SYSTEM_INFO #断开了连接[core.detail.impl.socket.LinkNio@2c36827]
+686604 2017-07-17 13:49:27 [UserLog1195886194] SYSTEM_INFO #准备从管理器去掉用户[core.detail.impl.socket.LinkNio@2c36827][logic.MyUser@4747c672[qq004,81064793303178928,random3765.142727516706]]
+686605 2017-07-17 13:49:27 [UserLog1195886194] SYSTEM_INFO #User对象断开了 nk[random3765.142727516706] gid[81064793303178928] netid[2] this[logic.MyUser@4747c672[qq004,81064793303178928,random3765.142727516706]] reason:[-4] ex:[0]
+686605 2017-07-17 13:49:27 [GlobalLog] SQL INSERT INTO _CloseLog (ServerID,Tm,UserName,RoleID,HashCode,Reason,Ex) VALUES (18,'2017-07-17 13:49:27','qq004',81064793303178928,1195886194,-4,0)
+686606 2017-07-17 13:49:27 [GlobalLog] SYSTEM_INFO #用户下线导致移除了一个定时器[12]
+686726 2017-07-17 13:49:27 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:49:27',1,58,0,0,1)
+686802 2017-07-17 13:49:28 [UserLog1195886194] SYSTEM_INFO #平时检查释放的User对象  nk[random3765.142727516706] gid[81064793303178928] netid[2] this[logic.MyUser@4747c672[qq004,81064793303178928,random3765.142727516706]]
+686802 2017-07-17 13:49:28 [UserLog1195886194] SYSTEM_INFO #UserMgr成功释放一个用户,nk[random3765.142727516706@1] gid[81064793303178928] netid[2] this[logic.MyUser@4747c672[qq004,81064793303178928,random3765.142727516706]]
+686803 2017-07-17 13:49:28 [GlobalLog] SYSTEM_INFO #用时[0] SQL:[core.detail.impl.SaveMethod@7877ccca]
+687261 2017-07-17 13:49:28 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:49:28',1,31,0,86)
+687636 2017-07-17 13:49:28 [UserLog1408876187] SYSTEM_ERROR #Link::OnRead异常,导致关闭 uid[81064793303188928] user[logic.MyUser@53f9be9b[qq005,81064793303188928,random8296.039402172626]]
+687636 2017-07-17 13:49:28 [UserLog1408876187] SYSTEM_INFO #断开了连接[core.detail.impl.socket.LinkNio@5f8e0864]
+687636 2017-07-17 13:49:28 [UserLog1408876187] SYSTEM_INFO #准备从管理器去掉用户[core.detail.impl.socket.LinkNio@5f8e0864][logic.MyUser@53f9be9b[qq005,81064793303188928,random8296.039402172626]]
+687637 2017-07-17 13:49:28 [UserLog1408876187] SYSTEM_INFO #User对象断开了 nk[random8296.039402172626] gid[81064793303188928] netid[0] this[logic.MyUser@53f9be9b[qq005,81064793303188928,random8296.039402172626]] reason:[-4] ex:[0]
+687637 2017-07-17 13:49:28 [GlobalLog] SQL INSERT INTO _CloseLog (ServerID,Tm,UserName,RoleID,HashCode,Reason,Ex) VALUES (18,'2017-07-17 13:49:28','qq005',81064793303188928,1408876187,-4,0)
+687638 2017-07-17 13:49:28 [GlobalLog] SYSTEM_INFO #用户下线导致移除了一个定时器[10]
+687728 2017-07-17 13:49:28 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:49:28',1,59,0,0,1)
+687802 2017-07-17 13:49:29 [UserLog1408876187] SYSTEM_INFO #平时检查释放的User对象  nk[random8296.039402172626] gid[81064793303188928] netid[0] this[logic.MyUser@53f9be9b[qq005,81064793303188928,random8296.039402172626]]
+687802 2017-07-17 13:49:29 [UserLog1408876187] SYSTEM_INFO #UserMgr成功释放一个用户,nk[random8296.039402172626@1] gid[81064793303188928] netid[0] this[logic.MyUser@53f9be9b[qq005,81064793303188928,random8296.039402172626]]
+687804 2017-07-17 13:49:29 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@f4a685f: UPDATE account Set roomCard = 3 WHERE RoleID = 81064793303188928]
+687805 2017-07-17 13:49:29 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[core.detail.impl.SaveMethod@499dfc3a]
+688264 2017-07-17 13:49:29 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:49:29',1,32,0,86)
+688731 2017-07-17 13:49:29 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:49:29',1,60,0,0,2)
+0 2017-07-17 13:49:50 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+4 2017-07-17 13:49:50 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+209 2017-07-17 13:49:50 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+245 2017-07-17 13:49:50 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+275 2017-07-17 13:49:50 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+314 2017-07-17 13:49:50 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+316 2017-07-17 13:49:50 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+383 2017-07-17 13:49:50 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+410 2017-07-17 13:49:50 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MahJongConfig.xls]
+488 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MahJongConfig.xls]
+506 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@147ed70f [ID:0] NextRunTime[1500270591270] Run[logic.module.login.Login@61dd025] SpaceTime[200]]
+509 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+550 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+551 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+552 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[0,4][Login,ThirdLogin]
+552 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+552 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+553 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+553 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+554 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+554 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+554 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+554 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+555 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+558 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+558 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+558 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+559 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+560 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+560 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+560 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+560 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+567 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+568 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+571 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,OperCard]
+571 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[1,4][RoomImpl,InitCard]
+572 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,GameReady]
+572 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[1,8][RoomImpl,LeaveRoom]
+573 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[1,12][RoomImpl,Reconnect]
+574 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[1,13][RoomImpl,ApplyDismiss]
+576 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[1,14][RoomImpl,AgreeDismiss]
+577 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[1,15][RoomImpl,DismissRoom]
+578 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[1,0][RoomImpl,CreateRoom]
+578 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[1,17][RoomImpl,TestCard]
+579 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[1,19][RoomImpl,SendChat]
+580 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[1,23][RoomImpl,KouCard]
+580 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+580 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+581 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+581 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+582 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[2,3][ProxyImpl,GetUser]
+583 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[2,1][ProxyImpl,GetAllUser]
+584 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[2,2][ProxyImpl,AddScore]
+585 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加[2,4][ProxyImpl,GeChargeRecord]
+585 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+585 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+586 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+591 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@6dc17b83 [ID:1] NextRunTime[1500270592155] Run[core.ex.GatherInfo@5e0826e7] SpaceTime[1000]]
+1107 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@3adcc812 [ID:2] NextRunTime[1500270791672] Run[logic.loader.UserLoader@35432107] SpaceTime[200000]]
+1233 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #用时[101] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@9ebe38b: SELECT * FROM account]
+1243 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #读取到[1052]条数据
+1251 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #打开端口[1111]成功
+1252 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #打开端口[11111]成功
+1269 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #正在打开端口[1111]
+1269 2017-07-17 13:49:51 [GlobalLog] SYSTEM_INFO #正在打开端口[11111]
+8796 2017-07-17 13:49:59 [UserLog1306536154] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@b4ce21e]创建了用户[logic.MyUser@4de028da[,0,]]
+8835 2017-07-17 13:49:59 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[189587998] userhash[1306536154]
+10978 2017-07-17 13:50:01 [GlobalLog] INFO [0]*(Login#Enter:qq005,1,2017年07月17日 13时50分01秒)
+10979 2017-07-17 13:50:01 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:50:01',1,1,98,98,1,0)
+10983 2017-07-17 13:50:01 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:qq005,1,2017年07月17日 13时50分01秒,result:true,size:1)
+11006 2017-07-17 13:50:01 [GlobalLog] SYSTEM_INFO #添加一个定时器[3][core.detail.impl.mgr.timer.TickEvent@791ca4d7 [ID:3] NextRunTime[1500270601871] Run[logic.PackBuffer@4ee88c52] SpaceTime[300]]
+11105 2017-07-17 13:50:01 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:qq005,2017年07月17日 13时50分01秒,result:)
+11108 2017-07-17 13:50:01 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3ea3829b: select * from account where openid = 'qq005']
+11109 2017-07-17 13:50:01 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+11110 2017-07-17 13:50:01 [GlobalLog] SYSTEM_INFO #用时[4] SQL:[logic.methodex.LoginMethod@779b564f]
+11111 2017-07-17 13:50:01 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@4de028da[qq005,81064793303188928,random8296.039402172626])
+11279 2017-07-17 13:50:01 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:50:01',1,1,0,4)
+11301 2017-07-17 13:50:01 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3417e9dc: SELECT RoleID,Password,TID,openid,nickName,headIcon,roomCard,unionid,province,city,sex,prizecount,manager_up_id,actualCard,totalCard,createTime,lastLoginTime,status,isGame FROM account WHERE RoleID=81064793303188928]
+11301 2017-07-17 13:50:01 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+11303 2017-07-17 13:50:01 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@29df857a: SELECT GID,RoleID,TargetRoleID,card,DateTime,Name FROM charge_record WHERE RoleID=81064793303188928]
+11303 2017-07-17 13:50:01 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+11303 2017-07-17 13:50:01 [GlobalLog] SYSTEM_INFO #用时[4] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@4de028da[qq005,81064793303188928,random8296.039402172626],)]
+11304 2017-07-17 13:50:01 [GlobalLog] SYSTEM_INFO #添加一个定时器[4][core.detail.impl.mgr.timer.TickEvent@2a42ba72 [ID:4] NextRunTime[1500270901869] Run[logic.MyUser@4de028da[qq005,81064793303188928,random8296.039402172626]] SpaceTime[300000]]
+11304 2017-07-17 13:50:01 [UserLog1306536154] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@4de028da[qq005,81064793303188928,random8296.039402172626],)UserMgr添加一个用户,nk[random8296.039402172626@1] gid[81064793303188928] netid[0] this[logic.MyUser@4de028da[qq005,81064793303188928,random8296.039402172626]]
+11305 2017-07-17 13:50:01 [UserLog1306536154] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@4de028da[qq005,81064793303188928,random8296.039402172626],)UserMgr成功添加一个用户,nk[random8296.039402172626@1] gid[81064793303188928] netid[0] this[logic.MyUser@4de028da[qq005,81064793303188928,random8296.039402172626]]
+11511 2017-07-17 13:50:02 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:50:02',3,3,0,0,31)
+11799 2017-07-17 13:50:02 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:50:02',1,2,0,19)
+17811 2017-07-17 13:50:08 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:50:08',2,3,52,150,1,1)
+17816 2017-07-17 13:50:08 [GlobalLog] SYSTEM_INFO #添加一个定时器[5][core.detail.impl.mgr.timer.TickEvent@2b070123 [ID:5] NextRunTime[1500270609380] Run[logic.module.room.Room@736a04ea] SpaceTime[1000]]
+17818 2017-07-17 13:50:08 [GlobalLog] DEBUG [0]*牌的操记录:81064793303188928 : 81064793303188928 创建房间:623694
+18313 2017-07-17 13:50:08 [GlobalLog] DEBUG [0]*牌的操记录:81064793303188928 : 81064793303188928 进入房间:623694
+18522 2017-07-17 13:50:09 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:50:09',2,5,0,0,10)
+20318 2017-07-17 13:50:10 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:50:10',2,5,36,186,1,1)
+20526 2017-07-17 13:50:11 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:50:11',1,6,0,0,0)
+29713 2017-07-17 13:50:20 [UserLog431481995] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@67457b09]创建了用户[logic.MyUser@19b7e48b[,0,]]
+29713 2017-07-17 13:50:20 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[1732606729] userhash[431481995]
+33718 2017-07-17 13:50:24 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:50:24',1,6,98,284,2,1)
+33719 2017-07-17 13:50:24 [GlobalLog] INFO [0]*(Login#Enter:qq004,1,2017年07月17日 13时50分24秒)
+33720 2017-07-17 13:50:24 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:qq004,1,2017年07月17日 13时50分24秒,result:true,size:1)
+33905 2017-07-17 13:50:24 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:qq004,2017年07月17日 13时50分24秒,result:)
+33907 2017-07-17 13:50:24 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@589db6eb: select * from account where openid = 'qq004']
+33908 2017-07-17 13:50:24 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+33908 2017-07-17 13:50:24 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[logic.methodex.LoginMethod@14d8dd94]
+33909 2017-07-17 13:50:24 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@19b7e48b[qq004,81064793303178928,random3765.142727516706])
+34223 2017-07-17 13:50:24 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3417e9dc: SELECT RoleID,Password,TID,openid,nickName,headIcon,roomCard,unionid,province,city,sex,prizecount,manager_up_id,actualCard,totalCard,createTime,lastLoginTime,status,isGame FROM account WHERE RoleID=81064793303178928]
+34223 2017-07-17 13:50:24 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+34224 2017-07-17 13:50:24 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@29df857a: SELECT GID,RoleID,TargetRoleID,card,DateTime,Name FROM charge_record WHERE RoleID=81064793303178928]
+34224 2017-07-17 13:50:24 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+34224 2017-07-17 13:50:24 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@19b7e48b[qq004,81064793303178928,random3765.142727516706],)]
+34225 2017-07-17 13:50:24 [GlobalLog] SYSTEM_INFO #添加一个定时器[6][core.detail.impl.mgr.timer.TickEvent@7945dd03 [ID:6] NextRunTime[1500270924790] Run[logic.MyUser@19b7e48b[qq004,81064793303178928,random3765.142727516706]] SpaceTime[300000]]
+34225 2017-07-17 13:50:24 [UserLog431481995] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@19b7e48b[qq004,81064793303178928,random3765.142727516706],)UserMgr添加一个用户,nk[random3765.142727516706@1] gid[81064793303178928] netid[0] this[logic.MyUser@19b7e48b[qq004,81064793303178928,random3765.142727516706]]
+34225 2017-07-17 13:50:24 [UserLog431481995] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@19b7e48b[qq004,81064793303178928,random3765.142727516706],)UserMgr成功添加一个用户,nk[random3765.142727516706@1] gid[81064793303178928] netid[1] this[logic.MyUser@19b7e48b[qq004,81064793303178928,random3765.142727516706]]
+34345 2017-07-17 13:50:24 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:50:24',2,4,0,19)
+34544 2017-07-17 13:50:25 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:50:25',3,9,0,0,2)
+41727 2017-07-17 13:50:32 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:50:32',2,8,28,312,2,2)
+41727 2017-07-17 13:50:32 [GlobalLog] DEBUG [0]*牌的操记录:81064793303178928 : 81064793303178928 进入房间:623694
+42553 2017-07-17 13:50:33 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:50:33',1,10,0,0,1)
+42730 2017-07-17 13:50:33 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:50:33',1,9,18,330,2,2)
+43556 2017-07-17 13:50:34 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:50:34',1,11,0,0,2)
+52091 2017-07-17 13:50:42 [UserLog1110285699] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@4cb7634a]创建了用户[logic.MyUser@422d9d83[,0,]]
+52091 2017-07-17 13:50:42 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[1287086922] userhash[1110285699]
+57099 2017-07-17 13:50:47 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:50:47',1,10,98,428,3,2)
+57100 2017-07-17 13:50:47 [GlobalLog] INFO [0]*(Login#Enter:qq003,1,2017年07月17日 13时50分47秒)
+57102 2017-07-17 13:50:47 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:qq003,1,2017年07月17日 13时50分47秒,result:true,size:1)
+57105 2017-07-17 13:50:47 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:qq003,2017年07月17日 13时50分47秒,result:)
+57108 2017-07-17 13:50:47 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@33dfb3b3: select * from account where openid = 'qq003']
+57108 2017-07-17 13:50:47 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+57108 2017-07-17 13:50:47 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[logic.methodex.LoginMethod@74b768c2]
+57109 2017-07-17 13:50:47 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@422d9d83[qq003,81064793303168928,random7874.5645120743675])
+57392 2017-07-17 13:50:47 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:50:47',1,5,0,19)
+57572 2017-07-17 13:50:48 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:50:48',2,13,0,0,2)
+57602 2017-07-17 13:50:48 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3417e9dc: SELECT RoleID,Password,TID,openid,nickName,headIcon,roomCard,unionid,province,city,sex,prizecount,manager_up_id,actualCard,totalCard,createTime,lastLoginTime,status,isGame FROM account WHERE RoleID=81064793303168928]
+57602 2017-07-17 13:50:48 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+57603 2017-07-17 13:50:48 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@29df857a: SELECT GID,RoleID,TargetRoleID,card,DateTime,Name FROM charge_record WHERE RoleID=81064793303168928]
+57603 2017-07-17 13:50:48 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+57603 2017-07-17 13:50:48 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@422d9d83[qq003,81064793303168928,random7874.5645120743675],)]
+57604 2017-07-17 13:50:48 [GlobalLog] SYSTEM_INFO #添加一个定时器[7][core.detail.impl.mgr.timer.TickEvent@41c2879f [ID:7] NextRunTime[1500270948169] Run[logic.MyUser@422d9d83[qq003,81064793303168928,random7874.5645120743675]] SpaceTime[300000]]
+57604 2017-07-17 13:50:48 [UserLog1110285699] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@422d9d83[qq003,81064793303168928,random7874.5645120743675],)UserMgr添加一个用户,nk[random7874.5645120743675@1] gid[81064793303168928] netid[0] this[logic.MyUser@422d9d83[qq003,81064793303168928,random7874.5645120743675]]
+57604 2017-07-17 13:50:48 [UserLog1110285699] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@422d9d83[qq003,81064793303168928,random7874.5645120743675],)UserMgr成功添加一个用户,nk[random7874.5645120743675@1] gid[81064793303168928] netid[2] this[logic.MyUser@422d9d83[qq003,81064793303168928,random7874.5645120743675]]
+57894 2017-07-17 13:50:48 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:50:48',1,6,0,19)
+58575 2017-07-17 13:50:49 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:50:49',1,14,0,0,2)
+68611 2017-07-17 13:50:59 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:50:59',2,12,28,456,3,3)
+68612 2017-07-17 13:50:59 [GlobalLog] DEBUG [0]*牌的操记录:81064793303168928 : 81064793303168928 进入房间:623694
+69587 2017-07-17 13:51:00 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:51:00',1,15,0,0,1)
+69614 2017-07-17 13:51:00 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:51:00',1,13,18,474,3,3)
+70589 2017-07-17 13:51:01 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:51:01',1,16,0,0,1)
+79911 2017-07-17 13:51:10 [UserLog601859247] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@49db0bd4]创建了用户[logic.MyUser@23dfa4af[,0,]]
+79911 2017-07-17 13:51:10 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[1239092180] userhash[601859247]
+84918 2017-07-17 13:51:15 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:51:15',1,14,98,572,4,3)
+84919 2017-07-17 13:51:15 [GlobalLog] INFO [0]*(Login#Enter:qq002,1,2017年07月17日 13时51分15秒)
+84920 2017-07-17 13:51:15 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:qq002,1,2017年07月17日 13时51分15秒,result:true,size:1)
+85105 2017-07-17 13:51:15 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:qq002,2017年07月17日 13时51分15秒,result:)
+85108 2017-07-17 13:51:15 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@642296df: select * from account where openid = 'qq002']
+85108 2017-07-17 13:51:15 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+85108 2017-07-17 13:51:15 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[logic.methodex.LoginMethod@1dc1718d]
+85109 2017-07-17 13:51:15 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@23dfa4af[qq002,81064793303158928,random23.176388961649863])
+85423 2017-07-17 13:51:15 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3417e9dc: SELECT RoleID,Password,TID,openid,nickName,headIcon,roomCard,unionid,province,city,sex,prizecount,manager_up_id,actualCard,totalCard,createTime,lastLoginTime,status,isGame FROM account WHERE RoleID=81064793303158928]
+85423 2017-07-17 13:51:15 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+85424 2017-07-17 13:51:15 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@29df857a: SELECT GID,RoleID,TargetRoleID,card,DateTime,Name FROM charge_record WHERE RoleID=81064793303158928]
+85424 2017-07-17 13:51:15 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+85425 2017-07-17 13:51:15 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@23dfa4af[qq002,81064793303158928,random23.176388961649863],)]
+85426 2017-07-17 13:51:15 [GlobalLog] SYSTEM_INFO #添加一个定时器[8][core.detail.impl.mgr.timer.TickEvent@6f12b862 [ID:8] NextRunTime[1500270975991] Run[logic.MyUser@23dfa4af[qq002,81064793303158928,random23.176388961649863]] SpaceTime[300000]]
+85426 2017-07-17 13:51:15 [UserLog601859247] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@23dfa4af[qq002,81064793303158928,random23.176388961649863],)UserMgr添加一个用户,nk[random23.176388961649863@1] gid[81064793303158928] netid[0] this[logic.MyUser@23dfa4af[qq002,81064793303158928,random23.176388961649863]]
+85426 2017-07-17 13:51:15 [UserLog601859247] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@23dfa4af[qq002,81064793303158928,random23.176388961649863],)UserMgr成功添加一个用户,nk[random23.176388961649863@1] gid[81064793303158928] netid[3] this[logic.MyUser@23dfa4af[qq002,81064793303158928,random23.176388961649863]]
+85450 2017-07-17 13:51:16 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:51:16',2,8,0,19)
+85605 2017-07-17 13:51:16 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:51:16',3,19,0,0,1)
+91427 2017-07-17 13:51:21 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:51:21',2,16,28,600,4,4)
+91612 2017-07-17 13:51:22 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:51:22',1,20,0,0,25)
+92926 2017-07-17 13:51:23 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:51:23',1,17,18,618,4,4)
+93795 2017-07-17 13:51:24 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:51:24',1,21,0,0,0)
+100933 2017-07-17 13:51:31 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:51:31',1,18,18,636,4,4)
+100934 2017-07-17 13:51:31 [GlobalLog] DEBUG [0]*牌的操记录:81064793303158928 : 81064793303158928 进入房间:623694
+101804 2017-07-17 13:51:32 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:51:32',1,22,0,0,2)
+101937 2017-07-17 13:51:32 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:51:32',1,19,18,654,4,4)
+101938 2017-07-17 13:51:32 [GlobalLog] DEBUG [0]*牌的操记录:0 : -----------------------------------开始发牌 
+
+101941 2017-07-17 13:51:32 [GlobalLog] DEBUG [0]*牌的操记录:81064793303188928 : 初始化的牌:一条[1-1-1]|九条[36-1-9]|一筒[37-2-10]|九筒[72-2-18]|一万[73-3-19]|九万[108-3-27]|东风[109-4-28]|南风[113-5-29]|西北[117-6-30]|北风[121-7-31]|红中[125-8-32]|白皮[129-9-33]|发财[133-10-34]|二条[6-1-2]| 
+
+101942 2017-07-17 13:51:32 [UserLog1306536154] SQL INSERT INTO roomcardlog (RoleID,RoomID,Operate,CardTID,HandCard) VALUES (81064793303188928,623694,'init',-1,'一条[1-1-1]|九条[36-1-9]|一筒[37-2-10]|九筒[72-2-18]|一万[73-3-19]|九万[108-3-27]|东风[109-4-28]|南风[113-5-29]|西北[117-6-30]|北风[121-7-31]|红中[125-8-32]|白皮[129-9-33]|发财[133-10-34]|二条[6-1-2]|')
+101944 2017-07-17 13:51:32 [GlobalLog] DEBUG [0]*牌的操记录:81064793303178928 : 初始化的牌:二筒[44-2-11]|四万[87-3-22]|七筒[64-2-16]|八万[104-3-26]|红中[127-8-32]|三筒[46-2-12]|六条[22-1-6]|发财[136-10-34]|五筒[56-2-14]|一筒[38-2-10]|五万[90-3-23]|四筒[52-2-13]|东风[111-4-28]| 
+
+101944 2017-07-17 13:51:32 [UserLog431481995] SQL INSERT INTO roomcardlog (RoleID,RoomID,Operate,CardTID,HandCard) VALUES (81064793303178928,623694,'init',-1,'二筒[44-2-11]|四万[87-3-22]|七筒[64-2-16]|八万[104-3-26]|红中[127-8-32]|三筒[46-2-12]|六条[22-1-6]|发财[136-10-34]|五筒[56-2-14]|一筒[38-2-10]|五万[90-3-23]|四筒[52-2-13]|东风[111-4-28]|')
+101947 2017-07-17 13:51:32 [GlobalLog] DEBUG [0]*牌的操记录:81064793303168928 : 初始化的牌:南风[116-5-29]|六筒[60-2-15]|五条[17-1-5]|八条[32-1-8]|六万[96-3-24]|五条[20-1-5]|南风[114-5-29]|四万[88-3-22]|七条[28-1-7]|四条[16-1-4]|八条[29-1-8]|六万[93-3-24]|八筒[67-2-17]| 
+
+101947 2017-07-17 13:51:32 [UserLog1110285699] SQL INSERT INTO roomcardlog (RoleID,RoomID,Operate,CardTID,HandCard) VALUES (81064793303168928,623694,'init',-1,'南风[116-5-29]|六筒[60-2-15]|五条[17-1-5]|八条[32-1-8]|六万[96-3-24]|五条[20-1-5]|南风[114-5-29]|四万[88-3-22]|七条[28-1-7]|四条[16-1-4]|八条[29-1-8]|六万[93-3-24]|八筒[67-2-17]|')
+101949 2017-07-17 13:51:32 [GlobalLog] DEBUG [0]*牌的操记录:81064793303158928 : 初始化的牌:九万[106-3-27]|七条[26-1-7]|白皮[131-9-33]|九筒[70-2-18]|八筒[65-2-17]|三万[82-3-21]|四条[15-1-4]|三条[11-1-3]|二筒[42-2-11]|一条[4-1-1]|一万[74-3-19]|九万[107-3-27]|西北[118-6-30]| 
+
+101949 2017-07-17 13:51:32 [UserLog601859247] SQL INSERT INTO roomcardlog (RoleID,RoomID,Operate,CardTID,HandCard) VALUES (81064793303158928,623694,'init',-1,'九万[106-3-27]|七条[26-1-7]|白皮[131-9-33]|九筒[70-2-18]|八筒[65-2-17]|三万[82-3-21]|四条[15-1-4]|三条[11-1-3]|二筒[42-2-11]|一条[4-1-1]|一万[74-3-19]|九万[107-3-27]|西北[118-6-30]|')
+101951 2017-07-17 13:51:32 [UserLog1306536154] SQL INSERT INTO roominfolog (Master,RoomID,Users) VALUES (81064793303188928,623694,'81064793303188928|81064793303178928|81064793303168928|81064793303158928|')
+102807 2017-07-17 13:51:33 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:51:33',1,23,0,0,15)
+120815 2017-07-17 13:51:51 [GlobalLog] DEBUG [0]*牌的操记录:81064793303188928 : 打出一张牌：二条[6-1-2] 
+
+120815 2017-07-17 13:51:51 [GlobalLog] DEBUG [0]*牌的操记录:81064793303178928 : getHuCard-我现在手里的牌:二条[6-1-2],六条[22-1-6],一筒[38-2-10],二筒[44-2-11],三筒[46-2-12],四筒[52-2-13],五筒[56-2-14],七筒[64-2-16],四万[87-3-22],五万[90-3-23],八万[104-3-26],东风[111-4-28],红中[127-8-32],发财[136-10-34], 
+
+120815 2017-07-17 13:51:51 [GlobalLog] DEBUG [0]*牌的操记录:81064793303178928 : isQidui - 七对的判断:二条[6-1-2]
+
+120819 2017-07-17 13:51:51 [GlobalLog] DEBUG [0]*牌的操记录:81064793303168928 : getHuCard-我现在手里的牌:二条[6-1-2],四条[16-1-4],五条[17-1-5],五条[20-1-5],七条[28-1-7],八条[29-1-8],八条[32-1-8],六筒[60-2-15],八筒[67-2-17],四万[88-3-22],六万[93-3-24],六万[96-3-24],南风[114-5-29],南风[116-5-29], 
+
+120819 2017-07-17 13:51:51 [GlobalLog] DEBUG [0]*牌的操记录:81064793303168928 : isQidui - 七对的判断:二条[6-1-2]
+
+120820 2017-07-17 13:51:51 [GlobalLog] DEBUG [0]*牌的操记录:81064793303158928 : getHuCard-我现在手里的牌:一条[4-1-1],二条[6-1-2],三条[11-1-3],四条[15-1-4],七条[26-1-7],二筒[42-2-11],八筒[65-2-17],九筒[70-2-18],一万[74-3-19],三万[82-3-21],九万[106-3-27],九万[107-3-27],西北[118-6-30],白皮[131-9-33], 
+
+120820 2017-07-17 13:51:51 [GlobalLog] DEBUG [0]*牌的操记录:81064793303158928 : isQidui - 七对的判断:二条[6-1-2]
+
+122815 2017-07-17 13:51:53 [GlobalLog] DEBUG [0]*牌的操记录:81064793303178928 : 自动摸一张：九筒[71-2-18] 
+
+122815 2017-07-17 13:51:53 [GlobalLog] DEBUG [0]*牌的操记录:81064793303178928 : getHuCard-我现在手里的牌:六条[22-1-6],一筒[38-2-10],二筒[44-2-11],三筒[46-2-12],四筒[52-2-13],五筒[56-2-14],七筒[64-2-16],九筒[71-2-18],四万[87-3-22],五万[90-3-23],八万[104-3-26],东风[111-4-28],红中[127-8-32],发财[136-10-34], 
+
+122815 2017-07-17 13:51:53 [GlobalLog] DEBUG [0]*牌的操记录:81064793303178928 : isQidui - 七对的判断:九筒[71-2-18]
+
+140815 2017-07-17 13:52:11 [GlobalLog] DEBUG [0]*牌的操记录:81064793303178928 : 打出一张牌：九筒[71-2-18] 
+
+140815 2017-07-17 13:52:11 [GlobalLog] DEBUG [0]*牌的操记录:81064793303168928 : getHuCard-我现在手里的牌:四条[16-1-4],五条[17-1-5],五条[20-1-5],七条[28-1-7],八条[29-1-8],八条[32-1-8],六筒[60-2-15],八筒[67-2-17],九筒[71-2-18],四万[88-3-22],六万[93-3-24],六万[96-3-24],南风[114-5-29],南风[116-5-29], 
+
+140815 2017-07-17 13:52:11 [GlobalLog] DEBUG [0]*牌的操记录:81064793303168928 : isQidui - 七对的判断:九筒[71-2-18]
+
+140815 2017-07-17 13:52:11 [GlobalLog] DEBUG [0]*牌的操记录:81064793303158928 : getHuCard-我现在手里的牌:一条[4-1-1],三条[11-1-3],四条[15-1-4],七条[26-1-7],二筒[42-2-11],八筒[65-2-17],九筒[70-2-18],九筒[71-2-18],一万[74-3-19],三万[82-3-21],九万[106-3-27],九万[107-3-27],西北[118-6-30],白皮[131-9-33], 
+
+140815 2017-07-17 13:52:11 [GlobalLog] DEBUG [0]*牌的操记录:81064793303158928 : isQidui - 七对的判断:九筒[71-2-18]
+
+140815 2017-07-17 13:52:11 [GlobalLog] DEBUG [0]*牌的操记录:81064793303188928 : getHuCard-我现在手里的牌:一条[1-1-1],九条[36-1-9],一筒[37-2-10],九筒[71-2-18],九筒[72-2-18],一万[73-3-19],九万[108-3-27],东风[109-4-28],南风[113-5-29],西北[117-6-30],北风[121-7-31],红中[125-8-32],白皮[129-9-33],发财[133-10-34], 
+
+140815 2017-07-17 13:52:11 [GlobalLog] DEBUG [0]*牌的操记录:81064793303188928 : isQidui - 七对的判断:九筒[71-2-18]
+
+142815 2017-07-17 13:52:13 [GlobalLog] DEBUG [0]*牌的操记录:81064793303168928 : 自动摸一张：九条[35-1-9] 
+
+142815 2017-07-17 13:52:13 [GlobalLog] DEBUG [0]*牌的操记录:81064793303168928 : getHuCard-我现在手里的牌:四条[16-1-4],五条[17-1-5],五条[20-1-5],七条[28-1-7],八条[29-1-8],八条[32-1-8],九条[35-1-9],六筒[60-2-15],八筒[67-2-17],四万[88-3-22],六万[93-3-24],六万[96-3-24],南风[114-5-29],南风[116-5-29], 
+
+142816 2017-07-17 13:52:13 [GlobalLog] DEBUG [0]*牌的操记录:81064793303168928 : isQidui - 七对的判断:九条[35-1-9]
+
+150693 2017-07-17 13:52:21 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:52:21',1,20,18,672,4,4)
+150694 2017-07-17 13:52:21 [GlobalLog] DEBUG [0]*牌的操记录:81064793303168928 : 打出一张牌：南风[114-5-29] 
+
+150695 2017-07-17 13:52:21 [GlobalLog] DEBUG [0]*牌的操记录:81064793303158928 : getHuCard-我现在手里的牌:一条[4-1-1],三条[11-1-3],四条[15-1-4],七条[26-1-7],二筒[42-2-11],八筒[65-2-17],九筒[70-2-18],一万[74-3-19],三万[82-3-21],九万[106-3-27],九万[107-3-27],南风[114-5-29],西北[118-6-30],白皮[131-9-33], 
+
+150695 2017-07-17 13:52:21 [GlobalLog] DEBUG [0]*牌的操记录:81064793303158928 : isQidui - 七对的判断:南风[114-5-29]
+
+150695 2017-07-17 13:52:21 [GlobalLog] DEBUG [0]*牌的操记录:81064793303188928 : getHuCard-我现在手里的牌:一条[1-1-1],九条[36-1-9],一筒[37-2-10],九筒[72-2-18],一万[73-3-19],九万[108-3-27],东风[109-4-28],南风[113-5-29],南风[114-5-29],西北[117-6-30],北风[121-7-31],红中[125-8-32],白皮[129-9-33],发财[133-10-34], 
+
+150695 2017-07-17 13:52:21 [GlobalLog] DEBUG [0]*牌的操记录:81064793303188928 : isQidui - 七对的判断:南风[114-5-29]
+
+150695 2017-07-17 13:52:21 [GlobalLog] DEBUG [0]*牌的操记录:81064793303178928 : getHuCard-我现在手里的牌:六条[22-1-6],一筒[38-2-10],二筒[44-2-11],三筒[46-2-12],四筒[52-2-13],五筒[56-2-14],七筒[64-2-16],四万[87-3-22],五万[90-3-23],八万[104-3-26],东风[111-4-28],南风[114-5-29],红中[127-8-32],发财[136-10-34], 
+
+150695 2017-07-17 13:52:21 [GlobalLog] DEBUG [0]*牌的操记录:81064793303178928 : isQidui - 七对的判断:南风[114-5-29]
+
+150856 2017-07-17 13:52:21 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-07-17 13:52:21',1,24,0,0,1)
+151815 2017-07-17 13:52:22 [GlobalLog] DEBUG [0]*牌的操记录:81064793303158928 : 自动摸一张：二万[77-3-20] 
+
+151815 2017-07-17 13:52:22 [GlobalLog] DEBUG [0]*牌的操记录:81064793303158928 : getHuCard-我现在手里的牌:一条[4-1-1],三条[11-1-3],四条[15-1-4],七条[26-1-7],二筒[42-2-11],八筒[65-2-17],九筒[70-2-18],一万[74-3-19],二万[77-3-20],三万[82-3-21],九万[106-3-27],九万[107-3-27],西北[118-6-30],白皮[131-9-33], 
+
+151815 2017-07-17 13:52:22 [GlobalLog] DEBUG [0]*牌的操记录:81064793303158928 : isQidui - 七对的判断:二万[77-3-20]
+
+156454 2017-07-17 13:52:27 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-07-17 13:52:27',1,21,18,690,4,4)
+156454 2017-07-17 13:52:27 [GlobalLog] DEBUG [0]*牌的操记录:81064793303188928 : getHuCard-我现在手里的牌:一条[1-1-1],九条[36-1-9],一筒[37-2-10],九筒[72-2-18],一万[73-3-19],九万[108-3-27],东风[109-4-28],南风[113-5-29],南风[114-5-29],西北[117-6-30],北风[121-7-31],红中[125-8-32],白皮[129-9-33],发财[133-10-34], 
+
+156455 2017-07-17 13:52:27 [GlobalLog] DEBUG [0]*牌的操记录:81064793303188928 : isQidui - 七对的判断:南风[114-5-29]
+
+0 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+5 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+222 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+263 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+292 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+311 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+313 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+371 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+377 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MahJongConfig.xls]
+425 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MahJongConfig.xls]
+445 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@147ed70f [ID:0] NextRunTime[1500270938032] Run[logic.module.login.Login@61dd025] SpaceTime[200]]
+449 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+489 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+490 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+491 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[0,4][Login,ThirdLogin]
+491 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+492 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+492 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+493 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+493 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+494 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+494 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+494 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+494 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+497 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+498 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+498 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+498 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+499 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+499 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+499 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+500 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+505 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+506 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+510 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,OperCard]
+511 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[1,4][RoomImpl,InitCard]
+512 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,GameReady]
+512 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[1,8][RoomImpl,LeaveRoom]
+512 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[1,12][RoomImpl,Reconnect]
+513 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[1,13][RoomImpl,ApplyDismiss]
+513 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[1,14][RoomImpl,AgreeDismiss]
+513 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[1,15][RoomImpl,DismissRoom]
+514 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[1,0][RoomImpl,CreateRoom]
+515 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[1,17][RoomImpl,TestCard]
+515 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[1,19][RoomImpl,SendChat]
+516 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[1,23][RoomImpl,KouCard]
+516 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+516 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+516 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+517 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+518 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[2,3][ProxyImpl,GetUser]
+519 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[2,1][ProxyImpl,GetAllUser]
+522 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[2,2][ProxyImpl,AddScore]
+523 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加[2,4][ProxyImpl,GeChargeRecord]
+523 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+523 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+523 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+529 2017-07-17 13:55:37 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@6dc17b83 [ID:1] NextRunTime[1500270938916] Run[core.ex.GatherInfo@5e0826e7] SpaceTime[1000]]
+1085 2017-07-17 13:55:38 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@3adcc812 [ID:2] NextRunTime[1500271064473] Run[logic.loader.UserLoader@35432107] SpaceTime[126000]]
+1194 2017-07-17 13:55:38 [GlobalLog] SYSTEM_INFO #用时[86] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@9ebe38b: SELECT * FROM account]
+1195 2017-07-17 13:55:38 [GlobalLog] SYSTEM_INFO #读取到[1052]条数据
+1202 2017-07-17 13:55:38 [GlobalLog] SYSTEM_INFO #打开端口[1111]成功
+1205 2017-07-17 13:55:38 [GlobalLog] SYSTEM_INFO #打开端口[11111]成功
+1216 2017-07-17 13:55:38 [GlobalLog] SYSTEM_INFO #正在打开端口[1111]
+1218 2017-07-17 13:55:38 [GlobalLog] SYSTEM_INFO #正在打开端口[11111]
+0 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+6 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+213 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+251 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+280 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+303 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+305 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+342 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+348 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MahJongConfig.xls]
+387 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MahJongConfig.xls]
+405 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@147ed70f [ID:0] NextRunTime[1500270972122] Run[logic.module.login.Login@61dd025] SpaceTime[200]]
+408 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+456 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+457 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+458 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #添加[0,4][Login,ThirdLogin]
+458 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+458 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+459 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+459 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+460 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+460 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+460 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+461 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+461 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+465 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+465 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+466 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+466 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+467 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+468 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+468 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+468 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+477 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+479 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+481 2017-07-17 13:56:11 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,OperCard]
+482 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #添加[1,4][RoomImpl,InitCard]
+484 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,GameReady]
+485 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #添加[1,8][RoomImpl,LeaveRoom]
+485 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #添加[1,12][RoomImpl,Reconnect]
+485 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #添加[1,13][RoomImpl,ApplyDismiss]
+486 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #添加[1,14][RoomImpl,AgreeDismiss]
+486 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #添加[1,15][RoomImpl,DismissRoom]
+487 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #添加[1,0][RoomImpl,CreateRoom]
+487 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #添加[1,17][RoomImpl,TestCard]
+488 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #添加[1,19][RoomImpl,SendChat]
+488 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #添加[1,23][RoomImpl,KouCard]
+488 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+488 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+489 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+489 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+491 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #添加[2,3][ProxyImpl,GetUser]
+491 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #添加[2,1][ProxyImpl,GetAllUser]
+494 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #添加[2,2][ProxyImpl,AddScore]
+494 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #添加[2,4][ProxyImpl,GeChargeRecord]
+494 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+495 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+495 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+504 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@6dc17b83 [ID:1] NextRunTime[1500270973022] Run[core.ex.GatherInfo@5e0826e7] SpaceTime[1000]]
+1045 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@3adcc812 [ID:2] NextRunTime[1500271171562] Run[logic.loader.UserLoader@35432107] SpaceTime[199000]]
+1165 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #用时[98] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@9ebe38b: SELECT * FROM account]
+1165 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #读取到[1052]条数据
+1172 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #打开端口[1111]成功
+1181 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #打开端口[11111]成功
+1197 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #正在打开端口[11111]
+1197 2017-07-17 13:56:12 [GlobalLog] SYSTEM_INFO #正在打开端口[1111]
+0 2017-07-17 13:59:09 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+3 2017-07-17 13:59:09 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+221 2017-07-17 13:59:09 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+263 2017-07-17 13:59:09 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+286 2017-07-17 13:59:09 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+314 2017-07-17 13:59:09 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+316 2017-07-17 13:59:09 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+356 2017-07-17 13:59:09 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+380 2017-07-17 13:59:09 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MahJongConfig.xls]
+435 2017-07-17 13:59:09 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MahJongConfig.xls]
+453 2017-07-17 13:59:09 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@147ed70f [ID:0] NextRunTime[1500271150184] Run[logic.module.login.Login@61dd025] SpaceTime[200]]
+456 2017-07-17 13:59:09 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+502 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+503 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+504 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[0,4][Login,ThirdLogin]
+504 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+504 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+505 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+505 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+506 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+506 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+506 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+507 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+507 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+510 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+510 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+510 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+511 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+512 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+512 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+512 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+512 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+519 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+521 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+525 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,OperCard]
+526 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[1,4][RoomImpl,InitCard]
+528 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,GameReady]
+528 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[1,8][RoomImpl,LeaveRoom]
+529 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[1,12][RoomImpl,Reconnect]
+530 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[1,13][RoomImpl,ApplyDismiss]
+531 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[1,14][RoomImpl,AgreeDismiss]
+531 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[1,15][RoomImpl,DismissRoom]
+531 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[1,0][RoomImpl,CreateRoom]
+532 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[1,17][RoomImpl,TestCard]
+532 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[1,19][RoomImpl,SendChat]
+533 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[1,23][RoomImpl,KouCard]
+533 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+533 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+533 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+534 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+535 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[2,3][ProxyImpl,GetUser]
+541 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[2,2][ProxyImpl,AddScore]
+542 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[2,4][ProxyImpl,GeChargeRecord]
+542 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加[2,1][ProxyImpl,GetAllUser]
+543 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+543 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+543 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+552 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@6dc17b83 [ID:1] NextRunTime[1500271151084] Run[core.ex.GatherInfo@5e0826e7] SpaceTime[1000]]
+1159 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@c9d0d6 [ID:2] NextRunTime[1500271279691] Run[logic.loader.UserLoader@6ccdb29f] SpaceTime[129000]]
+1284 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #用时[103] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3899782c: SELECT * FROM account]
+1285 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #读取到[1052]条数据
+1293 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #打开端口[1111]成功
+1305 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #打开端口[11111]成功
+1309 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #正在打开端口[1111]
+1315 2017-07-17 13:59:10 [GlobalLog] SYSTEM_INFO #正在打开端口[11111]
+4947 2017-07-17 13:59:14 [GlobalLog] SYSTEM_INFO #服务器正准备关闭,请稍候
+4947 2017-07-17 13:59:14 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Start] 2017年07月17日 13时59分14秒
+4947 2017-07-17 13:59:14 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:1111] 2017年07月17日 13时59分14秒
+4948 2017-07-17 13:59:14 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Finish] 2017年07月17日 13时59分14秒
+4958 2017-07-17 13:59:14 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:1111] 2017年07月17日 13时59分14秒
+4958 2017-07-17 13:59:14 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:NET]] 2017年07月17日 13时59分14秒
+4958 2017-07-17 13:59:14 [GlobalLog] SYSTEM_INFO #线程正常停止[[21,NET]] 2017年07月17日 13时59分14秒
+6949 2017-07-17 13:59:16 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Start] 2017年07月17日 13时59分16秒
+6953 2017-07-17 13:59:16 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@79236112 UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年07月17日 13时59分16秒
+6953 2017-07-17 13:59:16 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Finish] 2017年07月17日 13时59分16秒
+6953 2017-07-17 13:59:16 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Start] 2017年07月17日 13时59分16秒
+6953 2017-07-17 13:59:16 [GlobalLog] SYSTEM_INFO #系统正在保存全局数据[account] 一共有[1052]条数据
+6990 2017-07-17 13:59:16 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Finish] 2017年07月17日 13时59分16秒
+7990 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #开始停止线程[LogicMgr] 2017年07月17日 13时59分17秒
+7991 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:LOGIC]] 2017年07月17日 13时59分17秒
+7991 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[22,LOGIC]] 2017年07月17日 13时59分17秒
+7991 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[LogicMgr正常退出]] 2017年07月17日 13时59分17秒
+7992 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLMgr] 2017年07月17日 13时59分17秒
+7993 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQL]] 2017年07月17日 13时59分17秒
+7993 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[23,SQL]] 2017年07月17日 13时59分17秒
+7993 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLMgr正常退出]] 2017年07月17日 13时59分17秒
+7993 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLLogMgr] 2017年07月17日 13时59分17秒
+8104 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQLLOG]] 2017年07月17日 13时59分17秒
+8104 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[25,SQLLOG]] 2017年07月17日 13时59分17秒
+8104 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLLogMgr正常退出]] 2017年07月17日 13时59分17秒
+8123 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #开始停止线程[ThreadTask] 2017年07月17日 13时59分17秒
+8223 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:THREADTASK]] 2017年07月17日 13时59分17秒
+8223 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[26,THREADTASK]] 2017年07月17日 13时59分17秒
+8224 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[ThreadTask正常退出]] 2017年07月17日 13时59分17秒
+8224 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #开始停止线程[GMNetMgr] 2017年07月17日 13时59分17秒
+8224 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:11111] 2017年07月17日 13时59分17秒
+8224 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:11111] 2017年07月17日 13时59分17秒
+8225 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:GMNET]] 2017年07月17日 13时59分17秒
+8225 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[24,GMNET]] 2017年07月17日 13时59分17秒
+8225 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[GMNetMgr正常退出]] 2017年07月17日 13时59分17秒
+8225 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:MAIN]] 2017年07月17日 13时59分17秒
+8226 2017-07-17 13:59:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[1,MAIN]] 2017年07月17日 13时59分17秒
+9225 2017-07-17 13:59:18 [GlobalLog] SYSTEM_INFO #服务器执行完清理工作,GameOver:2017年07月17日 13时59分18秒
+0 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+3 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+205 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+263 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+292 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+316 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+318 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+353 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+356 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MahJongConfig.xls]
+394 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MahJongConfig.xls]
+412 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@147ed70f [ID:0] NextRunTime[1500271184700] Run[logic.module.login.Login@61dd025] SpaceTime[200]]
+416 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+462 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+462 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+463 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[0,4][Login,ThirdLogin]
+463 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+464 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+464 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+465 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+465 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+465 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+466 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+466 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+466 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+469 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+469 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+469 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+470 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+471 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+471 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+472 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+472 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+478 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+480 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+483 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,OperCard]
+484 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[1,4][RoomImpl,InitCard]
+485 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,GameReady]
+485 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[1,8][RoomImpl,LeaveRoom]
+485 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[1,12][RoomImpl,Reconnect]
+485 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[1,13][RoomImpl,ApplyDismiss]
+486 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[1,14][RoomImpl,AgreeDismiss]
+486 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[1,15][RoomImpl,DismissRoom]
+487 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[1,0][RoomImpl,CreateRoom]
+487 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[1,17][RoomImpl,TestCard]
+488 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[1,19][RoomImpl,SendChat]
+488 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[1,23][RoomImpl,KouCard]
+488 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+488 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+488 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+489 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+490 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[2,3][ProxyImpl,GetUser]
+491 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[2,2][ProxyImpl,AddScore]
+492 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[2,4][ProxyImpl,GeChargeRecord]
+493 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加[2,1][ProxyImpl,GetAllUser]
+493 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+493 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+494 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+500 2017-07-17 13:59:44 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@6dc17b83 [ID:1] NextRunTime[1500271185588] Run[core.ex.GatherInfo@5e0826e7] SpaceTime[1000]]
+1041 2017-07-17 13:59:45 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@3adcc812 [ID:2] NextRunTime[1500271366130] Run[logic.loader.UserLoader@35432107] SpaceTime[181000]]
+1146 2017-07-17 13:59:45 [GlobalLog] SYSTEM_INFO #用时[78] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@9ebe38b: SELECT * FROM account]
+1146 2017-07-17 13:59:45 [GlobalLog] SYSTEM_INFO #读取到[1052]条数据
+1149 2017-07-17 13:59:45 [GlobalLog] SYSTEM_INFO #打开端口[1111]成功
+1176 2017-07-17 13:59:45 [GlobalLog] SYSTEM_INFO #正在打开端口[1111]
+1180 2017-07-17 13:59:45 [GlobalLog] SYSTEM_INFO #打开端口[11111]成功
+1182 2017-07-17 13:59:45 [GlobalLog] SYSTEM_INFO #正在打开端口[11111]
+5802 2017-07-17 13:59:49 [GlobalLog] SYSTEM_INFO #服务器正准备关闭,请稍候
+5802 2017-07-17 13:59:49 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Start] 2017年07月17日 13时59分49秒
+5802 2017-07-17 13:59:49 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:1111] 2017年07月17日 13时59分49秒
+5803 2017-07-17 13:59:49 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Finish] 2017年07月17日 13时59分49秒
+5803 2017-07-17 13:59:49 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:1111] 2017年07月17日 13时59分49秒
+5803 2017-07-17 13:59:49 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:NET]] 2017年07月17日 13时59分49秒
+5803 2017-07-17 13:59:49 [GlobalLog] SYSTEM_INFO #线程正常停止[[21,NET]] 2017年07月17日 13时59分49秒
+7803 2017-07-17 13:59:51 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Start] 2017年07月17日 13时59分51秒
+7803 2017-07-17 13:59:51 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@7165688 UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年07月17日 13时59分51秒
+8303 2017-07-17 13:59:52 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@7165688 UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年07月17日 13时59分52秒
+8303 2017-07-17 13:59:52 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Finish] 2017年07月17日 13时59分52秒
+8303 2017-07-17 13:59:52 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Start] 2017年07月17日 13时59分52秒
+8303 2017-07-17 13:59:52 [GlobalLog] SYSTEM_INFO #系统正在保存全局数据[account] 一共有[1052]条数据
+8314 2017-07-17 13:59:52 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Finish] 2017年07月17日 13时59分52秒
+9315 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #开始停止线程[LogicMgr] 2017年07月17日 13时59分53秒
+9316 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:LOGIC]] 2017年07月17日 13时59分53秒
+9316 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[22,LOGIC]] 2017年07月17日 13时59分53秒
+9316 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[LogicMgr正常退出]] 2017年07月17日 13时59分53秒
+9316 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLMgr] 2017年07月17日 13时59分53秒
+9318 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQL]] 2017年07月17日 13时59分53秒
+9318 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[23,SQL]] 2017年07月17日 13时59分53秒
+9318 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLMgr正常退出]] 2017年07月17日 13时59分53秒
+9319 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLLogMgr] 2017年07月17日 13时59分53秒
+9362 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQLLOG]] 2017年07月17日 13时59分53秒
+9362 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[25,SQLLOG]] 2017年07月17日 13时59分53秒
+9363 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLLogMgr正常退出]] 2017年07月17日 13时59分53秒
+9364 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #开始停止线程[ThreadTask] 2017年07月17日 13时59分53秒
+9464 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:THREADTASK]] 2017年07月17日 13时59分53秒
+9464 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[26,THREADTASK]] 2017年07月17日 13时59分53秒
+9464 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[ThreadTask正常退出]] 2017年07月17日 13时59分53秒
+9465 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #开始停止线程[GMNetMgr] 2017年07月17日 13时59分53秒
+9465 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:11111] 2017年07月17日 13时59分53秒
+9465 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:11111] 2017年07月17日 13时59分53秒
+9466 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:GMNET]] 2017年07月17日 13时59分53秒
+9466 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[24,GMNET]] 2017年07月17日 13时59分53秒
+9466 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[GMNetMgr正常退出]] 2017年07月17日 13时59分53秒
+9466 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:MAIN]] 2017年07月17日 13时59分53秒
+9467 2017-07-17 13:59:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[1,MAIN]] 2017年07月17日 13时59分53秒
+10466 2017-07-17 13:59:54 [GlobalLog] SYSTEM_INFO #服务器执行完清理工作,GameOver:2017年07月17日 13时59分54秒
+0 2017-07-17 14:01:16 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+5 2017-07-17 14:01:16 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+222 2017-07-17 14:01:16 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+264 2017-07-17 14:01:16 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+294 2017-07-17 14:01:16 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+313 2017-07-17 14:01:16 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+315 2017-07-17 14:01:16 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+352 2017-07-17 14:01:16 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+356 2017-07-17 14:01:16 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MahJongConfig.xls]
+393 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MahJongConfig.xls]
+412 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@147ed70f [ID:0] NextRunTime[1500271277239] Run[logic.module.login.Login@61dd025] SpaceTime[200]]
+416 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+460 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+461 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+462 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[0,4][Login,ThirdLogin]
+462 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+462 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+463 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+463 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+464 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+464 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+464 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+465 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+465 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+467 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+468 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+468 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+469 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+469 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+469 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+470 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+470 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+474 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+478 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,OperCard]
+479 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[1,4][RoomImpl,InitCard]
+479 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,GameReady]
+480 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[1,8][RoomImpl,LeaveRoom]
+481 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[1,12][RoomImpl,Reconnect]
+481 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[1,13][RoomImpl,ApplyDismiss]
+481 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[1,14][RoomImpl,AgreeDismiss]
+481 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[1,15][RoomImpl,DismissRoom]
+482 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[1,0][RoomImpl,CreateRoom]
+483 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[1,17][RoomImpl,TestCard]
+483 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[1,19][RoomImpl,SendChat]
+484 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[1,23][RoomImpl,KouCard]
+484 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+484 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+484 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+485 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+486 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+487 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[2,3][ProxyImpl,GetUser]
+489 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[2,2][ProxyImpl,AddScore]
+489 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[2,4][ProxyImpl,GeChargeRecord]
+490 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加[2,1][ProxyImpl,GetAllUser]
+490 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+491 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+491 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+498 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@6dc17b83 [ID:1] NextRunTime[1500271278125] Run[core.ex.GatherInfo@5e0826e7] SpaceTime[1000]]
+1032 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@3adcc812 [ID:2] NextRunTime[1500271478659] Run[logic.loader.UserLoader@35432107] SpaceTime[201000]]
+1146 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #用时[91] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@9ebe38b: SELECT * FROM account]
+1146 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #读取到[1052]条数据
+1159 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #打开端口[1111]成功
+1171 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #打开端口[11111]成功
+1183 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #正在打开端口[11111]
+1183 2017-07-17 14:01:17 [GlobalLog] SYSTEM_INFO #正在打开端口[1111]
+0 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+4 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+221 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+265 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+290 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+310 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+312 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+355 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+360 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MahJongConfig.xls]
+398 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MahJongConfig.xls]
+416 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@4278a03f [ID:0] NextRunTime[1500271335096] Run[logic.module.login.Login@147ed70f] SpaceTime[200]]
+420 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+462 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+463 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+464 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[0,4][Login,ThirdLogin]
+464 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+464 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+465 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+465 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+466 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+467 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+467 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+467 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+468 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+471 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+471 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+471 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+472 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+473 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+473 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+473 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+473 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+479 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+480 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[1,19][RoomImpl,SendChat]
+483 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[1,23][RoomImpl,KouCard]
+484 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[1,17][RoomImpl,TestCard]
+484 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+485 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,OperCard]
+485 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[1,4][RoomImpl,InitCard]
+486 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,GameReady]
+486 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[1,8][RoomImpl,LeaveRoom]
+487 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[1,12][RoomImpl,Reconnect]
+487 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[1,13][RoomImpl,ApplyDismiss]
+487 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[1,14][RoomImpl,AgreeDismiss]
+488 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[1,15][RoomImpl,DismissRoom]
+489 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[1,0][RoomImpl,CreateRoom]
+489 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+489 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+489 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+490 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+491 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[2,3][ProxyImpl,GetUser]
+494 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[2,2][ProxyImpl,AddScore]
+495 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[2,4][ProxyImpl,GeChargeRecord]
+496 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加[2,1][ProxyImpl,GetAllUser]
+496 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+496 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+497 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+506 2017-07-17 14:02:14 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@5fdcaa40 [ID:1] NextRunTime[1500271335986] Run[core.ex.GatherInfo@6dc17b83] SpaceTime[1000]]
+1073 2017-07-17 14:02:15 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@6ccdb29f [ID:2] NextRunTime[1500271535553] Run[logic.loader.UserLoader@3adcc812] SpaceTime[200000]]
+1175 2017-07-17 14:02:15 [GlobalLog] SYSTEM_INFO #用时[78] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@1603cd68: SELECT * FROM account]
+1175 2017-07-17 14:02:15 [GlobalLog] SYSTEM_INFO #读取到[1052]条数据
+1189 2017-07-17 14:02:15 [GlobalLog] SYSTEM_INFO #打开端口[1111]成功
+1189 2017-07-17 14:02:15 [GlobalLog] SYSTEM_INFO #打开端口[11111]成功
+1206 2017-07-17 14:02:15 [GlobalLog] SYSTEM_INFO #正在打开端口[1111]
+1207 2017-07-17 14:02:15 [GlobalLog] SYSTEM_INFO #正在打开端口[11111]
+0 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+4 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+223 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+266 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+297 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+334 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+337 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+378 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+383 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MahJongConfig.xls]
+429 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MahJongConfig.xls]
+449 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@147ed70f [ID:0] NextRunTime[1500271382059] Run[logic.module.login.Login@61dd025] SpaceTime[200]]
+452 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+497 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+498 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+499 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[0,4][Login,ThirdLogin]
+499 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+500 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+501 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+502 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+502 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+502 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+503 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+503 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+503 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+506 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+506 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+506 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+507 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+508 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+508 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+508 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+509 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+516 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+517 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+520 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,OperCard]
+521 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[1,4][RoomImpl,InitCard]
+521 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,GameReady]
+522 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[1,8][RoomImpl,LeaveRoom]
+522 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[1,12][RoomImpl,Reconnect]
+522 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[1,13][RoomImpl,ApplyDismiss]
+523 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[1,14][RoomImpl,AgreeDismiss]
+523 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[1,15][RoomImpl,DismissRoom]
+524 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[1,0][RoomImpl,CreateRoom]
+524 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[1,17][RoomImpl,TestCard]
+525 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[1,19][RoomImpl,SendChat]
+525 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[1,23][RoomImpl,KouCard]
+525 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+525 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+526 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+527 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+528 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[2,3][ProxyImpl,GetUser]
+532 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[2,2][ProxyImpl,AddScore]
+534 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[2,4][ProxyImpl,GeChargeRecord]
+534 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加[2,1][ProxyImpl,GetAllUser]
+535 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+535 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+536 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+543 2017-07-17 14:03:01 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@6dc17b83 [ID:1] NextRunTime[1500271382953] Run[core.ex.GatherInfo@5e0826e7] SpaceTime[1000]]
+1089 2017-07-17 14:03:02 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@3adcc812 [ID:2] NextRunTime[1500271539500] Run[logic.loader.UserLoader@35432107] SpaceTime[157000]]
+1205 2017-07-17 14:03:02 [GlobalLog] SYSTEM_INFO #用时[93] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@9ebe38b: SELECT * FROM account]
+1205 2017-07-17 14:03:02 [GlobalLog] SYSTEM_INFO #读取到[1052]条数据
+1216 2017-07-17 14:03:02 [GlobalLog] SYSTEM_INFO #打开端口[1111]成功
+1219 2017-07-17 14:03:02 [GlobalLog] SYSTEM_INFO #打开端口[11111]成功
+1230 2017-07-17 14:03:02 [GlobalLog] SYSTEM_INFO #正在打开端口[11111]
+1232 2017-07-17 14:03:02 [GlobalLog] SYSTEM_INFO #正在打开端口[1111]
+0 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+7 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+253 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+298 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+322 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+342 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+344 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+382 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+388 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MahJongConfig.xls]
+431 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MahJongConfig.xls]
+449 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@147ed70f [ID:0] NextRunTime[1500271484138] Run[logic.module.login.Login@61dd025] SpaceTime[200]]
+452 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+494 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+495 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #添加[0,4][Login,ThirdLogin]
+495 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+495 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+496 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+497 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+497 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+497 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+498 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+498 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+498 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+499 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+502 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+502 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+502 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+503 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+504 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+504 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+504 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+504 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+509 2017-07-17 14:04:43 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+510 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+512 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,OperCard]
+513 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #添加[1,4][RoomImpl,InitCard]
+513 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,GameReady]
+514 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #添加[1,8][RoomImpl,LeaveRoom]
+514 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #添加[1,12][RoomImpl,Reconnect]
+515 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #添加[1,13][RoomImpl,ApplyDismiss]
+515 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #添加[1,14][RoomImpl,AgreeDismiss]
+515 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #添加[1,15][RoomImpl,DismissRoom]
+516 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #添加[1,0][RoomImpl,CreateRoom]
+517 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #添加[1,17][RoomImpl,TestCard]
+517 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #添加[1,19][RoomImpl,SendChat]
+518 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #添加[1,23][RoomImpl,KouCard]
+518 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+518 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+518 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+519 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+520 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #添加[2,3][ProxyImpl,GetUser]
+522 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #添加[2,2][ProxyImpl,AddScore]
+522 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #添加[2,4][ProxyImpl,GeChargeRecord]
+522 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #添加[2,1][ProxyImpl,GetAllUser]
+522 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+522 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+523 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+528 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@6dc17b83 [ID:1] NextRunTime[1500271485018] Run[core.ex.GatherInfo@5e0826e7] SpaceTime[1000]]
+1064 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@3adcc812 [ID:2] NextRunTime[1500271648554] Run[logic.loader.UserLoader@35432107] SpaceTime[164000]]
+1174 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #用时[87] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@9ebe38b: SELECT * FROM account]
+1174 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #读取到[1052]条数据
+1185 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #打开端口[11111]成功
+1202 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #打开端口[1111]成功
+1204 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #正在打开端口[11111]
+1204 2017-07-17 14:04:44 [GlobalLog] SYSTEM_INFO #正在打开端口[1111]
+0 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+5 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+227 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+265 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+299 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+321 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+324 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+366 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+373 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MahJongConfig.xls]
+431 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MahJongConfig.xls]
+450 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@147ed70f [ID:0] NextRunTime[1500271523048] Run[logic.module.login.Login@61dd025] SpaceTime[200]]
+454 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+496 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+496 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+497 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[0,4][Login,ThirdLogin]
+497 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+498 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+499 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+500 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+500 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+501 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+501 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+501 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+502 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+504 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+504 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+504 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+505 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+506 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+506 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+506 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+506 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+512 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+514 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+517 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,OperCard]
+517 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[1,4][RoomImpl,InitCard]
+518 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,GameReady]
+519 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[1,8][RoomImpl,LeaveRoom]
+519 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[1,12][RoomImpl,Reconnect]
+519 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[1,13][RoomImpl,ApplyDismiss]
+519 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[1,14][RoomImpl,AgreeDismiss]
+520 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[1,15][RoomImpl,DismissRoom]
+520 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[1,0][RoomImpl,CreateRoom]
+521 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[1,17][RoomImpl,TestCard]
+521 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[1,19][RoomImpl,SendChat]
+522 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[1,23][RoomImpl,KouCard]
+522 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+522 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+522 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+523 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+526 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[2,3][ProxyImpl,GetUser]
+527 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[2,1][ProxyImpl,GetAllUser]
+531 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[2,2][ProxyImpl,AddScore]
+531 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加[2,4][ProxyImpl,GeChargeRecord]
+531 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+531 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+532 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+536 2017-07-17 14:05:22 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@6dc17b83 [ID:1] NextRunTime[1500271523935] Run[core.ex.GatherInfo@5e0826e7] SpaceTime[1000]]
+1065 2017-07-17 14:05:23 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@3adcc812 [ID:2] NextRunTime[1500271710464] Run[logic.loader.UserLoader@35432107] SpaceTime[187000]]
+1161 2017-07-17 14:05:23 [GlobalLog] SYSTEM_INFO #用时[74] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@9ebe38b: SELECT * FROM account]
+1162 2017-07-17 14:05:23 [GlobalLog] SYSTEM_INFO #读取到[1052]条数据
+1181 2017-07-17 14:05:23 [GlobalLog] SYSTEM_INFO #打开端口[11111]成功
+1182 2017-07-17 14:05:23 [GlobalLog] SYSTEM_INFO #打开端口[1111]成功
+1199 2017-07-17 14:05:23 [GlobalLog] SYSTEM_INFO #正在打开端口[1111]
+1203 2017-07-17 14:05:23 [GlobalLog] SYSTEM_INFO #正在打开端口[11111]
+0 2017-07-17 15:38:39 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+21 2017-07-17 15:38:39 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+243 2017-07-17 15:38:39 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/majiang?rewriteBatchedStatements=true&characterEncoding=utf8]
+287 2017-07-17 15:38:39 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+340 2017-07-17 15:38:39 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+361 2017-07-17 15:38:39 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+363 2017-07-17 15:38:39 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+450 2017-07-17 15:38:39 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+453 2017-07-17 15:38:39 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MahJongConfig.xls]
+619 2017-07-17 15:38:39 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MahJongConfig.xls]
+729 2017-07-17 15:38:39 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@147ed70f [ID:0] NextRunTime[1500277120152] Run[logic.module.login.Login@61dd025] SpaceTime[200]]
+734 2017-07-17 15:38:39 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+807 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+808 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+808 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[0,4][Login,ThirdLogin]
+808 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+809 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+810 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+811 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+811 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+811 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+812 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+812 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+812 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+815 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+816 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+816 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+817 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+818 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+818 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+818 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+818 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+829 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+831 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[1,4][RoomImpl,InitCard]
+831 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,GameReady]
+832 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[1,8][RoomImpl,LeaveRoom]
+832 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[1,12][RoomImpl,Reconnect]
+833 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[1,13][RoomImpl,ApplyDismiss]
+833 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[1,14][RoomImpl,AgreeDismiss]
+833 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[1,15][RoomImpl,DismissRoom]
+837 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[1,0][RoomImpl,CreateRoom]
+838 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[1,17][RoomImpl,TestCard]
+839 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[1,19][RoomImpl,SendChat]
+839 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[1,23][RoomImpl,KouCard]
+840 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+841 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,OperCard]
+841 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+841 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+841 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+842 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+843 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[2,3][ProxyImpl,GetUser]
+843 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[2,1][ProxyImpl,GetAllUser]
+845 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[2,2][ProxyImpl,AddScore]
+845 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加[2,4][ProxyImpl,GeChargeRecord]
+845 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+846 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.proxy.ProxyImpl]
+846 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.proxy.ProxyImpl]
+887 2017-07-17 15:38:40 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@6dc17b83 [ID:1] NextRunTime[1500277121111] Run[core.ex.GatherInfo@5e0826e7] SpaceTime[1000]]
+3591 2017-07-17 15:38:42 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@3adcc812 [ID:2] NextRunTime[1500277337815] Run[logic.loader.UserLoader@35432107] SpaceTime[215000]]
+3735 2017-07-17 15:38:42 [GlobalLog] SYSTEM_INFO #用时[80] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@9ebe38b: SELECT * FROM account]
+3735 2017-07-17 15:38:42 [GlobalLog] SYSTEM_INFO #读取到[1052]条数据
+3738 2017-07-17 15:38:42 [GlobalLog] SYSTEM_INFO #打开端口[1111]成功
+3740 2017-07-17 15:38:42 [GlobalLog] SYSTEM_INFO #打开端口[11111]成功
+3915 2017-07-17 15:38:43 [GlobalLog] SYSTEM_INFO #正在打开端口[1111]
+3915 2017-07-17 15:38:43 [GlobalLog] SYSTEM_INFO #正在打开端口[11111]
+10472 2017-07-17 15:38:49 [GlobalLog] SYSTEM_INFO #服务器正准备关闭,请稍候
+10472 2017-07-17 15:38:49 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Start] 2017年07月17日 15时38分49秒
+10472 2017-07-17 15:38:49 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:1111] 2017年07月17日 15时38分49秒
+10473 2017-07-17 15:38:49 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Finish] 2017年07月17日 15时38分49秒
+10473 2017-07-17 15:38:49 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:1111] 2017年07月17日 15时38分49秒
+10473 2017-07-17 15:38:49 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:NET]] 2017年07月17日 15时38分49秒
+10473 2017-07-17 15:38:49 [GlobalLog] SYSTEM_INFO #线程正常停止[[22,NET]] 2017年07月17日 15时38分49秒
+12473 2017-07-17 15:38:51 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Start] 2017年07月17日 15时38分51秒
+12473 2017-07-17 15:38:51 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@187f829f UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年07月17日 15时38分51秒
+12973 2017-07-17 15:38:52 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@187f829f UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年07月17日 15时38分52秒
+12973 2017-07-17 15:38:52 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Finish] 2017年07月17日 15时38分52秒
+12973 2017-07-17 15:38:52 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Start] 2017年07月17日 15时38分52秒
+12973 2017-07-17 15:38:52 [GlobalLog] SYSTEM_INFO #系统正在保存全局数据[account] 一共有[1052]条数据
+12984 2017-07-17 15:38:52 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Finish] 2017年07月17日 15时38分52秒
+13984 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #开始停止线程[LogicMgr] 2017年07月17日 15时38分53秒
+13985 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:LOGIC]] 2017年07月17日 15时38分53秒
+13985 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[23,LOGIC]] 2017年07月17日 15时38分53秒
+13985 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[LogicMgr正常退出]] 2017年07月17日 15时38分53秒
+13985 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLMgr] 2017年07月17日 15时38分53秒
+13986 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQL]] 2017年07月17日 15时38分53秒
+13986 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[24,SQL]] 2017年07月17日 15时38分53秒
+13986 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLMgr正常退出]] 2017年07月17日 15时38分53秒
+13986 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLLogMgr] 2017年07月17日 15时38分53秒
+14017 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQLLOG]] 2017年07月17日 15时38分53秒
+14017 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[26,SQLLOG]] 2017年07月17日 15时38分53秒
+14018 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLLogMgr正常退出]] 2017年07月17日 15时38分53秒
+14019 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #开始停止线程[ThreadTask] 2017年07月17日 15时38分53秒
+14119 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:THREADTASK]] 2017年07月17日 15时38分53秒
+14119 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[27,THREADTASK]] 2017年07月17日 15时38分53秒
+14120 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[ThreadTask正常退出]] 2017年07月17日 15时38分53秒
+14120 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #开始停止线程[GMNetMgr] 2017年07月17日 15时38分53秒
+14120 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:11111] 2017年07月17日 15时38分53秒
+14120 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:11111] 2017年07月17日 15时38分53秒
+14120 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:GMNET]] 2017年07月17日 15时38分53秒
+14121 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[25,GMNET]] 2017年07月17日 15时38分53秒
+14121 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[GMNetMgr正常退出]] 2017年07月17日 15时38分53秒
+14121 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:MAIN]] 2017年07月17日 15时38分53秒
+14121 2017-07-17 15:38:53 [GlobalLog] SYSTEM_INFO #线程正常停止[[1,MAIN]] 2017年07月17日 15时38分53秒
+15121 2017-07-17 15:38:54 [GlobalLog] SYSTEM_INFO #服务器执行完清理工作,GameOver:2017年07月17日 15时38分54秒
