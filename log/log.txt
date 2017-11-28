@@ -198,3 +198,7 @@
 523674 2017-11-28 11:06:20 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 11:06:20',1,3,0,35)
 524038 2017-11-28 11:06:21 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 11:06:21',1,3,0,0,0)
 601573 2017-11-28 11:07:38 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:4]
+697312 2017-11-28 11:09:14 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@1edf81d8用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@1edf81d8]
+697645 2017-11-28 11:09:14 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 11:09:14',1,4,0,35)
+698246 2017-11-28 11:09:15 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 11:09:15',1,4,0,0,0)
+776612 2017-11-28 11:10:33 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
