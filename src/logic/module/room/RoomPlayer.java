@@ -376,11 +376,11 @@ public class RoomPlayer implements Comparable<RoomPlayer> {
         // TODO Auto-generated method stub
         if (this.getGrade().storeChange(this.ranking) && size >= 15) {
 
-            this.m_user.changeScore(1);
+            this.m_user.changeMoney(EarnMoney(ranking));
         }
         ;
 
-        this.m_user.changeMoney(EarnMoney(ranking));
+ /*       this.m_user.changeMoney(EarnMoney(ranking));*/
     }
 
     private int EarnMoney(int ranking) {
