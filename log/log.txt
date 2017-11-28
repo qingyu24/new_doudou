@@ -2772,3 +2772,1106 @@ core.Root$1.run(Root.java:47)
 124102 2017-11-28 15:04:34 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@1cd44c40用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@1cd44c40]
 124334 2017-11-28 15:04:34 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:04:34',1,7,0,156)
 124648 2017-11-28 15:04:35 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:04:35',1,55,0,0,2)
+246101 2017-11-28 15:06:36 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@2753e2fb用时[5] SQL:[core.DBLoaderEx$SaveGlobalMethod@2753e2fb]
+246160 2017-11-28 15:06:36 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:06:36',1,8,0,156)
+246817 2017-11-28 15:06:37 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:06:37',1,56,0,0,0)
+368114 2017-11-28 15:08:38 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@21cf57de用时[18] SQL:[core.DBLoaderEx$SaveGlobalMethod@21cf57de]
+368497 2017-11-28 15:08:38 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:08:38',1,9,0,156)
+368977 2017-11-28 15:08:39 [UserLog2454804] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@56a1b72a]创建了用户[logic.MyUser@257514[,0,]]
+368977 2017-11-28 15:08:39 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[1453438762] userhash[2454804]
+369023 2017-11-28 15:08:39 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:08:39',1,57,0,0,0)
+377688 2017-11-28 15:08:48 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-11-28 15:08:48',1,51,90,2350,1,0)
+377689 2017-11-28 15:08:48 [GlobalLog] DEBUG [0]*玩家记录:11 : 有人要登陆1
+377691 2017-11-28 15:08:48 [GlobalLog] INFO [0]*(Login#Enter:1,1,2017年11月28日 15时08分48秒)
+377691 2017-11-28 15:08:48 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:1,1,2017年11月28日 15时08分48秒,result:true,size:1)
+377743 2017-11-28 15:08:48 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:1,2017年11月28日 15时08分48秒,result:)
+377749 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #用时[5] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@74a4a5f5: select * from zz_huiyuan where username = '1']
+377749 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+377749 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #用时[5] SQL:[logic.methodex.LoginMethod@34f3f06d]
+377750 2017-11-28 15:08:48 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@257514[1,81064793292678928,1])
+377875 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3895dab1: SELECT RoleID,Name,Password,Icon,Money,Garde,TeamID,TickName,portrait,Skin FROM account WHERE RoleID=81064793292678928]
+377875 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+377879 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #用时[4] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@29c5a595: SELECT RoleID,id,username,password,addtime,uptime,ip,dl,xm,jiazhangname,usertype,userstatus,xb,school,grade,banji,StartDate,StopDate,BirthDate,dh,sj,QQ,email,dizhi,yb,dengji,jjkaitong,jjcishu,iosid,pcid,pccishu,azid,azcishu,creatorid,creatortype,xueshengid,courseclass,sheng2,shi2,qu2,xuexiao2,addday,xuexiaoid,online,jiaofeiyueshu,tikuanjine,userheaderimg,jibie,jifen,gongsi,sheng,shi,signintime,shifouyikayi,istixian,login_token,yuxile,mingxiangsi,tongbuketang,zuoye_shuxue,zuoye_yuwen,zuoye_yingyu,zuoye_wuli,zuoye_huaxue,zuoye_dili,zuoye_lishi,zuoye_shengwu,zuoye_zhengzhi,zuoye_kexue,zuoye_lizong,zuoye_wenzong,qichuang,shuijiao,mingrizhixing,wangzhe,shengzici,guoguan,jishiyouxi,qitazonghe,jiazhangusername,isjiaqian FROM zz_huiyuan WHERE RoleID=81064793292678928]
+377880 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+377884 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #用时[4] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3e16aea4: SELECT RoleID,shopID,time,price FROM shopping WHERE RoleID=81064793292678928]
+377884 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #读取到[5]条数据
+377903 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #用时[19] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@784cf35d: SELECT RoleID,FriendID,time,Agree FROM Friends WHERE RoleID=81064793292678928]
+377903 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #读取到[201]条数据
+377903 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #用时[30] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@257514[1,81064793292678928,1],)]
+377905 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #添加一个定时器[10][core.detail.impl.mgr.timer.TickEvent@4cfad8c5 [ID:10] NextRunTime[1511853228324] Run[logic.MyUser@257514[1,81064793292678928,1]] SpaceTime[300000]]
+377906 2017-11-28 15:08:48 [UserLog2454804] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@257514[1,81064793292678928,1],)UserMgr添加一个用户,nk[1@1] gid[81064793292678928] netid[0] this[logic.MyUser@257514[1,81064793292678928,1]]
+377906 2017-11-28 15:08:48 [UserLog2454804] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@257514[1,81064793292678928,1],)UserMgr成功添加一个用户,nk[1@1] gid[81064793292678928] netid[1] this[logic.MyUser@257514[1,81064793292678928,1]]
+378028 2017-11-28 15:08:48 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:08:48',2,11,0,156)
+378042 2017-11-28 15:08:48 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:08:48',3,60,0,0,2)
+378355 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3f4aacef: select * from  friends where roleid= 81064793292678928 and friendid=81064793292698928]
+378355 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+378372 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@7105d29d: select * from  friends where roleid= 81064793292698928 and friendid=81064793292678928]
+378372 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+378388 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@95c3bc1: select * from  friends where roleid= 81064793292678928 and friendid=81064793292988928]
+378389 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+378407 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@7dff4896: select * from  friends where roleid= 81064793292988928 and friendid=81064793292678928]
+378407 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+378424 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@28478741: select * from  friends where roleid= 81064793292678928 and friendid=81064793294578928]
+378424 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+378443 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #用时[19] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3f44a56b: select * from  friends where roleid= 81064793294578928 and friendid=81064793292678928]
+378443 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+378460 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@18c272a: select * from  friends where roleid= 81064793292678928 and friendid=81064793293888928]
+378461 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+378477 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@189b30aa: select * from  friends where roleid= 81064793293888928 and friendid=81064793292678928]
+378478 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+378495 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@2ed709c9: select * from  friends where roleid= 81064793292678928 and friendid=81064793293618928]
+378495 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+378512 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@55693fa3: select * from  friends where roleid= 81064793293618928 and friendid=81064793292678928]
+378513 2017-11-28 15:08:48 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+379046 2017-11-28 15:08:49 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:08:49',2,62,0,0,174)
+403880 2017-11-28 15:09:14 [UserLog1975490557] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@55e645af]创建了用户[logic.MyUser@75bf97fd[,0,]]
+403880 2017-11-28 15:09:14 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[1441154479] userhash[1975490557]
+403883 2017-11-28 15:09:14 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-11-28 15:09:14',3,54,38,2388,2,1)
+409999 2017-11-28 15:09:20 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-11-28 15:09:20',1,55,90,2478,2,1)
+409999 2017-11-28 15:09:20 [GlobalLog] DEBUG [0]*玩家记录:11 : 有人要登陆36
+410002 2017-11-28 15:09:20 [GlobalLog] INFO [0]*(Login#Enter:36,1,2017年11月28日 15时09分20秒)
+410002 2017-11-28 15:09:20 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:36,1,2017年11月28日 15时09分20秒,result:true,size:1)
+410144 2017-11-28 15:09:20 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:36,2017年11月28日 15时09分20秒,result:)
+410148 2017-11-28 15:09:20 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@12965bb1: select * from zz_huiyuan where username = '36']
+410148 2017-11-28 15:09:20 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410149 2017-11-28 15:09:20 [GlobalLog] SYSTEM_INFO #用时[4] SQL:[logic.methodex.LoginMethod@71c3db3f]
+410150 2017-11-28 15:09:20 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@75bf97fd[36,81064793293138928,36])
+410194 2017-11-28 15:09:20 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:09:20',2,64,0,0,3)
+410310 2017-11-28 15:09:20 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3895dab1: SELECT RoleID,Name,Password,Icon,Money,Garde,TeamID,TickName,portrait,Skin FROM account WHERE RoleID=81064793293138928]
+410310 2017-11-28 15:09:20 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410312 2017-11-28 15:09:20 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@29c5a595: SELECT RoleID,id,username,password,addtime,uptime,ip,dl,xm,jiazhangname,usertype,userstatus,xb,school,grade,banji,StartDate,StopDate,BirthDate,dh,sj,QQ,email,dizhi,yb,dengji,jjkaitong,jjcishu,iosid,pcid,pccishu,azid,azcishu,creatorid,creatortype,xueshengid,courseclass,sheng2,shi2,qu2,xuexiao2,addday,xuexiaoid,online,jiaofeiyueshu,tikuanjine,userheaderimg,jibie,jifen,gongsi,sheng,shi,signintime,shifouyikayi,istixian,login_token,yuxile,mingxiangsi,tongbuketang,zuoye_shuxue,zuoye_yuwen,zuoye_yingyu,zuoye_wuli,zuoye_huaxue,zuoye_dili,zuoye_lishi,zuoye_shengwu,zuoye_zhengzhi,zuoye_kexue,zuoye_lizong,zuoye_wenzong,qichuang,shuijiao,mingrizhixing,wangzhe,shengzici,guoguan,jishiyouxi,qitazonghe,jiazhangusername,isjiaqian FROM zz_huiyuan WHERE RoleID=81064793293138928]
+410312 2017-11-28 15:09:20 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410316 2017-11-28 15:09:20 [GlobalLog] SYSTEM_INFO #用时[4] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3e16aea4: SELECT RoleID,shopID,time,price FROM shopping WHERE RoleID=81064793293138928]
+410316 2017-11-28 15:09:20 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+410336 2017-11-28 15:09:20 [GlobalLog] SYSTEM_INFO #用时[20] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@784cf35d: SELECT RoleID,FriendID,time,Agree FROM Friends WHERE RoleID=81064793293138928]
+410336 2017-11-28 15:09:20 [GlobalLog] SYSTEM_INFO #读取到[202]条数据
+410336 2017-11-28 15:09:20 [GlobalLog] SYSTEM_INFO #用时[29] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@75bf97fd[36,81064793293138928,36],)]
+410337 2017-11-28 15:09:20 [GlobalLog] SYSTEM_INFO #添加一个定时器[11][core.detail.impl.mgr.timer.TickEvent@32ef16e5 [ID:11] NextRunTime[1511853260756] Run[logic.MyUser@75bf97fd[36,81064793293138928,36]] SpaceTime[300000]]
+410337 2017-11-28 15:09:20 [UserLog1975490557] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@75bf97fd[36,81064793293138928,36],)UserMgr添加一个用户,nk[36@1] gid[81064793293138928] netid[0] this[logic.MyUser@75bf97fd[36,81064793293138928,36]]
+410337 2017-11-28 15:09:20 [UserLog1975490557] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@75bf97fd[36,81064793293138928,36],)UserMgr成功添加一个用户,nk[36@1] gid[81064793293138928] netid[0] this[logic.MyUser@75bf97fd[36,81064793293138928,36]]
+410514 2017-11-28 15:09:20 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:09:20',2,13,0,156)
+410541 2017-11-28 15:09:20 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@1162e7cd: select * from  friends where roleid= 81064793293138928 and friendid=81064793292978928]
+410541 2017-11-28 15:09:20 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410559 2017-11-28 15:09:20 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@5321557b: select * from  friends where roleid= 81064793292978928 and friendid=81064793293138928]
+410559 2017-11-28 15:09:20 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410576 2017-11-28 15:09:20 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@1fe9f9b0: select * from  friends where roleid= 81064793293138928 and friendid=81064793293768928]
+410576 2017-11-28 15:09:20 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410593 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@6c8b310e: select * from  friends where roleid= 81064793293768928 and friendid=81064793293138928]
+410593 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410610 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3c020815: select * from  friends where roleid= 81064793293138928 and friendid=81064793293778928]
+410610 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410629 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[19] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@7d9aa634: select * from  friends where roleid= 81064793293778928 and friendid=81064793293138928]
+410629 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410648 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[19] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@f1ea346: select * from  friends where roleid= 81064793293138928 and friendid=81064793293448928]
+410648 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410666 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@8f551fa: select * from  friends where roleid= 81064793293448928 and friendid=81064793293138928]
+410666 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410683 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@5376a330: select * from  friends where roleid= 81064793293138928 and friendid=81064793293438928]
+410683 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410701 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@6609b2b1: select * from  friends where roleid= 81064793293438928 and friendid=81064793293138928]
+410701 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410717 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@68eee47a: select * from  friends where roleid= 81064793293138928 and friendid=81064793294688928]
+410718 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410735 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@d4cc132: select * from  friends where roleid= 81064793294688928 and friendid=81064793293138928]
+410735 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410753 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@210795bb: select * from  friends where roleid= 81064793293138928 and friendid=81064793294378928]
+410753 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410772 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@37342dce: select * from  friends where roleid= 81064793294378928 and friendid=81064793293138928]
+410773 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410791 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3f1ac7b7: select * from  friends where roleid= 81064793293138928 and friendid=81064793293528928]
+410791 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410813 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[22] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@24d01868: select * from  friends where roleid= 81064793293528928 and friendid=81064793293138928]
+410813 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410831 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@658c0d8: select * from  friends where roleid= 81064793293138928 and friendid=81064793293368928]
+410831 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410848 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@70ec1959: select * from  friends where roleid= 81064793293368928 and friendid=81064793293138928]
+410848 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410867 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[19] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@6b10e09a: select * from  friends where roleid= 81064793293138928 and friendid=81064793293278928]
+410868 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410885 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@753452ea: select * from  friends where roleid= 81064793293278928 and friendid=81064793293138928]
+410885 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410903 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@47450911: select * from  friends where roleid= 81064793293138928 and friendid=81064793293268928]
+410903 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410920 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@600d5305: select * from  friends where roleid= 81064793293268928 and friendid=81064793293138928]
+410921 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410938 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4d56f446: select * from  friends where roleid= 81064793293138928 and friendid=81064793293248928]
+410939 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+410955 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3f68385a: select * from  friends where roleid= 81064793293248928 and friendid=81064793293138928]
+410955 2017-11-28 15:09:21 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+411200 2017-11-28 15:09:21 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:09:21',3,67,0,0,433)
+435150 2017-11-28 15:09:45 [UserLog1975490557] SYSTEM_ERROR #Link::OnRead异常,导致关闭 uid[81064793293138928] user[logic.MyUser@75bf97fd[36,81064793293138928,36]]
+435150 2017-11-28 15:09:45 [UserLog1975490557] SYSTEM_INFO #断开了连接[core.detail.impl.socket.LinkNio@55e645af]
+435150 2017-11-28 15:09:45 [UserLog1975490557] SYSTEM_INFO #准备从管理器去掉用户[core.detail.impl.socket.LinkNio@55e645af][logic.MyUser@75bf97fd[36,81064793293138928,36]]
+435150 2017-11-28 15:09:45 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-11-28 15:09:45',3,58,38,2516,1,2)
+435152 2017-11-28 15:09:45 [UserLog1975490557] SYSTEM_INFO #User对象断开了 nk[36] gid[81064793293138928] netid[0] this[logic.MyUser@75bf97fd[36,81064793293138928,36]] reason:[-4] ex:[0]
+435156 2017-11-28 15:09:45 [GlobalLog] SQL INSERT INTO _CloseLog (ServerID,Tm,UserName,RoleID,HashCode,Reason,Ex) VALUES (18,'2017-11-28 15:09:45','36',81064793293138928,1975490557,-4,0)
+435159 2017-11-28 15:09:45 [GlobalLog] SYSTEM_INFO #用户下线导致移除了一个定时器[11]
+435467 2017-11-28 15:09:45 [UserLog1975490557] SYSTEM_INFO #平时检查释放的User对象  nk[36] gid[81064793293138928] netid[0] this[logic.MyUser@75bf97fd[36,81064793293138928,36]]
+435467 2017-11-28 15:09:45 [UserLog1975490557] SYSTEM_INFO #UserMgr成功释放一个用户,nk[36@1] gid[81064793293138928] netid[0] this[logic.MyUser@75bf97fd[36,81064793293138928,36]]
+435469 2017-11-28 15:09:45 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@9e5e3af]
+435584 2017-11-28 15:09:46 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:09:46',1,14,0,156)
+436233 2017-11-28 15:09:46 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:09:46',1,68,0,0,0)
+439868 2017-11-28 15:09:50 [UserLog1455952251] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@585f1e33]创建了用户[logic.MyUser@56c8117b[,0,]]
+439868 2017-11-28 15:09:50 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[1482628659] userhash[1455952251]
+444689 2017-11-28 15:09:55 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-11-28 15:09:55',1,59,90,2606,2,1)
+444690 2017-11-28 15:09:55 [GlobalLog] DEBUG [0]*玩家记录:11 : 有人要登陆30
+444693 2017-11-28 15:09:55 [GlobalLog] INFO [0]*(Login#Enter:30,1,2017年11月28日 15时09分55秒)
+444693 2017-11-28 15:09:55 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:30,1,2017年11月28日 15时09分55秒,result:true,size:1)
+444743 2017-11-28 15:09:55 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:30,2017年11月28日 15时09分55秒,result:)
+444746 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@316a3587: select * from zz_huiyuan where username = '30']
+444747 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+444747 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[logic.methodex.LoginMethod@17b44445]
+444748 2017-11-28 15:09:55 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@56c8117b[30,81064793293078928,30])
+444817 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[5] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3895dab1: SELECT RoleID,Name,Password,Icon,Money,Garde,TeamID,TickName,portrait,Skin FROM account WHERE RoleID=81064793293078928]
+444817 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+444822 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[4] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@29c5a595: SELECT RoleID,id,username,password,addtime,uptime,ip,dl,xm,jiazhangname,usertype,userstatus,xb,school,grade,banji,StartDate,StopDate,BirthDate,dh,sj,QQ,email,dizhi,yb,dengji,jjkaitong,jjcishu,iosid,pcid,pccishu,azid,azcishu,creatorid,creatortype,xueshengid,courseclass,sheng2,shi2,qu2,xuexiao2,addday,xuexiaoid,online,jiaofeiyueshu,tikuanjine,userheaderimg,jibie,jifen,gongsi,sheng,shi,signintime,shifouyikayi,istixian,login_token,yuxile,mingxiangsi,tongbuketang,zuoye_shuxue,zuoye_yuwen,zuoye_yingyu,zuoye_wuli,zuoye_huaxue,zuoye_dili,zuoye_lishi,zuoye_shengwu,zuoye_zhengzhi,zuoye_kexue,zuoye_lizong,zuoye_wenzong,qichuang,shuijiao,mingrizhixing,wangzhe,shengzici,guoguan,jishiyouxi,qitazonghe,jiazhangusername,isjiaqian FROM zz_huiyuan WHERE RoleID=81064793293078928]
+444822 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+444824 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3e16aea4: SELECT RoleID,shopID,time,price FROM shopping WHERE RoleID=81064793293078928]
+444824 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+444845 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[21] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@784cf35d: SELECT RoleID,FriendID,time,Agree FROM Friends WHERE RoleID=81064793293078928]
+444845 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[202]条数据
+444846 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[34] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@56c8117b[30,81064793293078928,30],)]
+444846 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #添加一个定时器[12][core.detail.impl.mgr.timer.TickEvent@69eaecc0 [ID:12] NextRunTime[1511853295265] Run[logic.MyUser@56c8117b[30,81064793293078928,30]] SpaceTime[300000]]
+444847 2017-11-28 15:09:55 [UserLog1455952251] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@56c8117b[30,81064793293078928,30],)UserMgr添加一个用户,nk[30@1] gid[81064793293078928] netid[0] this[logic.MyUser@56c8117b[30,81064793293078928,30]]
+444847 2017-11-28 15:09:55 [UserLog1455952251] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@56c8117b[30,81064793293078928,30],)UserMgr成功添加一个用户,nk[30@1] gid[81064793293078928] netid[0] this[logic.MyUser@56c8117b[30,81064793293078928,30]]
+445078 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[19] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@54a75be7: select * from  friends where roleid= 81064793293078928 and friendid=81064793294318928]
+445078 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445097 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[19] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@82acf4c: select * from  friends where roleid= 81064793294318928 and friendid=81064793293078928]
+445098 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445110 2017-11-28 15:09:55 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:09:55',2,16,0,156)
+445119 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[21] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@588ea322: select * from  friends where roleid= 81064793293078928 and friendid=81064793294068928]
+445119 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445137 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@1f69fbd8: select * from  friends where roleid= 81064793294068928 and friendid=81064793293078928]
+445137 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445155 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4ba2c754: select * from  friends where roleid= 81064793293078928 and friendid=81064793292688928]
+445155 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445172 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@6d58c6af: select * from  friends where roleid= 81064793292688928 and friendid=81064793293078928]
+445172 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445190 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@68520ca6: select * from  friends where roleid= 81064793293078928 and friendid=81064793293048928]
+445190 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445208 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@145c33ef: select * from  friends where roleid= 81064793293048928 and friendid=81064793293078928]
+445209 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445226 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@7888baba: select * from  friends where roleid= 81064793293078928 and friendid=81064793294458928]
+445226 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445243 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4a4e1eac: select * from  friends where roleid= 81064793294458928 and friendid=81064793293078928]
+445243 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445260 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4a5d111b: select * from  friends where roleid= 81064793293078928 and friendid=81064793293358928]
+445260 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445279 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@b509566: select * from  friends where roleid= 81064793293358928 and friendid=81064793293078928]
+445280 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445296 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@37c5ae8c: select * from  friends where roleid= 81064793293078928 and friendid=81064793293308928]
+445297 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445313 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@36fa49c: select * from  friends where roleid= 81064793293308928 and friendid=81064793293078928]
+445313 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445337 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[24] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@19718e40: select * from  friends where roleid= 81064793293078928 and friendid=81064793293198928]
+445337 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445355 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@34d2453d: select * from  friends where roleid= 81064793293198928 and friendid=81064793293078928]
+445355 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445373 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@75413ab3: select * from  friends where roleid= 81064793293078928 and friendid=81064793292778928]
+445373 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445391 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@23169390: select * from  friends where roleid= 81064793292778928 and friendid=81064793293078928]
+445391 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445411 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[19] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@2af31df: select * from  friends where roleid= 81064793293078928 and friendid=81064793292668928]
+445412 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445430 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4e0f481f: select * from  friends where roleid= 81064793292668928 and friendid=81064793293078928]
+445430 2017-11-28 15:09:55 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+445431 2017-11-28 15:09:55 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:09:55',4,72,0,1,3)
+446435 2017-11-28 15:09:56 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:09:56',1,73,0,0,375)
+466877 2017-11-28 15:10:17 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-11-28 15:10:17',4,63,80,2686,2,2)
+466881 2017-11-28 15:10:17 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@245990d3: select * from shopping where roleid= 81064793293078928 and shopid = 108 ]
+466882 2017-11-28 15:10:17 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+466890 2017-11-28 15:10:17 [GlobalLog] SYSTEM_INFO #用时[4] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@5fce02bd: update account set money=9000 where roleId= 81064793292678928]
+466894 2017-11-28 15:10:17 [GlobalLog] SYSTEM_INFO #用时[4] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@41e07325: UPDATE account set money= 9000 where roleid=81064793292678928]
+466899 2017-11-28 15:10:17 [GlobalLog] SYSTEM_INFO #用时[4] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@9a717ce: insert into shopping (roleid,shopid,price)values (81064793293078928,108,1000) ]
+467464 2017-11-28 15:10:17 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:10:17',1,74,0,0,20)
+486380 2017-11-28 15:10:36 [UserLog1455952251] SYSTEM_ERROR #Link::OnRead异常,导致关闭 uid[81064793293078928] user[logic.MyUser@56c8117b[30,81064793293078928,30]]
+486380 2017-11-28 15:10:36 [UserLog1455952251] SYSTEM_INFO #断开了连接[core.detail.impl.socket.LinkNio@585f1e33]
+486381 2017-11-28 15:10:36 [UserLog1455952251] SYSTEM_INFO #准备从管理器去掉用户[core.detail.impl.socket.LinkNio@585f1e33][logic.MyUser@56c8117b[30,81064793293078928,30]]
+486382 2017-11-28 15:10:36 [UserLog1455952251] SYSTEM_INFO #User对象断开了 nk[30] gid[81064793293078928] netid[0] this[logic.MyUser@56c8117b[30,81064793293078928,30]] reason:[-4] ex:[0]
+486382 2017-11-28 15:10:36 [GlobalLog] SQL INSERT INTO _CloseLog (ServerID,Tm,UserName,RoleID,HashCode,Reason,Ex) VALUES (18,'2017-11-28 15:10:36','30',81064793293078928,1455952251,-4,0)
+486385 2017-11-28 15:10:36 [GlobalLog] SYSTEM_INFO #用户下线导致移除了一个定时器[12]
+486492 2017-11-28 15:10:36 [UserLog1455952251] SYSTEM_INFO #平时检查释放的User对象  nk[30] gid[81064793293078928] netid[0] this[logic.MyUser@56c8117b[30,81064793293078928,30]]
+486492 2017-11-28 15:10:36 [UserLog1455952251] SYSTEM_INFO #UserMgr成功释放一个用户,nk[30@1] gid[81064793293078928] netid[0] this[logic.MyUser@56c8117b[30,81064793293078928,30]]
+486495 2017-11-28 15:10:36 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@54ab82f2]
+486720 2017-11-28 15:10:37 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:10:37',1,17,0,156)
+487492 2017-11-28 15:10:37 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:10:37',1,75,0,0,2)
+489781 2017-11-28 15:10:40 [UserLog2454804] SYSTEM_ERROR #Link::OnRead异常,导致关闭 uid[81064793292678928] user[logic.MyUser@257514[1,81064793292678928,1]]
+489781 2017-11-28 15:10:40 [UserLog2454804] SYSTEM_INFO #断开了连接[core.detail.impl.socket.LinkNio@56a1b72a]
+489781 2017-11-28 15:10:40 [UserLog2454804] SYSTEM_INFO #准备从管理器去掉用户[core.detail.impl.socket.LinkNio@56a1b72a][logic.MyUser@257514[1,81064793292678928,1]]
+489782 2017-11-28 15:10:40 [UserLog2454804] SYSTEM_INFO #User对象断开了 nk[1] gid[81064793292678928] netid[1] this[logic.MyUser@257514[1,81064793292678928,1]] reason:[-4] ex:[0]
+489782 2017-11-28 15:10:40 [GlobalLog] SQL INSERT INTO _CloseLog (ServerID,Tm,UserName,RoleID,HashCode,Reason,Ex) VALUES (18,'2017-11-28 15:10:40','1',81064793292678928,2454804,-4,0)
+489786 2017-11-28 15:10:40 [GlobalLog] SYSTEM_INFO #用户下线导致移除了一个定时器[10]
+490002 2017-11-28 15:10:40 [UserLog2454804] SYSTEM_INFO #平时检查释放的User对象  nk[1] gid[81064793292678928] netid[1] this[logic.MyUser@257514[1,81064793292678928,1]]
+490002 2017-11-28 15:10:40 [UserLog2454804] SYSTEM_INFO #UserMgr成功释放一个用户,nk[1@1] gid[81064793292678928] netid[1] this[logic.MyUser@257514[1,81064793292678928,1]]
+490006 2017-11-28 15:10:40 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@252588fe: UPDATE account Set Money = 9000 WHERE RoleID = 81064793292678928]
+490011 2017-11-28 15:10:40 [GlobalLog] SYSTEM_INFO #用时[7] SQL:[core.detail.impl.SaveMethod@2d9133ac]
+490102 2017-11-28 15:10:40 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@69bfe994用时[6] SQL:[core.DBLoaderEx$SaveGlobalMethod@69bfe994]
+490233 2017-11-28 15:10:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:10:40',2,19,0,156)
+490497 2017-11-28 15:10:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:10:40',2,77,0,0,4)
+602636 2017-11-28 15:12:33 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:4]
+612101 2017-11-28 15:12:42 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@70572758用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@70572758]
+612527 2017-11-28 15:12:42 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:12:42',1,20,0,156)
+612653 2017-11-28 15:12:43 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:12:43',1,78,0,0,1)
+637645 2017-11-28 15:13:08 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:19]
+657649 2017-11-28 15:13:28 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+727664 2017-11-28 15:14:38 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+734098 2017-11-28 15:14:44 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@5e2a35用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@5e2a35]
+734353 2017-11-28 15:14:44 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:14:44',1,21,0,156)
+734814 2017-11-28 15:14:45 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:14:45',1,79,0,0,0)
+785099 2017-11-28 15:15:35 [UserLog53094836] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@1c7c25a1]创建了用户[logic.MyUser@32a29b4[,0,]]
+785099 2017-11-28 15:15:35 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[477898145] userhash[53094836]
+790226 2017-11-28 15:15:40 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-11-28 15:15:40',1,64,90,2776,1,0)
+790227 2017-11-28 15:15:40 [GlobalLog] DEBUG [0]*玩家记录:11 : 有人要登陆30
+790230 2017-11-28 15:15:40 [GlobalLog] INFO [0]*(Login#Enter:30,1,2017年11月28日 15时15分40秒)
+790231 2017-11-28 15:15:40 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:30,1,2017年11月28日 15时15分40秒,result:true,size:1)
+790343 2017-11-28 15:15:40 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:30,2017年11月28日 15时15分40秒,result:)
+790348 2017-11-28 15:15:40 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@316a3587: select * from zz_huiyuan where username = '30']
+790348 2017-11-28 15:15:40 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+790348 2017-11-28 15:15:40 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[logic.methodex.LoginMethod@48fd63b5]
+790349 2017-11-28 15:15:40 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@32a29b4[30,81064793293078928,30])
+790458 2017-11-28 15:15:40 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3895dab1: SELECT RoleID,Name,Password,Icon,Money,Garde,TeamID,TickName,portrait,Skin FROM account WHERE RoleID=81064793293078928]
+790458 2017-11-28 15:15:40 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+790461 2017-11-28 15:15:40 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@29c5a595: SELECT RoleID,id,username,password,addtime,uptime,ip,dl,xm,jiazhangname,usertype,userstatus,xb,school,grade,banji,StartDate,StopDate,BirthDate,dh,sj,QQ,email,dizhi,yb,dengji,jjkaitong,jjcishu,iosid,pcid,pccishu,azid,azcishu,creatorid,creatortype,xueshengid,courseclass,sheng2,shi2,qu2,xuexiao2,addday,xuexiaoid,online,jiaofeiyueshu,tikuanjine,userheaderimg,jibie,jifen,gongsi,sheng,shi,signintime,shifouyikayi,istixian,login_token,yuxile,mingxiangsi,tongbuketang,zuoye_shuxue,zuoye_yuwen,zuoye_yingyu,zuoye_wuli,zuoye_huaxue,zuoye_dili,zuoye_lishi,zuoye_shengwu,zuoye_zhengzhi,zuoye_kexue,zuoye_lizong,zuoye_wenzong,qichuang,shuijiao,mingrizhixing,wangzhe,shengzici,guoguan,jishiyouxi,qitazonghe,jiazhangusername,isjiaqian FROM zz_huiyuan WHERE RoleID=81064793293078928]
+790461 2017-11-28 15:15:40 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+790465 2017-11-28 15:15:40 [GlobalLog] SYSTEM_INFO #用时[4] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3e16aea4: SELECT RoleID,shopID,time,price FROM shopping WHERE RoleID=81064793293078928]
+790465 2017-11-28 15:15:40 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+790484 2017-11-28 15:15:40 [GlobalLog] SYSTEM_INFO #用时[19] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@784cf35d: SELECT RoleID,FriendID,time,Agree FROM Friends WHERE RoleID=81064793293078928]
+790484 2017-11-28 15:15:40 [GlobalLog] SYSTEM_INFO #读取到[202]条数据
+790484 2017-11-28 15:15:40 [GlobalLog] SYSTEM_INFO #用时[28] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@32a29b4[30,81064793293078928,30],)]
+790485 2017-11-28 15:15:40 [GlobalLog] SYSTEM_INFO #添加一个定时器[13][core.detail.impl.mgr.timer.TickEvent@7c2ab11c [ID:13] NextRunTime[1511853640904] Run[logic.MyUser@32a29b4[30,81064793293078928,30]] SpaceTime[300000]]
+790485 2017-11-28 15:15:40 [UserLog53094836] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@32a29b4[30,81064793293078928,30],)UserMgr添加一个用户,nk[30@1] gid[81064793293078928] netid[0] this[logic.MyUser@32a29b4[30,81064793293078928,30]]
+790485 2017-11-28 15:15:40 [UserLog53094836] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@32a29b4[30,81064793293078928,30],)UserMgr成功添加一个用户,nk[30@1] gid[81064793293078928] netid[0] this[logic.MyUser@32a29b4[30,81064793293078928,30]]
+790624 2017-11-28 15:15:41 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:15:41',2,23,0,156)
+790900 2017-11-28 15:15:41 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:15:41',3,82,0,0,4)
+791004 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@54a75be7: select * from  friends where roleid= 81064793293078928 and friendid=81064793294318928]
+791004 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791021 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@82acf4c: select * from  friends where roleid= 81064793294318928 and friendid=81064793293078928]
+791021 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791037 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@588ea322: select * from  friends where roleid= 81064793293078928 and friendid=81064793294068928]
+791037 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791054 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@1f69fbd8: select * from  friends where roleid= 81064793294068928 and friendid=81064793293078928]
+791054 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791072 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4ba2c754: select * from  friends where roleid= 81064793293078928 and friendid=81064793292688928]
+791072 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791089 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@6d58c6af: select * from  friends where roleid= 81064793292688928 and friendid=81064793293078928]
+791089 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791105 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@68520ca6: select * from  friends where roleid= 81064793293078928 and friendid=81064793293048928]
+791105 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791122 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@145c33ef: select * from  friends where roleid= 81064793293048928 and friendid=81064793293078928]
+791122 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791139 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@7888baba: select * from  friends where roleid= 81064793293078928 and friendid=81064793294458928]
+791139 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791156 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4a4e1eac: select * from  friends where roleid= 81064793294458928 and friendid=81064793293078928]
+791156 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791173 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4a5d111b: select * from  friends where roleid= 81064793293078928 and friendid=81064793293358928]
+791173 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791189 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@b509566: select * from  friends where roleid= 81064793293358928 and friendid=81064793293078928]
+791189 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791206 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@37c5ae8c: select * from  friends where roleid= 81064793293078928 and friendid=81064793293308928]
+791206 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791223 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@36fa49c: select * from  friends where roleid= 81064793293308928 and friendid=81064793293078928]
+791223 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791240 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@19718e40: select * from  friends where roleid= 81064793293078928 and friendid=81064793293198928]
+791240 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791259 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[19] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@34d2453d: select * from  friends where roleid= 81064793293198928 and friendid=81064793293078928]
+791259 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791278 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[19] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@75413ab3: select * from  friends where roleid= 81064793293078928 and friendid=81064793292778928]
+791278 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791294 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@23169390: select * from  friends where roleid= 81064793292778928 and friendid=81064793293078928]
+791295 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791311 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@2af31df: select * from  friends where roleid= 81064793293078928 and friendid=81064793292668928]
+791312 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791329 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4e0f481f: select * from  friends where roleid= 81064793292668928 and friendid=81064793293078928]
+791329 2017-11-28 15:15:41 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+791329 2017-11-28 15:15:41 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-11-28 15:15:41',3,67,38,2814,1,1)
+791903 2017-11-28 15:15:42 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:15:42',2,84,0,0,342)
+818871 2017-11-28 15:16:09 [UserLog53094836] SYSTEM_ERROR #Link::OnRead异常,导致关闭 uid[81064793293078928] user[logic.MyUser@32a29b4[30,81064793293078928,30]]
+818871 2017-11-28 15:16:09 [UserLog53094836] SYSTEM_INFO #断开了连接[core.detail.impl.socket.LinkNio@1c7c25a1]
+818872 2017-11-28 15:16:09 [UserLog53094836] SYSTEM_INFO #准备从管理器去掉用户[core.detail.impl.socket.LinkNio@1c7c25a1][logic.MyUser@32a29b4[30,81064793293078928,30]]
+818874 2017-11-28 15:16:09 [UserLog53094836] SYSTEM_INFO #User对象断开了 nk[30] gid[81064793293078928] netid[0] this[logic.MyUser@32a29b4[30,81064793293078928,30]] reason:[-4] ex:[0]
+818874 2017-11-28 15:16:09 [GlobalLog] SQL INSERT INTO _CloseLog (ServerID,Tm,UserName,RoleID,HashCode,Reason,Ex) VALUES (18,'2017-11-28 15:16:09','30',81064793293078928,53094836,-4,0)
+818881 2017-11-28 15:16:09 [GlobalLog] SYSTEM_INFO #用户下线导致移除了一个定时器[13]
+819342 2017-11-28 15:16:09 [UserLog53094836] SYSTEM_INFO #平时检查释放的User对象  nk[30] gid[81064793293078928] netid[0] this[logic.MyUser@32a29b4[30,81064793293078928,30]]
+819342 2017-11-28 15:16:09 [UserLog53094836] SYSTEM_INFO #UserMgr成功释放一个用户,nk[30@1] gid[81064793293078928] netid[0] this[logic.MyUser@32a29b4[30,81064793293078928,30]]
+819345 2017-11-28 15:16:09 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@cf9e383]
+819698 2017-11-28 15:16:10 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:16:10',1,24,0,156)
+819938 2017-11-28 15:16:10 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:16:10',1,85,0,0,0)
+837060 2017-11-28 15:16:27 [UserLog396358498] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@202e6ed8]创建了用户[logic.MyUser@179ff362[,0,]]
+837060 2017-11-28 15:16:27 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[539913944] userhash[396358498]
+841680 2017-11-28 15:16:32 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-11-28 15:16:32',1,68,90,2904,1,0)
+841681 2017-11-28 15:16:32 [GlobalLog] DEBUG [0]*玩家记录:11 : 有人要登陆30
+841683 2017-11-28 15:16:32 [GlobalLog] INFO [0]*(Login#Enter:30,1,2017年11月28日 15时16分32秒)
+841684 2017-11-28 15:16:32 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:30,1,2017年11月28日 15时16分32秒,result:true,size:1)
+841744 2017-11-28 15:16:32 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:30,2017年11月28日 15时16分32秒,result:)
+841750 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #用时[4] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@316a3587: select * from zz_huiyuan where username = '30']
+841750 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+841751 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #用时[5] SQL:[logic.methodex.LoginMethod@488fa187]
+841752 2017-11-28 15:16:32 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@179ff362[30,81064793293078928,30])
+841758 2017-11-28 15:16:32 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:16:32',1,25,0,156)
+841896 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3895dab1: SELECT RoleID,Name,Password,Icon,Money,Garde,TeamID,TickName,portrait,Skin FROM account WHERE RoleID=81064793293078928]
+841896 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+841898 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@29c5a595: SELECT RoleID,id,username,password,addtime,uptime,ip,dl,xm,jiazhangname,usertype,userstatus,xb,school,grade,banji,StartDate,StopDate,BirthDate,dh,sj,QQ,email,dizhi,yb,dengji,jjkaitong,jjcishu,iosid,pcid,pccishu,azid,azcishu,creatorid,creatortype,xueshengid,courseclass,sheng2,shi2,qu2,xuexiao2,addday,xuexiaoid,online,jiaofeiyueshu,tikuanjine,userheaderimg,jibie,jifen,gongsi,sheng,shi,signintime,shifouyikayi,istixian,login_token,yuxile,mingxiangsi,tongbuketang,zuoye_shuxue,zuoye_yuwen,zuoye_yingyu,zuoye_wuli,zuoye_huaxue,zuoye_dili,zuoye_lishi,zuoye_shengwu,zuoye_zhengzhi,zuoye_kexue,zuoye_lizong,zuoye_wenzong,qichuang,shuijiao,mingrizhixing,wangzhe,shengzici,guoguan,jishiyouxi,qitazonghe,jiazhangusername,isjiaqian FROM zz_huiyuan WHERE RoleID=81064793293078928]
+841898 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+841900 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3e16aea4: SELECT RoleID,shopID,time,price FROM shopping WHERE RoleID=81064793293078928]
+841900 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+841918 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@784cf35d: SELECT RoleID,FriendID,time,Agree FROM Friends WHERE RoleID=81064793293078928]
+841918 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #读取到[202]条数据
+841918 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #用时[23] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@179ff362[30,81064793293078928,30],)]
+841919 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #添加一个定时器[14][core.detail.impl.mgr.timer.TickEvent@4e402d92 [ID:14] NextRunTime[1511853692338] Run[logic.MyUser@179ff362[30,81064793293078928,30]] SpaceTime[300000]]
+841919 2017-11-28 15:16:32 [UserLog396358498] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@179ff362[30,81064793293078928,30],)UserMgr添加一个用户,nk[30@1] gid[81064793293078928] netid[0] this[logic.MyUser@179ff362[30,81064793293078928,30]]
+841919 2017-11-28 15:16:32 [UserLog396358498] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@179ff362[30,81064793293078928,30],)UserMgr成功添加一个用户,nk[30@1] gid[81064793293078928] netid[1] this[logic.MyUser@179ff362[30,81064793293078928,30]]
+841966 2017-11-28 15:16:32 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:16:32',3,88,0,0,3)
+842262 2017-11-28 15:16:32 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:16:32',1,26,0,156)
+842383 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@54a75be7: select * from  friends where roleid= 81064793293078928 and friendid=81064793294318928]
+842383 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842400 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@82acf4c: select * from  friends where roleid= 81064793294318928 and friendid=81064793293078928]
+842400 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842417 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@588ea322: select * from  friends where roleid= 81064793293078928 and friendid=81064793294068928]
+842417 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842434 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@1f69fbd8: select * from  friends where roleid= 81064793294068928 and friendid=81064793293078928]
+842434 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842451 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4ba2c754: select * from  friends where roleid= 81064793293078928 and friendid=81064793292688928]
+842451 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842467 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@6d58c6af: select * from  friends where roleid= 81064793292688928 and friendid=81064793293078928]
+842467 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842484 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@68520ca6: select * from  friends where roleid= 81064793293078928 and friendid=81064793293048928]
+842484 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842500 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@145c33ef: select * from  friends where roleid= 81064793293048928 and friendid=81064793293078928]
+842501 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842517 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@7888baba: select * from  friends where roleid= 81064793293078928 and friendid=81064793294458928]
+842517 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842534 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4a4e1eac: select * from  friends where roleid= 81064793294458928 and friendid=81064793293078928]
+842534 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842551 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4a5d111b: select * from  friends where roleid= 81064793293078928 and friendid=81064793293358928]
+842551 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842568 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@b509566: select * from  friends where roleid= 81064793293358928 and friendid=81064793293078928]
+842568 2017-11-28 15:16:32 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842586 2017-11-28 15:16:33 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@37c5ae8c: select * from  friends where roleid= 81064793293078928 and friendid=81064793293308928]
+842586 2017-11-28 15:16:33 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842604 2017-11-28 15:16:33 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@36fa49c: select * from  friends where roleid= 81064793293308928 and friendid=81064793293078928]
+842604 2017-11-28 15:16:33 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842621 2017-11-28 15:16:33 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@19718e40: select * from  friends where roleid= 81064793293078928 and friendid=81064793293198928]
+842621 2017-11-28 15:16:33 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842639 2017-11-28 15:16:33 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@34d2453d: select * from  friends where roleid= 81064793293198928 and friendid=81064793293078928]
+842639 2017-11-28 15:16:33 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842657 2017-11-28 15:16:33 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@75413ab3: select * from  friends where roleid= 81064793293078928 and friendid=81064793292778928]
+842657 2017-11-28 15:16:33 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842674 2017-11-28 15:16:33 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@23169390: select * from  friends where roleid= 81064793292778928 and friendid=81064793293078928]
+842674 2017-11-28 15:16:33 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842691 2017-11-28 15:16:33 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@2af31df: select * from  friends where roleid= 81064793293078928 and friendid=81064793292668928]
+842691 2017-11-28 15:16:33 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842709 2017-11-28 15:16:33 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4e0f481f: select * from  friends where roleid= 81064793292668928 and friendid=81064793293078928]
+842709 2017-11-28 15:16:33 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+842710 2017-11-28 15:16:33 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-11-28 15:16:33',3,71,38,2942,1,1)
+842970 2017-11-28 15:16:33 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:16:33',2,90,0,0,343)
+847307 2017-11-28 15:16:37 [UserLog396358498] SYSTEM_ERROR #Link::OnRead异常,导致关闭 uid[81064793293078928] user[logic.MyUser@179ff362[30,81064793293078928,30]]
+847307 2017-11-28 15:16:37 [UserLog396358498] SYSTEM_INFO #断开了连接[core.detail.impl.socket.LinkNio@202e6ed8]
+847307 2017-11-28 15:16:37 [UserLog396358498] SYSTEM_INFO #准备从管理器去掉用户[core.detail.impl.socket.LinkNio@202e6ed8][logic.MyUser@179ff362[30,81064793293078928,30]]
+847308 2017-11-28 15:16:37 [UserLog396358498] SYSTEM_INFO #User对象断开了 nk[30] gid[81064793293078928] netid[1] this[logic.MyUser@179ff362[30,81064793293078928,30]] reason:[-4] ex:[0]
+847308 2017-11-28 15:16:37 [GlobalLog] SQL INSERT INTO _CloseLog (ServerID,Tm,UserName,RoleID,HashCode,Reason,Ex) VALUES (18,'2017-11-28 15:16:37','30',81064793293078928,396358498,-4,0)
+847310 2017-11-28 15:16:37 [GlobalLog] SYSTEM_INFO #用户下线导致移除了一个定时器[14]
+847358 2017-11-28 15:16:37 [UserLog396358498] SYSTEM_INFO #平时检查释放的User对象  nk[30] gid[81064793293078928] netid[1] this[logic.MyUser@179ff362[30,81064793293078928,30]]
+847358 2017-11-28 15:16:37 [UserLog396358498] SYSTEM_INFO #UserMgr成功释放一个用户,nk[30@1] gid[81064793293078928] netid[1] this[logic.MyUser@179ff362[30,81064793293078928,30]]
+847360 2017-11-28 15:16:37 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@7f8952da]
+847776 2017-11-28 15:16:38 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:16:38',1,27,0,156)
+847978 2017-11-28 15:16:38 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:16:38',1,91,0,0,2)
+856099 2017-11-28 15:16:46 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@3f52a9cb用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@3f52a9cb]
+856301 2017-11-28 15:16:46 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:16:46',1,28,0,156)
+856990 2017-11-28 15:16:47 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:16:47',1,92,0,0,0)
+925369 2017-11-28 15:17:55 [UserLog440610389] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@64dfa415]创建了用户[logic.MyUser@1a432e55[,0,]]
+925369 2017-11-28 15:17:55 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[1692378133] userhash[440610389]
+929414 2017-11-28 15:17:59 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-11-28 15:17:59',1,72,90,3032,1,0)
+929415 2017-11-28 15:17:59 [GlobalLog] DEBUG [0]*玩家记录:11 : 有人要登陆30
+929439 2017-11-28 15:17:59 [GlobalLog] INFO [0]*(Login#Enter:30,1,2017年11月28日 15时17分59秒)
+929440 2017-11-28 15:17:59 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:30,1,2017年11月28日 15时17分59秒,result:true,size:1)
+929544 2017-11-28 15:17:59 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:30,2017年11月28日 15时17分59秒,result:)
+929549 2017-11-28 15:17:59 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@316a3587: select * from zz_huiyuan where username = '30']
+929549 2017-11-28 15:17:59 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+929549 2017-11-28 15:17:59 [GlobalLog] SYSTEM_INFO #用时[4] SQL:[logic.methodex.LoginMethod@20d3081]
+929551 2017-11-28 15:17:59 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@1a432e55[30,81064793293078928,30])
+929691 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3895dab1: SELECT RoleID,Name,Password,Icon,Money,Garde,TeamID,TickName,portrait,Skin FROM account WHERE RoleID=81064793293078928]
+929691 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+929696 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[5] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@29c5a595: SELECT RoleID,id,username,password,addtime,uptime,ip,dl,xm,jiazhangname,usertype,userstatus,xb,school,grade,banji,StartDate,StopDate,BirthDate,dh,sj,QQ,email,dizhi,yb,dengji,jjkaitong,jjcishu,iosid,pcid,pccishu,azid,azcishu,creatorid,creatortype,xueshengid,courseclass,sheng2,shi2,qu2,xuexiao2,addday,xuexiaoid,online,jiaofeiyueshu,tikuanjine,userheaderimg,jibie,jifen,gongsi,sheng,shi,signintime,shifouyikayi,istixian,login_token,yuxile,mingxiangsi,tongbuketang,zuoye_shuxue,zuoye_yuwen,zuoye_yingyu,zuoye_wuli,zuoye_huaxue,zuoye_dili,zuoye_lishi,zuoye_shengwu,zuoye_zhengzhi,zuoye_kexue,zuoye_lizong,zuoye_wenzong,qichuang,shuijiao,mingrizhixing,wangzhe,shengzici,guoguan,jishiyouxi,qitazonghe,jiazhangusername,isjiaqian FROM zz_huiyuan WHERE RoleID=81064793293078928]
+929696 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+929698 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3e16aea4: SELECT RoleID,shopID,time,price FROM shopping WHERE RoleID=81064793293078928]
+929698 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+929716 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@784cf35d: SELECT RoleID,FriendID,time,Agree FROM Friends WHERE RoleID=81064793293078928]
+929716 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[202]条数据
+929716 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[26] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@1a432e55[30,81064793293078928,30],)]
+929717 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #添加一个定时器[15][core.detail.impl.mgr.timer.TickEvent@ac2ddbe [ID:15] NextRunTime[1511853780136] Run[logic.MyUser@1a432e55[30,81064793293078928,30]] SpaceTime[300000]]
+929717 2017-11-28 15:18:00 [UserLog440610389] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@1a432e55[30,81064793293078928,30],)UserMgr添加一个用户,nk[30@1] gid[81064793293078928] netid[0] this[logic.MyUser@1a432e55[30,81064793293078928,30]]
+929718 2017-11-28 15:18:00 [UserLog440610389] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@1a432e55[30,81064793293078928,30],)UserMgr成功添加一个用户,nk[30@1] gid[81064793293078928] netid[0] this[logic.MyUser@1a432e55[30,81064793293078928,30]]
+929989 2017-11-28 15:18:00 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:18:00',2,30,0,156)
+930080 2017-11-28 15:18:00 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:18:00',3,95,0,0,25)
+930182 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@54a75be7: select * from  friends where roleid= 81064793293078928 and friendid=81064793294318928]
+930182 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930200 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@82acf4c: select * from  friends where roleid= 81064793294318928 and friendid=81064793293078928]
+930200 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930217 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@588ea322: select * from  friends where roleid= 81064793293078928 and friendid=81064793294068928]
+930217 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930244 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[27] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@1f69fbd8: select * from  friends where roleid= 81064793294068928 and friendid=81064793293078928]
+930245 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930262 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4ba2c754: select * from  friends where roleid= 81064793293078928 and friendid=81064793292688928]
+930263 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930280 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@6d58c6af: select * from  friends where roleid= 81064793292688928 and friendid=81064793293078928]
+930280 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930297 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@68520ca6: select * from  friends where roleid= 81064793293078928 and friendid=81064793293048928]
+930297 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930314 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@145c33ef: select * from  friends where roleid= 81064793293048928 and friendid=81064793293078928]
+930315 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930332 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@7888baba: select * from  friends where roleid= 81064793293078928 and friendid=81064793294458928]
+930332 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930349 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4a4e1eac: select * from  friends where roleid= 81064793294458928 and friendid=81064793293078928]
+930350 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930367 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4a5d111b: select * from  friends where roleid= 81064793293078928 and friendid=81064793293358928]
+930368 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930385 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@b509566: select * from  friends where roleid= 81064793293358928 and friendid=81064793293078928]
+930385 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930402 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@37c5ae8c: select * from  friends where roleid= 81064793293078928 and friendid=81064793293308928]
+930402 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930419 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@36fa49c: select * from  friends where roleid= 81064793293308928 and friendid=81064793293078928]
+930419 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930442 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[22] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@19718e40: select * from  friends where roleid= 81064793293078928 and friendid=81064793293198928]
+930442 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930471 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[29] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@34d2453d: select * from  friends where roleid= 81064793293198928 and friendid=81064793293078928]
+930471 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930488 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@75413ab3: select * from  friends where roleid= 81064793293078928 and friendid=81064793292778928]
+930489 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930505 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@23169390: select * from  friends where roleid= 81064793292778928 and friendid=81064793293078928]
+930506 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930522 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@2af31df: select * from  friends where roleid= 81064793293078928 and friendid=81064793292668928]
+930522 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930539 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4e0f481f: select * from  friends where roleid= 81064793292668928 and friendid=81064793293078928]
+930539 2017-11-28 15:18:00 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+930540 2017-11-28 15:18:00 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-11-28 15:18:00',3,75,38,3070,1,1)
+931083 2017-11-28 15:18:01 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:18:01',2,97,0,0,375)
+936461 2017-11-28 15:18:06 [UserLog440610389] SYSTEM_ERROR #Link::OnRead异常,导致关闭 uid[81064793293078928] user[logic.MyUser@1a432e55[30,81064793293078928,30]]
+936462 2017-11-28 15:18:06 [UserLog440610389] SYSTEM_INFO #断开了连接[core.detail.impl.socket.LinkNio@64dfa415]
+936462 2017-11-28 15:18:06 [UserLog440610389] SYSTEM_INFO #准备从管理器去掉用户[core.detail.impl.socket.LinkNio@64dfa415][logic.MyUser@1a432e55[30,81064793293078928,30]]
+936463 2017-11-28 15:18:06 [UserLog440610389] SYSTEM_INFO #User对象断开了 nk[30] gid[81064793293078928] netid[0] this[logic.MyUser@1a432e55[30,81064793293078928,30]] reason:[-4] ex:[0]
+936463 2017-11-28 15:18:06 [GlobalLog] SQL INSERT INTO _CloseLog (ServerID,Tm,UserName,RoleID,HashCode,Reason,Ex) VALUES (18,'2017-11-28 15:18:06','30',81064793293078928,440610389,-4,0)
+936464 2017-11-28 15:18:06 [GlobalLog] SYSTEM_INFO #用户下线导致移除了一个定时器[15]
+936542 2017-11-28 15:18:06 [UserLog440610389] SYSTEM_INFO #平时检查释放的User对象  nk[30] gid[81064793293078928] netid[0] this[logic.MyUser@1a432e55[30,81064793293078928,30]]
+936542 2017-11-28 15:18:06 [UserLog440610389] SYSTEM_INFO #UserMgr成功释放一个用户,nk[30@1] gid[81064793293078928] netid[0] this[logic.MyUser@1a432e55[30,81064793293078928,30]]
+936544 2017-11-28 15:18:06 [GlobalLog] SYSTEM_INFO #用时[0] SQL:[core.detail.impl.SaveMethod@6a7688f1]
+937008 2017-11-28 15:18:07 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:18:07',1,31,0,156)
+937090 2017-11-28 15:18:07 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:18:07',1,98,0,0,2)
+978097 2017-11-28 15:18:48 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@4317cdd9用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@4317cdd9]
+978108 2017-11-28 15:18:48 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:18:48',1,32,0,156)
+978147 2017-11-28 15:18:48 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:18:48',1,99,0,0,0)
+982730 2017-11-28 15:18:53 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:11]
+1012738 2017-11-28 15:19:23 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:25]
+1067752 2017-11-28 15:20:18 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:4]
+1092759 2017-11-28 15:20:43 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+1100098 2017-11-28 15:20:50 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@6ce5460b用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@6ce5460b]
+1100312 2017-11-28 15:20:50 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:20:50',1,100,0,0,0)
+1100417 2017-11-28 15:20:50 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:20:50',1,33,0,156)
+1119525 2017-11-28 15:21:09 [UserLog1681213600] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@11e04818]创建了用户[logic.MyUser@643548a0[,0,]]
+1119525 2017-11-28 15:21:09 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[299911192] userhash[1681213600]
+1124076 2017-11-28 15:21:14 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-11-28 15:21:14',1,76,90,3160,1,0)
+1124077 2017-11-28 15:21:14 [GlobalLog] DEBUG [0]*玩家记录:11 : 有人要登陆30
+1124079 2017-11-28 15:21:14 [GlobalLog] INFO [0]*(Login#Enter:30,1,2017年11月28日 15时21分14秒)
+1124079 2017-11-28 15:21:14 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:30,1,2017年11月28日 15时21分14秒,result:true,size:1)
+1124143 2017-11-28 15:21:14 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:30,2017年11月28日 15时21分14秒,result:)
+1124148 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #用时[4] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@316a3587: select * from zz_huiyuan where username = '30']
+1124148 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124149 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #用时[5] SQL:[logic.methodex.LoginMethod@7fa9493b]
+1124150 2017-11-28 15:21:14 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@643548a0[30,81064793293078928,30])
+1124230 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3895dab1: SELECT RoleID,Name,Password,Icon,Money,Garde,TeamID,TickName,portrait,Skin FROM account WHERE RoleID=81064793293078928]
+1124230 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124234 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #用时[4] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@29c5a595: SELECT RoleID,id,username,password,addtime,uptime,ip,dl,xm,jiazhangname,usertype,userstatus,xb,school,grade,banji,StartDate,StopDate,BirthDate,dh,sj,QQ,email,dizhi,yb,dengji,jjkaitong,jjcishu,iosid,pcid,pccishu,azid,azcishu,creatorid,creatortype,xueshengid,courseclass,sheng2,shi2,qu2,xuexiao2,addday,xuexiaoid,online,jiaofeiyueshu,tikuanjine,userheaderimg,jibie,jifen,gongsi,sheng,shi,signintime,shifouyikayi,istixian,login_token,yuxile,mingxiangsi,tongbuketang,zuoye_shuxue,zuoye_yuwen,zuoye_yingyu,zuoye_wuli,zuoye_huaxue,zuoye_dili,zuoye_lishi,zuoye_shengwu,zuoye_zhengzhi,zuoye_kexue,zuoye_lizong,zuoye_wenzong,qichuang,shuijiao,mingrizhixing,wangzhe,shengzici,guoguan,jishiyouxi,qitazonghe,jiazhangusername,isjiaqian FROM zz_huiyuan WHERE RoleID=81064793293078928]
+1124234 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124236 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3e16aea4: SELECT RoleID,shopID,time,price FROM shopping WHERE RoleID=81064793293078928]
+1124236 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124254 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@784cf35d: SELECT RoleID,FriendID,time,Agree FROM Friends WHERE RoleID=81064793293078928]
+1124254 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #读取到[202]条数据
+1124254 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #用时[26] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@643548a0[30,81064793293078928,30],)]
+1124255 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #添加一个定时器[16][core.detail.impl.mgr.timer.TickEvent@3acebb33 [ID:16] NextRunTime[1511853974674] Run[logic.MyUser@643548a0[30,81064793293078928,30]] SpaceTime[300000]]
+1124255 2017-11-28 15:21:14 [UserLog1681213600] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@643548a0[30,81064793293078928,30],)UserMgr添加一个用户,nk[30@1] gid[81064793293078928] netid[0] this[logic.MyUser@643548a0[30,81064793293078928,30]]
+1124255 2017-11-28 15:21:14 [UserLog1681213600] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@643548a0[30,81064793293078928,30],)UserMgr成功添加一个用户,nk[30@1] gid[81064793293078928] netid[1] this[logic.MyUser@643548a0[30,81064793293078928,30]]
+1124350 2017-11-28 15:21:14 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:21:14',3,103,0,0,2)
+1124491 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@54a75be7: select * from  friends where roleid= 81064793293078928 and friendid=81064793294318928]
+1124491 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124508 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@82acf4c: select * from  friends where roleid= 81064793294318928 and friendid=81064793293078928]
+1124508 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124525 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@588ea322: select * from  friends where roleid= 81064793293078928 and friendid=81064793294068928]
+1124525 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124536 2017-11-28 15:21:14 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:21:14',2,35,0,156)
+1124543 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@1f69fbd8: select * from  friends where roleid= 81064793294068928 and friendid=81064793293078928]
+1124544 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124561 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4ba2c754: select * from  friends where roleid= 81064793293078928 and friendid=81064793292688928]
+1124561 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124579 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@6d58c6af: select * from  friends where roleid= 81064793292688928 and friendid=81064793293078928]
+1124579 2017-11-28 15:21:14 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124597 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@68520ca6: select * from  friends where roleid= 81064793293078928 and friendid=81064793293048928]
+1124597 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124616 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #用时[19] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@145c33ef: select * from  friends where roleid= 81064793293048928 and friendid=81064793293078928]
+1124616 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124634 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@7888baba: select * from  friends where roleid= 81064793293078928 and friendid=81064793294458928]
+1124634 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124653 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #用时[19] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4a4e1eac: select * from  friends where roleid= 81064793294458928 and friendid=81064793293078928]
+1124653 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124672 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4a5d111b: select * from  friends where roleid= 81064793293078928 and friendid=81064793293358928]
+1124672 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124693 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #用时[21] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@b509566: select * from  friends where roleid= 81064793293358928 and friendid=81064793293078928]
+1124693 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124710 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@37c5ae8c: select * from  friends where roleid= 81064793293078928 and friendid=81064793293308928]
+1124710 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124727 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@36fa49c: select * from  friends where roleid= 81064793293308928 and friendid=81064793293078928]
+1124727 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124745 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@19718e40: select * from  friends where roleid= 81064793293078928 and friendid=81064793293198928]
+1124745 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124765 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #用时[20] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@34d2453d: select * from  friends where roleid= 81064793293198928 and friendid=81064793293078928]
+1124765 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124783 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@75413ab3: select * from  friends where roleid= 81064793293078928 and friendid=81064793292778928]
+1124783 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124800 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@23169390: select * from  friends where roleid= 81064793292778928 and friendid=81064793293078928]
+1124800 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124817 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@2af31df: select * from  friends where roleid= 81064793293078928 and friendid=81064793292668928]
+1124817 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1124836 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #用时[19] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4e0f481f: select * from  friends where roleid= 81064793292668928 and friendid=81064793293078928]
+1124836 2017-11-28 15:21:15 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1125355 2017-11-28 15:21:15 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:21:15',2,105,0,0,362)
+1128216 2017-11-28 15:21:18 [UserLog1946451610] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@4310f90b]创建了用户[logic.MyUser@74047e9a[,0,]]
+1128217 2017-11-28 15:21:18 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[1125185803] userhash[1946451610]
+1128217 2017-11-28 15:21:18 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-11-28 15:21:18',3,79,38,3198,2,1)
+1133074 2017-11-28 15:21:23 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-11-28 15:21:23',1,80,90,3288,2,1)
+1133074 2017-11-28 15:21:23 [GlobalLog] DEBUG [0]*玩家记录:11 : 有人要登陆40
+1133076 2017-11-28 15:21:23 [GlobalLog] INFO [0]*(Login#Enter:40,1,2017年11月28日 15时21分23秒)
+1133076 2017-11-28 15:21:23 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:40,1,2017年11月28日 15时21分23秒,result:true,size:1)
+1133143 2017-11-28 15:21:23 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:40,2017年11月28日 15时21分23秒,result:)
+1133145 2017-11-28 15:21:23 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@5cb5d1ad: select * from zz_huiyuan where username = '40']
+1133146 2017-11-28 15:21:23 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1133146 2017-11-28 15:21:23 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[logic.methodex.LoginMethod@b55b4e4]
+1133147 2017-11-28 15:21:23 [GlobalLog] INFO [0]*(* Login#RemoveLoginInfo:logic.MyUser@74047e9a[40,81064793293178928,40])
+1133261 2017-11-28 15:21:23 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3895dab1: SELECT RoleID,Name,Password,Icon,Money,Garde,TeamID,TickName,portrait,Skin FROM account WHERE RoleID=81064793293178928]
+1133261 2017-11-28 15:21:23 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1133263 2017-11-28 15:21:23 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@29c5a595: SELECT RoleID,id,username,password,addtime,uptime,ip,dl,xm,jiazhangname,usertype,userstatus,xb,school,grade,banji,StartDate,StopDate,BirthDate,dh,sj,QQ,email,dizhi,yb,dengji,jjkaitong,jjcishu,iosid,pcid,pccishu,azid,azcishu,creatorid,creatortype,xueshengid,courseclass,sheng2,shi2,qu2,xuexiao2,addday,xuexiaoid,online,jiaofeiyueshu,tikuanjine,userheaderimg,jibie,jifen,gongsi,sheng,shi,signintime,shifouyikayi,istixian,login_token,yuxile,mingxiangsi,tongbuketang,zuoye_shuxue,zuoye_yuwen,zuoye_yingyu,zuoye_wuli,zuoye_huaxue,zuoye_dili,zuoye_lishi,zuoye_shengwu,zuoye_zhengzhi,zuoye_kexue,zuoye_lizong,zuoye_wenzong,qichuang,shuijiao,mingrizhixing,wangzhe,shengzici,guoguan,jishiyouxi,qitazonghe,jiazhangusername,isjiaqian FROM zz_huiyuan WHERE RoleID=81064793293178928]
+1133263 2017-11-28 15:21:23 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1133264 2017-11-28 15:21:23 [GlobalLog] SYSTEM_INFO #用时[0] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3e16aea4: SELECT RoleID,shopID,time,price FROM shopping WHERE RoleID=81064793293178928]
+1133264 2017-11-28 15:21:23 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+1133282 2017-11-28 15:21:23 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@784cf35d: SELECT RoleID,FriendID,time,Agree FROM Friends WHERE RoleID=81064793293178928]
+1133282 2017-11-28 15:21:23 [GlobalLog] SYSTEM_INFO #读取到[202]条数据
+1133282 2017-11-28 15:21:23 [GlobalLog] SYSTEM_INFO #用时[22] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@74047e9a[40,81064793293178928,40],)]
+1133283 2017-11-28 15:21:23 [GlobalLog] SYSTEM_INFO #添加一个定时器[17][core.detail.impl.mgr.timer.TickEvent@575b4312 [ID:17] NextRunTime[1511853983702] Run[logic.MyUser@74047e9a[40,81064793293178928,40]] SpaceTime[300000]]
+1133283 2017-11-28 15:21:23 [UserLog1946451610] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@74047e9a[40,81064793293178928,40],)UserMgr添加一个用户,nk[40@1] gid[81064793293178928] netid[0] this[logic.MyUser@74047e9a[40,81064793293178928,40]]
+1133283 2017-11-28 15:21:23 [UserLog1946451610] SYSTEM_INFO #RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@74047e9a[40,81064793293178928,40],)UserMgr成功添加一个用户,nk[40@1] gid[81064793293178928] netid[0] this[logic.MyUser@74047e9a[40,81064793293178928,40]]
+1133367 2017-11-28 15:21:23 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:21:23',3,108,0,0,2)
+1133565 2017-11-28 15:21:23 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:21:23',2,37,0,156)
+1133712 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@181f25aa: select * from  friends where roleid= 81064793293178928 and friendid=81064793294078928]
+1133713 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1133729 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@6a4bb596: select * from  friends where roleid= 81064793294078928 and friendid=81064793293178928]
+1133729 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1133746 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #用时[16] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@5a246e69: select * from  friends where roleid= 81064793293178928 and friendid=81064793292828928]
+1133746 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1133763 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@750e0b7b: select * from  friends where roleid= 81064793292828928 and friendid=81064793293178928]
+1133763 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1133780 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@ea38552: select * from  friends where roleid= 81064793293178928 and friendid=81064793294628928]
+1133780 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1133798 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3e95bf1c: select * from  friends where roleid= 81064793294628928 and friendid=81064793293178928]
+1133798 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1133816 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@344ce025: select * from  friends where roleid= 81064793293178928 and friendid=81064793294018928]
+1133816 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1133835 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@35133d20: select * from  friends where roleid= 81064793294018928 and friendid=81064793293178928]
+1133835 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1133853 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@7b82017c: select * from  friends where roleid= 81064793293178928 and friendid=81064793293718928]
+1133853 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1133872 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@192a04eb: select * from  friends where roleid= 81064793293718928 and friendid=81064793293178928]
+1133872 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1133889 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3e14f4fe: select * from  friends where roleid= 81064793293178928 and friendid=81064793293578928]
+1133889 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1133907 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@2455e46d: select * from  friends where roleid= 81064793293578928 and friendid=81064793293178928]
+1133907 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1133925 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@5c5ef190: select * from  friends where roleid= 81064793293178928 and friendid=81064793292838928]
+1133926 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1133943 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #用时[17] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@37113de7: select * from  friends where roleid= 81064793292838928 and friendid=81064793293178928]
+1133944 2017-11-28 15:21:24 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+1134369 2017-11-28 15:21:24 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:21:24',2,110,0,0,249)
+1149927 2017-11-28 15:21:40 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-11-28 15:21:40',4,84,80,3368,2,2)
+1149929 2017-11-28 15:21:40 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@1fff6e77: select * from shopping where roleid= 81064793293178928 and shopid = 108 ]
+1149931 2017-11-28 15:21:40 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+1149935 2017-11-28 15:21:40 [GlobalLog] SYSTEM_INFO #用时[4] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@792f178e: update account set money=9000 where roleId= 81064793293078928]
+1149942 2017-11-28 15:21:40 [GlobalLog] SYSTEM_INFO #用时[7] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@24c0ab88: UPDATE account set money= 9000 where roleid=81064793293078928]
+1149948 2017-11-28 15:21:40 [GlobalLog] SYSTEM_INFO #用时[5] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4028e5b1: insert into shopping (roleid,shopid,price)values (81064793293178928,108,1000) ]
+1150394 2017-11-28 15:21:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:21:40',1,111,0,0,20)
+1161843 2017-11-28 15:21:52 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-11-28 15:21:52',1,85,42,3410,2,2)
+1161845 2017-11-28 15:21:52 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@2d56395f: select * from shopping where roleid= 81064793293178928 and shopid = 107 ]
+1161847 2017-11-28 15:21:52 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+1161857 2017-11-28 15:21:52 [GlobalLog] SYSTEM_INFO #用时[10] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@6a3aed16: update account set money=8000 where roleId= 81064793293078928]
+1161863 2017-11-28 15:21:52 [GlobalLog] SYSTEM_INFO #用时[6] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@3c7a2127: UPDATE account set money= 8000 where roleid=81064793293078928]
+1161871 2017-11-28 15:21:52 [GlobalLog] SYSTEM_INFO #用时[7] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@20fa6b36: insert into shopping (roleid,shopid,price)values (81064793293178928,107,1000) ]
+1162414 2017-11-28 15:21:52 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:21:52',1,112,0,0,27)
+1166761 2017-11-28 15:21:57 [UserLog1681213600] SYSTEM_ERROR #Link::OnRead异常,导致关闭 uid[81064793293078928] user[logic.MyUser@643548a0[30,81064793293078928,30]]
+1166761 2017-11-28 15:21:57 [UserLog1681213600] SYSTEM_INFO #断开了连接[core.detail.impl.socket.LinkNio@11e04818]
+1166761 2017-11-28 15:21:57 [UserLog1681213600] SYSTEM_INFO #准备从管理器去掉用户[core.detail.impl.socket.LinkNio@11e04818][logic.MyUser@643548a0[30,81064793293078928,30]]
+1166762 2017-11-28 15:21:57 [UserLog1681213600] SYSTEM_INFO #User对象断开了 nk[30] gid[81064793293078928] netid[1] this[logic.MyUser@643548a0[30,81064793293078928,30]] reason:[-4] ex:[0]
+1166762 2017-11-28 15:21:57 [GlobalLog] SQL INSERT INTO _CloseLog (ServerID,Tm,UserName,RoleID,HashCode,Reason,Ex) VALUES (18,'2017-11-28 15:21:57','30',81064793293078928,1681213600,-4,0)
+1166763 2017-11-28 15:21:57 [GlobalLog] SYSTEM_INFO #用户下线导致移除了一个定时器[16]
+1166952 2017-11-28 15:21:57 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@2da53351: UPDATE account Set Money = 8000 WHERE RoleID = 81064793293078928]
+1166956 2017-11-28 15:21:57 [GlobalLog] SYSTEM_INFO #用时[7] SQL:[core.detail.impl.SaveMethod@1929e7ed]
+1166963 2017-11-28 15:21:57 [UserLog1681213600] SYSTEM_INFO #平时检查释放的User对象  nk[30] gid[81064793293078928] netid[1] this[logic.MyUser@643548a0[30,81064793293078928,30]]
+1166963 2017-11-28 15:21:57 [UserLog1681213600] SYSTEM_INFO #UserMgr成功释放一个用户,nk[30@1] gid[81064793293078928] netid[1] this[logic.MyUser@643548a0[30,81064793293078928,30]]
+1166965 2017-11-28 15:21:57 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@288eb7]
+1167152 2017-11-28 15:21:57 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:21:57',2,39,0,156)
+1167426 2017-11-28 15:21:57 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:21:57',2,114,0,0,1)
+1167860 2017-11-28 15:21:58 [UserLog1946451610] SYSTEM_ERROR #Link::OnRead异常,导致关闭 uid[81064793293178928] user[logic.MyUser@74047e9a[40,81064793293178928,40]]
+1167860 2017-11-28 15:21:58 [UserLog1946451610] SYSTEM_INFO #断开了连接[core.detail.impl.socket.LinkNio@4310f90b]
+1167860 2017-11-28 15:21:58 [UserLog1946451610] SYSTEM_INFO #准备从管理器去掉用户[core.detail.impl.socket.LinkNio@4310f90b][logic.MyUser@74047e9a[40,81064793293178928,40]]
+1167862 2017-11-28 15:21:58 [UserLog1946451610] SYSTEM_INFO #User对象断开了 nk[40] gid[81064793293178928] netid[0] this[logic.MyUser@74047e9a[40,81064793293178928,40]] reason:[-4] ex:[0]
+1167862 2017-11-28 15:21:58 [GlobalLog] SQL INSERT INTO _CloseLog (ServerID,Tm,UserName,RoleID,HashCode,Reason,Ex) VALUES (18,'2017-11-28 15:21:58','40',81064793293178928,1946451610,-4,0)
+1167865 2017-11-28 15:21:58 [GlobalLog] SYSTEM_INFO #用户下线导致移除了一个定时器[17]
+1167963 2017-11-28 15:21:58 [UserLog1946451610] SYSTEM_INFO #平时检查释放的User对象  nk[40] gid[81064793293178928] netid[0] this[logic.MyUser@74047e9a[40,81064793293178928,40]]
+1167963 2017-11-28 15:21:58 [UserLog1946451610] SYSTEM_INFO #UserMgr成功释放一个用户,nk[40@1] gid[81064793293178928] netid[0] this[logic.MyUser@74047e9a[40,81064793293178928,40]]
+1167965 2017-11-28 15:21:58 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@3e95cbdb]
+1168158 2017-11-28 15:21:58 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:21:58',1,40,0,156)
+1168431 2017-11-28 15:21:58 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:21:58',1,115,0,0,4)
+1222097 2017-11-28 15:22:52 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@28392f59用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@28392f59]
+1222346 2017-11-28 15:22:52 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:22:52',1,41,0,156)
+1222497 2017-11-28 15:22:52 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:22:52',1,116,0,0,0)
+1337824 2017-11-28 15:24:48 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+1344100 2017-11-28 15:24:54 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@22e69edc用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@22e69edc]
+1344162 2017-11-28 15:24:54 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:24:54',1,42,0,156)
+1344663 2017-11-28 15:24:55 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:24:55',1,117,0,0,0)
+1422846 2017-11-28 15:26:13 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+1466099 2017-11-28 15:26:56 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@268ddfee用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@268ddfee]
+1466468 2017-11-28 15:26:56 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:26:56',1,43,0,156)
+1466816 2017-11-28 15:26:57 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:26:57',1,118,0,0,1)
+1588100 2017-11-28 15:28:58 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@52d5c927用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@52d5c927]
+1588274 2017-11-28 15:28:58 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:28:58',1,44,0,156)
+1588968 2017-11-28 15:28:59 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:28:59',1,119,0,0,0)
+1710100 2017-11-28 15:31:00 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@430e4e11用时[5] SQL:[core.DBLoaderEx$SaveGlobalMethod@430e4e11]
+1710112 2017-11-28 15:31:00 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:31:00',1,120,0,0,0)
+1710581 2017-11-28 15:31:01 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:31:01',1,45,0,156)
+1727923 2017-11-28 15:31:18 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:21]
+1737926 2017-11-28 15:31:28 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:19]
+1752930 2017-11-28 15:31:43 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:4]
+1762932 2017-11-28 15:31:53 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:4]
+1767934 2017-11-28 15:31:58 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+1832098 2017-11-28 15:33:02 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@596e3803用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@596e3803]
+1832274 2017-11-28 15:33:02 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:33:02',1,121,0,0,0)
+1832385 2017-11-28 15:33:02 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:33:02',1,46,0,156)
+1947981 2017-11-28 15:34:58 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+1954103 2017-11-28 15:35:04 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@11f1aaf4用时[6] SQL:[core.DBLoaderEx$SaveGlobalMethod@11f1aaf4]
+1954175 2017-11-28 15:35:04 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:35:04',1,47,0,156)
+1954425 2017-11-28 15:35:04 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:35:04',1,122,0,0,0)
+2076101 2017-11-28 15:37:06 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@3ddf3214用时[5] SQL:[core.DBLoaderEx$SaveGlobalMethod@3ddf3214]
+2076496 2017-11-28 15:37:06 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:37:06',1,48,0,156)
+2076573 2017-11-28 15:37:06 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:37:06',1,123,0,0,0)
+2198099 2017-11-28 15:39:08 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@7c6f59e9用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@7c6f59e9]
+2198308 2017-11-28 15:39:08 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:39:08',1,49,0,156)
+2198724 2017-11-28 15:39:09 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:39:09',1,124,0,0,0)
+2320099 2017-11-28 15:41:10 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@3970ed1f用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@3970ed1f]
+2320116 2017-11-28 15:41:10 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:41:10',1,50,0,156)
+2320882 2017-11-28 15:41:11 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:41:11',1,125,0,0,0)
+2442101 2017-11-28 15:43:12 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@2726e958用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@2726e958]
+2442425 2017-11-28 15:43:12 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:43:12',1,51,0,156)
+2443034 2017-11-28 15:43:13 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:43:13',1,126,0,0,0)
+2558158 2017-11-28 15:45:08 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+2564106 2017-11-28 15:45:14 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@38bac52a用时[9] SQL:[core.DBLoaderEx$SaveGlobalMethod@38bac52a]
+2564128 2017-11-28 15:45:14 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:45:14',1,52,0,156)
+2564288 2017-11-28 15:45:14 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:45:14',1,127,0,0,3)
+2686100 2017-11-28 15:47:16 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@9250ead用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@9250ead]
+2686444 2017-11-28 15:47:16 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:47:16',1,128,0,0,0)
+2686495 2017-11-28 15:47:16 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:47:16',1,53,0,156)
+2808099 2017-11-28 15:49:18 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@27842664用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@27842664]
+2808579 2017-11-28 15:49:18 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:49:18',1,54,0,156)
+2808667 2017-11-28 15:49:19 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:49:19',1,129,0,0,0)
+2930097 2017-11-28 15:51:20 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@1a33ddfe用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@1a33ddfe]
+2930222 2017-11-28 15:51:20 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:51:20',1,55,0,156)
+2930821 2017-11-28 15:51:21 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:51:21',1,130,0,0,0)
+2992599 2017-11-28 15:52:23 [GlobalLog] SYSTEM_INFO #[SqlMgrImpl::_GetRunMethodEx用时[[[:74]
+3052099 2017-11-28 15:53:22 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@ae0aef4用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@ae0aef4]
+3052544 2017-11-28 15:53:22 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:53:22',1,56,0,156)
+3052978 2017-11-28 15:53:23 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:53:23',1,131,0,0,0)
+3168320 2017-11-28 15:55:18 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+3174105 2017-11-28 15:55:24 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@6de3c706用时[8] SQL:[core.DBLoaderEx$SaveGlobalMethod@6de3c706]
+3174131 2017-11-28 15:55:24 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:55:24',1,132,0,0,0)
+3174365 2017-11-28 15:55:24 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:55:24',1,57,0,156)
+3296098 2017-11-28 15:57:26 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@7788eeb0用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@7788eeb0]
+3296179 2017-11-28 15:57:26 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:57:26',1,58,0,156)
+3296292 2017-11-28 15:57:26 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:57:26',1,133,0,0,0)
+3418102 2017-11-28 15:59:28 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@76580048用时[5] SQL:[core.DBLoaderEx$SaveGlobalMethod@76580048]
+3418114 2017-11-28 15:59:28 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:59:28',1,59,0,156)
+3418452 2017-11-28 15:59:28 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 15:59:28',1,134,0,0,0)
+3540101 2017-11-28 16:01:30 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@37a9da08用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@37a9da08]
+3540435 2017-11-28 16:01:30 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:01:30',1,60,0,156)
+3540608 2017-11-28 16:01:31 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:01:31',1,135,0,0,0)
+3662097 2017-11-28 16:03:32 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@3fb5e468用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@3fb5e468]
+3662246 2017-11-28 16:03:32 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:03:32',1,61,0,156)
+3662761 2017-11-28 16:03:33 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:03:33',1,136,0,0,0)
+3778475 2017-11-28 16:05:28 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+3784098 2017-11-28 16:05:34 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@36ca6d用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@36ca6d]
+3784569 2017-11-28 16:05:34 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:05:34',1,62,0,156)
+3784920 2017-11-28 16:05:35 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:05:35',1,137,0,0,0)
+3906101 2017-11-28 16:07:36 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@538ce6cd用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@538ce6cd]
+3906377 2017-11-28 16:07:36 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:07:36',1,63,0,156)
+3907088 2017-11-28 16:07:37 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:07:37',1,138,0,0,0)
+4028100 2017-11-28 16:09:38 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@518b5ef2用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@518b5ef2]
+4028239 2017-11-28 16:09:38 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:09:38',1,139,0,0,0)
+4028314 2017-11-28 16:09:38 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:09:38',1,64,0,156)
+4150101 2017-11-28 16:11:40 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@672b9616用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@672b9616]
+4150145 2017-11-28 16:11:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:11:40',1,65,0,156)
+4150399 2017-11-28 16:11:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:11:40',1,140,0,0,0)
+4272097 2017-11-28 16:13:42 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@31c2594d用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@31c2594d]
+4272475 2017-11-28 16:13:42 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:13:42',1,66,0,156)
+4272558 2017-11-28 16:13:42 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:13:42',1,141,0,0,0)
+4388668 2017-11-28 16:15:39 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+4394098 2017-11-28 16:15:44 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@3f7b7bb8用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@3f7b7bb8]
+4394412 2017-11-28 16:15:44 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:15:44',1,67,0,156)
+4394736 2017-11-28 16:15:45 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:15:45',1,142,0,0,0)
+4516100 2017-11-28 16:17:46 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@2bae5c86用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@2bae5c86]
+4516257 2017-11-28 16:17:46 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:17:46',1,68,0,156)
+4516892 2017-11-28 16:17:47 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:17:47',1,143,0,0,1)
+4638101 2017-11-28 16:19:48 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@3bbd7328用时[5] SQL:[core.DBLoaderEx$SaveGlobalMethod@3bbd7328]
+4638154 2017-11-28 16:19:48 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:19:48',1,69,0,156)
+4639096 2017-11-28 16:19:49 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:19:49',1,144,0,0,0)
+4760102 2017-11-28 16:21:50 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@43867b67用时[5] SQL:[core.DBLoaderEx$SaveGlobalMethod@43867b67]
+4760252 2017-11-28 16:21:50 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:21:50',1,145,0,0,0)
+4760534 2017-11-28 16:21:50 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:21:50',1,70,0,156)
+4882098 2017-11-28 16:23:52 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@e921063用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@e921063]
+4882413 2017-11-28 16:23:52 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:23:52',1,146,0,0,1)
+4882421 2017-11-28 16:23:52 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:23:52',1,71,0,156)
+4998884 2017-11-28 16:25:49 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+5004098 2017-11-28 16:25:54 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@34c776f5用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@34c776f5]
+5004224 2017-11-28 16:25:54 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:25:54',1,72,0,156)
+5004563 2017-11-28 16:25:54 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:25:54',1,147,0,0,0)
+5126098 2017-11-28 16:27:56 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@3cc24420用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@3cc24420]
+5126547 2017-11-28 16:27:56 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:27:56',1,73,0,156)
+5126747 2017-11-28 16:27:57 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:27:57',1,148,0,0,3)
+5248100 2017-11-28 16:29:58 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@1ede176c用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@1ede176c]
+5248378 2017-11-28 16:29:58 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:29:58',1,74,0,156)
+5248937 2017-11-28 16:29:59 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:29:59',1,149,0,0,7)
+5370100 2017-11-28 16:32:00 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@13a02775用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@13a02775]
+5370118 2017-11-28 16:32:00 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:32:00',1,150,0,0,0)
+5370200 2017-11-28 16:32:00 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:32:00',1,75,0,156)
+5492098 2017-11-28 16:34:02 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@4c803ac8用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@4c803ac8]
+5492154 2017-11-28 16:34:02 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:34:02',1,76,0,156)
+5492273 2017-11-28 16:34:02 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:34:02',1,151,0,0,0)
+5609043 2017-11-28 16:35:59 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+5614099 2017-11-28 16:36:04 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@764b1838用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@764b1838]
+5614421 2017-11-28 16:36:04 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:36:04',1,152,0,0,0)
+5614503 2017-11-28 16:36:04 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:36:04',1,77,0,156)
+5736100 2017-11-28 16:38:06 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@24817904用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@24817904]
+5736385 2017-11-28 16:38:06 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:38:06',1,78,0,156)
+5736576 2017-11-28 16:38:06 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:38:06',1,153,0,0,0)
+5858099 2017-11-28 16:40:08 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@1aa40b0用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@1aa40b0]
+5858291 2017-11-28 16:40:08 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:40:08',1,79,0,156)
+5858738 2017-11-28 16:40:09 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:40:09',1,154,0,0,0)
+5980100 2017-11-28 16:42:10 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@5182fc1b用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@5182fc1b]
+5980124 2017-11-28 16:42:10 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:42:10',1,80,0,156)
+5980903 2017-11-28 16:42:11 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:42:11',1,155,0,0,1)
+6102100 2017-11-28 16:44:12 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@4f6f182d用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@4f6f182d]
+6102433 2017-11-28 16:44:12 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:44:12',1,81,0,156)
+6103094 2017-11-28 16:44:13 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:44:13',1,156,0,0,0)
+6214206 2017-11-28 16:46:04 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+6224099 2017-11-28 16:46:14 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@77637d42用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@77637d42]
+6224242 2017-11-28 16:46:14 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:46:14',1,82,0,156)
+6224247 2017-11-28 16:46:14 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:46:14',1,157,0,0,0)
+6346101 2017-11-28 16:48:16 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@21f8a8c8用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@21f8a8c8]
+6346405 2017-11-28 16:48:16 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:48:16',1,158,0,0,0)
+6346574 2017-11-28 16:48:16 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:48:16',1,83,0,156)
+6468102 2017-11-28 16:50:18 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@2449cc0c用时[5] SQL:[core.DBLoaderEx$SaveGlobalMethod@2449cc0c]
+6468386 2017-11-28 16:50:18 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:50:18',1,84,0,156)
+6468562 2017-11-28 16:50:18 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:50:18',1,159,0,0,0)
+6590100 2017-11-28 16:52:20 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@50c8d0ae用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@50c8d0ae]
+6590258 2017-11-28 16:52:20 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:52:20',1,85,0,156)
+6590713 2017-11-28 16:52:21 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:52:21',1,160,0,0,0)
+6712101 2017-11-28 16:54:22 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@7b6ca989用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@7b6ca989]
+6712573 2017-11-28 16:54:22 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:54:22',1,86,0,156)
+6712875 2017-11-28 16:54:23 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:54:23',1,161,0,0,0)
+6824375 2017-11-28 16:56:14 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+6834099 2017-11-28 16:56:24 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@673d107d用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@673d107d]
+6834404 2017-11-28 16:56:24 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:56:24',1,87,0,156)
+6835028 2017-11-28 16:56:25 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:56:25',1,162,0,0,0)
+6956098 2017-11-28 16:58:26 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@1a227ea用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@1a227ea]
+6956194 2017-11-28 16:58:26 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:58:26',1,163,0,0,0)
+6956296 2017-11-28 16:58:26 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 16:58:26',1,88,0,156)
+7078102 2017-11-28 17:00:28 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@22e6c08f用时[6] SQL:[core.DBLoaderEx$SaveGlobalMethod@22e6c08f]
+7078177 2017-11-28 17:00:28 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:00:28',1,89,0,156)
+7078340 2017-11-28 17:00:28 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:00:28',1,164,0,0,0)
+7200099 2017-11-28 17:02:30 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@cddfcda用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@cddfcda]
+7200496 2017-11-28 17:02:30 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:02:30',1,165,0,0,0)
+7200512 2017-11-28 17:02:30 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:02:30',1,90,0,156)
+7322100 2017-11-28 17:04:32 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@6862dd69用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@6862dd69]
+7322320 2017-11-28 17:04:32 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:04:32',1,91,0,156)
+7322649 2017-11-28 17:04:33 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:04:33',1,166,0,0,0)
+7434537 2017-11-28 17:06:24 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+7444099 2017-11-28 17:06:34 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@7695e140用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@7695e140]
+7444122 2017-11-28 17:06:34 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:06:34',1,92,0,156)
+7444801 2017-11-28 17:06:35 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:06:35',1,167,0,0,0)
+7566098 2017-11-28 17:08:36 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@656a3b75用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@656a3b75]
+7566431 2017-11-28 17:08:36 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:08:36',1,93,0,156)
+7566949 2017-11-28 17:08:37 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:08:37',1,168,0,0,0)
+7688104 2017-11-28 17:10:38 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@3b361f1d用时[7] SQL:[core.DBLoaderEx$SaveGlobalMethod@3b361f1d]
+7688123 2017-11-28 17:10:38 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:10:38',1,169,0,0,0)
+7688272 2017-11-28 17:10:38 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:10:38',1,94,0,156)
+7810100 2017-11-28 17:12:40 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@2796118f用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@2796118f]
+7810101 2017-11-28 17:12:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:12:40',1,95,0,156)
+7810273 2017-11-28 17:12:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:12:40',1,170,0,0,0)
+7932100 2017-11-28 17:14:42 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@3d43a8c0用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@3d43a8c0]
+7932433 2017-11-28 17:14:42 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:14:42',1,171,0,0,0)
+7932494 2017-11-28 17:14:42 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:14:42',1,96,0,156)
+8044712 2017-11-28 17:16:35 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+8054104 2017-11-28 17:16:44 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@35a6b563用时[6] SQL:[core.DBLoaderEx$SaveGlobalMethod@35a6b563]
+8054379 2017-11-28 17:16:44 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:16:44',1,97,0,156)
+8054588 2017-11-28 17:16:45 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:16:45',1,172,0,0,0)
+8176101 2017-11-28 17:18:46 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@3513531d用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@3513531d]
+8176181 2017-11-28 17:18:46 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:18:46',1,98,0,156)
+8176750 2017-11-28 17:18:47 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:18:47',1,173,0,0,0)
+8298097 2017-11-28 17:20:48 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@5da42258用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@5da42258]
+8298509 2017-11-28 17:20:48 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:20:48',1,99,0,156)
+8298921 2017-11-28 17:20:49 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:20:49',1,174,0,0,0)
+8420100 2017-11-28 17:22:50 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@239d1ba8用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@239d1ba8]
+8420339 2017-11-28 17:22:50 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:22:50',1,100,0,156)
+8421076 2017-11-28 17:22:51 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:22:51',1,175,0,0,0)
+8542098 2017-11-28 17:24:52 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@276ab6cc用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@276ab6cc]
+8542165 2017-11-28 17:24:52 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:24:52',1,101,0,156)
+8542247 2017-11-28 17:24:52 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:24:52',1,176,0,0,0)
+8654882 2017-11-28 17:26:45 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+8664097 2017-11-28 17:26:54 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@5e2c1ac6用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@5e2c1ac6]
+8664407 2017-11-28 17:26:54 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:26:54',1,177,0,0,0)
+8664516 2017-11-28 17:26:54 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:26:54',1,102,0,156)
+8786097 2017-11-28 17:28:56 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@7d549ac用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@7d549ac]
+8786369 2017-11-28 17:28:56 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:28:56',1,103,0,156)
+8786556 2017-11-28 17:28:56 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:28:56',1,178,0,0,0)
+8908099 2017-11-28 17:30:58 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@2c519016用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@2c519016]
+8908178 2017-11-28 17:30:58 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:30:58',1,104,0,156)
+8908701 2017-11-28 17:30:59 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:30:59',1,179,0,0,0)
+9030100 2017-11-28 17:33:00 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@df9ed02用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@df9ed02]
+9030488 2017-11-28 17:33:00 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:33:00',1,105,0,156)
+9030860 2017-11-28 17:33:01 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:33:01',1,180,0,0,0)
+9152100 2017-11-28 17:35:02 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@5436a325用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@5436a325]
+9152291 2017-11-28 17:35:02 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:35:02',1,106,0,156)
+9153011 2017-11-28 17:35:03 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:35:03',1,181,0,0,0)
+9265043 2017-11-28 17:36:55 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+9274098 2017-11-28 17:37:04 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@13ee4b34用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@13ee4b34]
+9274120 2017-11-28 17:37:04 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:37:04',1,107,0,156)
+9274166 2017-11-28 17:37:04 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:37:04',1,182,0,0,0)
+9396099 2017-11-28 17:39:06 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@5211d848用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@5211d848]
+9396313 2017-11-28 17:39:06 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:39:06',1,183,0,0,0)
+9396447 2017-11-28 17:39:06 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:39:06',1,108,0,156)
+9518099 2017-11-28 17:41:08 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@34165a53用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@34165a53]
+9518269 2017-11-28 17:41:08 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:41:08',1,109,0,156)
+9518460 2017-11-28 17:41:08 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:41:08',1,184,0,0,0)
+9640100 2017-11-28 17:43:10 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@49600260用时[5] SQL:[core.DBLoaderEx$SaveGlobalMethod@49600260]
+9640577 2017-11-28 17:43:10 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:43:10',1,110,0,156)
+9640621 2017-11-28 17:43:11 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:43:11',1,185,0,0,0)
+9762099 2017-11-28 17:45:12 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@34306a27用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@34306a27]
+9762393 2017-11-28 17:45:12 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:45:12',1,111,0,156)
+9762771 2017-11-28 17:45:13 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:45:13',1,186,0,0,0)
+9875196 2017-11-28 17:47:05 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+9884106 2017-11-28 17:47:14 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@50995fac用时[10] SQL:[core.DBLoaderEx$SaveGlobalMethod@50995fac]
+9884201 2017-11-28 17:47:14 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:47:14',1,112,0,156)
+9884933 2017-11-28 17:47:15 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:47:15',1,187,0,0,0)
+10006098 2017-11-28 17:49:16 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@25aaaa84用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@25aaaa84]
+10006105 2017-11-28 17:49:16 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:49:16',1,188,0,0,0)
+10006555 2017-11-28 17:49:16 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:49:16',1,113,0,156)
+10128098 2017-11-28 17:51:18 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@59924304用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@59924304]
+10128265 2017-11-28 17:51:18 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:51:18',1,189,0,0,0)
+10128367 2017-11-28 17:51:18 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:51:18',1,114,0,156)
+10250100 2017-11-28 17:53:20 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@1b0b725a用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@1b0b725a]
+10250193 2017-11-28 17:53:20 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:53:20',1,115,0,156)
+10250434 2017-11-28 17:53:20 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:53:20',1,190,0,0,0)
+10372099 2017-11-28 17:55:22 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@44f48297用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@44f48297]
+10372578 2017-11-28 17:55:22 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:55:22',1,116,0,156)
+10372597 2017-11-28 17:55:23 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:55:23',1,191,0,0,0)
+10485373 2017-11-28 17:57:15 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+10494099 2017-11-28 17:57:24 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@6022295e用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@6022295e]
+10494524 2017-11-28 17:57:24 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:57:24',1,117,0,156)
+10494754 2017-11-28 17:57:25 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:57:25',1,192,0,0,0)
+10616105 2017-11-28 17:59:26 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@63489397用时[8] SQL:[core.DBLoaderEx$SaveGlobalMethod@63489397]
+10616337 2017-11-28 17:59:26 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:59:26',1,118,0,156)
+10616907 2017-11-28 17:59:27 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 17:59:27',1,193,0,0,0)
+10738101 2017-11-28 18:01:28 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@2375c237用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@2375c237]
+10738189 2017-11-28 18:01:28 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:01:28',1,119,0,156)
+10739065 2017-11-28 18:01:29 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:01:29',1,194,0,0,0)
+10860106 2017-11-28 18:03:30 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@47c8ff20用时[9] SQL:[core.DBLoaderEx$SaveGlobalMethod@47c8ff20]
+10860217 2017-11-28 18:03:30 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:03:30',1,195,0,0,0)
+10860521 2017-11-28 18:03:30 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:03:30',1,120,0,156)
+10982097 2017-11-28 18:05:32 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@1fed4a98用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@1fed4a98]
+10982328 2017-11-28 18:05:32 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:05:32',1,121,0,156)
+10982381 2017-11-28 18:05:32 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:05:32',1,196,0,0,0)
+11095526 2017-11-28 18:07:25 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+11104098 2017-11-28 18:07:34 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@4cfebffe用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@4cfebffe]
+11104176 2017-11-28 18:07:34 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:07:34',1,122,0,156)
+11104537 2017-11-28 18:07:34 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:07:34',1,197,0,0,0)
+11226097 2017-11-28 18:09:36 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@39a39ca1用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@39a39ca1]
+11226510 2017-11-28 18:09:36 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:09:36',1,123,0,156)
+11226702 2017-11-28 18:09:37 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:09:37',1,198,0,0,0)
+11348100 2017-11-28 18:11:38 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@2ea1bdb0用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@2ea1bdb0]
+11348332 2017-11-28 18:11:38 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:11:38',1,124,0,156)
+11348853 2017-11-28 18:11:39 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:11:39',1,199,0,0,0)
+11470101 2017-11-28 18:13:40 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@6d81a9d用时[5] SQL:[core.DBLoaderEx$SaveGlobalMethod@6d81a9d]
+11470161 2017-11-28 18:13:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:13:40',1,125,0,156)
+11471020 2017-11-28 18:13:41 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:13:41',1,200,0,0,0)
+11592099 2017-11-28 18:15:42 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@19522f6d用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@19522f6d]
+11592174 2017-11-28 18:15:42 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:15:42',1,201,0,0,0)
+11592472 2017-11-28 18:15:42 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:15:42',1,126,0,156)
+11705682 2017-11-28 18:17:36 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+11714098 2017-11-28 18:17:44 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@7fb72d用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@7fb72d]
+11714322 2017-11-28 18:17:44 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:17:44',1,202,0,0,0)
+11714368 2017-11-28 18:17:44 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:17:44',1,127,0,156)
+11836097 2017-11-28 18:19:46 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@28813cb8用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@28813cb8]
+11836362 2017-11-28 18:19:46 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:19:46',1,128,0,156)
+11836485 2017-11-28 18:19:46 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:19:46',1,203,0,0,0)
+11958100 2017-11-28 18:21:48 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@4ce6e824用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@4ce6e824]
+11958196 2017-11-28 18:21:48 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:21:48',1,129,0,156)
+11958638 2017-11-28 18:21:49 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:21:49',1,204,0,0,0)
+12080098 2017-11-28 18:23:50 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@53dc8d68用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@53dc8d68]
+12080502 2017-11-28 18:23:50 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:23:50',1,130,0,156)
+12080790 2017-11-28 18:23:51 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:23:51',1,205,0,0,0)
+12202101 2017-11-28 18:25:52 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@4af65717用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@4af65717]
+12202417 2017-11-28 18:25:52 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:25:52',1,131,0,156)
+12202945 2017-11-28 18:25:53 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:25:53',1,206,0,0,0)
+12315866 2017-11-28 18:27:46 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+12324105 2017-11-28 18:27:54 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@5ccef0ac用时[8] SQL:[core.DBLoaderEx$SaveGlobalMethod@5ccef0ac]
+12324296 2017-11-28 18:27:54 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:27:54',1,132,0,156)
+12325103 2017-11-28 18:27:55 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:27:55',1,207,0,0,0)
+12446102 2017-11-28 18:29:56 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@4dbba95f用时[4] SQL:[core.DBLoaderEx$SaveGlobalMethod@4dbba95f]
+12446164 2017-11-28 18:29:56 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:29:56',1,133,0,156)
+12446342 2017-11-28 18:29:56 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:29:56',1,208,0,0,0)
+12568101 2017-11-28 18:31:58 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@46ef5a93用时[5] SQL:[core.DBLoaderEx$SaveGlobalMethod@46ef5a93]
+12568501 2017-11-28 18:31:58 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:31:58',1,209,0,0,0)
+12568510 2017-11-28 18:31:58 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:31:58',1,134,0,156)
+12690098 2017-11-28 18:34:00 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@70611cf3用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@70611cf3]
+12690327 2017-11-28 18:34:00 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:34:00',1,135,0,156)
+12690671 2017-11-28 18:34:01 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:34:01',1,210,0,0,0)
+0 2017-11-28 18:35:02 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+6 2017-11-28 18:35:02 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/qiuqiu?rewriteBatchedStatements=true&characterEncoding=utf8]
+357 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/qiuqiu?rewriteBatchedStatements=true&characterEncoding=utf8]
+453 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+585 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+762 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@6fe7aac8 [ID:0] NextRunTime[1511865303614] Run[logic.module.login.Login@1d119efb] SpaceTime[200]]
+767 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+855 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+856 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+859 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[0,3][Login,ResetEnter]
+859 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+860 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+860 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+861 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+861 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+870 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+870 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+871 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+879 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+880 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+880 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+880 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+899 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+903 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+904 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+904 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+904 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+928 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+931 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[1,19][RoomImpl,SplitQiuPlace]
+932 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[1,13][RoomImpl,EatFood]
+933 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[1,31][RoomImpl,LeftMatch]
+933 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[1,29][RoomImpl,gameStart]
+940 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[1,17][RoomImpl,SplitQiu]
+941 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[1,3][RoomImpl,MoveBody]
+942 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[1,6][RoomImpl,SplitBody]
+942 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[1,22][RoomImpl,rebirth]
+942 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[1,33][RoomImpl,chooseTeam]
+943 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[1,34][RoomImpl,getFriendList]
+944 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[1,2][RoomImpl,CreateRoom]
+946 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[1,4][RoomImpl,EatBody]
+946 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[1,36][RoomImpl,leaveRoom]
+947 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[1,37][RoomImpl,visitGame]
+947 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[1,1][RoomImpl,EnterRoom]
+948 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[1,5][RoomImpl,ThornMove]
+953 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[1,35][RoomImpl,dissolution]
+954 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[1,38][RoomImpl,speaking]
+955 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[1,7][RoomImpl,ComposeBody]
+955 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+955 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.room.RoomImpl]
+956 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.room.RoomImpl]
+979 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.center.CenterImpl]
+981 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[3,14][CenterImpl,EnterFreeRoomCenter]
+981 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[3,1][CenterImpl,CreatTeam]
+982 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[3,6][CenterImpl,visitList]
+982 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[3,4][CenterImpl,JoinTeam]
+983 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[3,12][CenterImpl,RetreatTeam]
+984 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[3,13][CenterImpl,creatRoomRule]
+984 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[3,10][CenterImpl,TeamGameMatch]
+985 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[3,3][CenterImpl,InvitationFriend]
+985 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.center.CenterImpl]
+985 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.center.CenterImpl]
+985 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.center.CenterImpl]
+1010 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.userdata.CenterDateImpl]
+1016 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[7,1][CenterDateImpl,getClass]
+1016 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[7,7][CenterDateImpl,userHome]
+1017 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[7,12][CenterDateImpl,rankingPerson]
+1018 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[7,4][CenterDateImpl,deleteFriends]
+1018 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[7,3][CenterDateImpl,agreeAdd]
+1019 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[7,9][CenterDateImpl,rankingClass]
+1020 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[7,11][CenterDateImpl,searchUser]
+1020 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[7,5][CenterDateImpl,givePresent]
+1021 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[7,10][CenterDateImpl,changeSkin]
+1021 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[7,8][CenterDateImpl,sendMessage]
+1022 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[7,6][CenterDateImpl,buyShopping]
+1023 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加[7,2][CenterDateImpl,addFriend]
+1023 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #完成注册[logic.userdata.CenterDateImpl]
+1023 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.userdata.CenterDateImpl]
+1023 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #完成注册[logic.userdata.CenterDateImpl]
+1094 2017-11-28 18:35:03 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@75d4a5c2 [ID:1] NextRunTime[1511865304751] Run[core.ex.GatherInfo@557caf28] SpaceTime[1000]]
+4158 2017-11-28 18:35:06 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@530712d [ID:2] NextRunTime[1511865473814] Run[logic.loader.shengLoader@2df6226d] SpaceTime[167000]]
+4220 2017-11-28 18:35:06 [GlobalLog] SYSTEM_INFO #添加一个定时器[3][core.detail.impl.mgr.timer.TickEvent@49cb9cb5 [ID:3] NextRunTime[1511865446877] Run[logic.loader.shiLoader@55322aab] SpaceTime[140000]]
+4284 2017-11-28 18:35:06 [GlobalLog] SYSTEM_INFO #添加一个定时器[4][core.detail.impl.mgr.timer.TickEvent@50468873 [ID:4] NextRunTime[1511865514940] Run[logic.loader.SchoolLoader@146587a2] SpaceTime[208000]]
+4342 2017-11-28 18:35:06 [GlobalLog] SYSTEM_INFO #添加一个定时器[5][core.detail.impl.mgr.timer.TickEvent@126945f9 [ID:5] NextRunTime[1511865428999] Run[logic.loader.hui_userLoader@2a898881] SpaceTime[122000]]
+4377 2017-11-28 18:35:07 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@93cf163: SELECT * FROM zz_sheng2]
+4377 2017-11-28 18:35:07 [GlobalLog] SYSTEM_INFO #读取到[31]条数据
+4394 2017-11-28 18:35:07 [GlobalLog] SYSTEM_INFO #用时[15] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@6fe1b4fb: SELECT * FROM zz_shi2]
+4394 2017-11-28 18:35:07 [GlobalLog] SYSTEM_INFO #读取到[343]条数据
+4430 2017-11-28 18:35:07 [GlobalLog] SYSTEM_INFO #用时[35] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@13d73fa: SELECT * FROM zz_school]
+4431 2017-11-28 18:35:07 [GlobalLog] SYSTEM_INFO #读取到[11]条数据
+4445 2017-11-28 18:35:07 [GlobalLog] SYSTEM_INFO #用时[12] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@63a270c9: SELECT * FROM hui_user]
+4446 2017-11-28 18:35:07 [GlobalLog] SYSTEM_INFO #读取到[203]条数据
+4448 2017-11-28 18:35:07 [GlobalLog] SYSTEM_INFO #打开端口[2222]成功
+4459 2017-11-28 18:35:07 [GlobalLog] SYSTEM_INFO #打开端口[22222]成功
+4463 2017-11-28 18:35:07 [GlobalLog] SYSTEM_ERROR #java.net.BindException: Address already in use: bind
+4464 2017-11-28 18:35:07 [GlobalLog] SYSTEM_ERROR #java.net.BindException: Address already in use: bind
+4465 2017-11-28 18:35:07 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (18,'2017-11-28 18:35:07',0,'java.net.BindException: Address already in use: bind','sun.nio.ch.Net.bind0(Native Method)
+sun.nio.ch.Net.bind(Net.java:433)
+sun.nio.ch.Net.bind(Net.java:425)
+sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:67)
+core.detail.impl.socket.ListenNioBase.Init(ListenNioBase.java:82)
+core.detail.impl.mgr.NetMgrImpl._StartListen(NetMgrImpl.java:139)
+core.detail.impl.mgr.NetMgrImpl.run(NetMgrImpl.java:72)
+java.lang.Thread.run(Thread.java:748)
+')
+4497 2017-11-28 18:35:07 [GlobalLog] SYSTEM_ERROR #线程[25]挂掉了 囧囧囧囧囧囧囧囧囧囧
+4497 2017-11-28 18:35:07 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:GMNET]] 2017年11月28日 18时35分07秒
+4497 2017-11-28 18:35:07 [GlobalLog] SYSTEM_INFO #线程正常停止[[25,GMNET]] 2017年11月28日 18时35分07秒
+4465 2017-11-28 18:35:07 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (18,'2017-11-28 18:35:07',0,'java.net.BindException: Address already in use: bind','sun.nio.ch.Net.bind0(Native Method)
+sun.nio.ch.Net.bind(Net.java:433)
+sun.nio.ch.Net.bind(Net.java:425)
+sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:67)
+core.detail.impl.socket.ListenNioBase.Init(ListenNioBase.java:82)
+core.detail.impl.mgr.NetMgrImpl._StartListen(NetMgrImpl.java:139)
+core.detail.impl.mgr.NetMgrImpl.run(NetMgrImpl.java:72)
+java.lang.Thread.run(Thread.java:748)
+')
+4501 2017-11-28 18:35:07 [GlobalLog] SYSTEM_INFO #端口异常,正在准备重新打开端口!!!
+4501 2017-11-28 18:35:07 [GlobalLog] SYSTEM_INFO #打开端口[2223]成功
+4667 2017-11-28 18:35:07 [GlobalLog] SYSTEM_INFO #正在打开端口[2223]
+12812106 2017-11-28 18:36:02 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@3307d5f3用时[8] SQL:[core.DBLoaderEx$SaveGlobalMethod@3307d5f3]
+12812141 2017-11-28 18:36:02 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:36:02',1,136,0,156)
+12812815 2017-11-28 18:36:03 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:36:03',1,211,0,0,0)
+126351 2017-11-28 18:37:09 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@35ed829用时[6] SQL:[core.DBLoaderEx$SaveGlobalMethod@35ed829]
+126613 2017-11-28 18:37:09 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:37:09',1,1,0,0,2)
+126843 2017-11-28 18:37:09 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:37:09',1,1,0,9)
+12926022 2017-11-28 18:37:56 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+12934098 2017-11-28 18:38:04 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@1b74d35用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@1b74d35]
+12934499 2017-11-28 18:38:04 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:38:04',1,137,0,156)
+12934983 2017-11-28 18:38:05 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:38:05',1,212,0,0,0)
+248345 2017-11-28 18:39:11 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@3fdb46a4用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@3fdb46a4]
+248688 2017-11-28 18:39:11 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:39:11',1,2,0,13)
+248767 2017-11-28 18:39:11 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:39:11',1,2,0,0,0)
+13056100 2017-11-28 18:40:06 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@76e2db30用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@76e2db30]
+13056139 2017-11-28 18:40:06 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:40:06',1,213,0,0,0)
+13056315 2017-11-28 18:40:06 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 18:40:06',1,138,0,156)

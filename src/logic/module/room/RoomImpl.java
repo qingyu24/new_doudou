@@ -86,10 +86,12 @@ public class RoomImpl implements RoomInterface {
     public void MoveBody(@PU(Index = 1) MyUser p_user, @PI int playerID, @PVI ArrayList<Integer> list, @PL long time) {
         // TODO Auto-generated method stub
         long millis = System.currentTimeMillis();
+
         Room r = RoomManager.getInstance().getRoom(p_user.GetRoleGID());
         if (r != null) {
             RoomPlayer rp = r.GetPlayer(playerID);
-            if (rp != null) {
+
+            if (rp != null&&rp.getID()==playerID) {
                 rp.updatePlace(list);
           /*      LogRecord.Log("收到位置"+list.toString());*/
                 /* LogRecord.Log(p_user, "发来为止信息"+list.toString()); */
@@ -111,7 +113,7 @@ public class RoomImpl implements RoomInterface {
         Room r = RoomManager.getInstance().getRoom(p_user.GetRoleGID());
         if (r != null) {
             RoomPlayer rp = r.GetPlayer(playerID);
-            if (rp != null) {
+            if (rp != null&&rp.getID()==playerID) {
                 rp.splitBody();
                 r.broadcast(RoomInterface.MID_BROADCAST_SPLIT, playerID, m_xpos, m_ypos, list, time);
             }
@@ -146,7 +148,8 @@ public class RoomImpl implements RoomInterface {
         long millis = System.currentTimeMillis();
 
         Room r = RoomManager.getInstance().getRoom(p_user.GetRoleGID());
-        if (r != null) {
+        RoomPlayer player = r.GetPlayer(p_user);
+        if (r != null&&player!=null&&player.getID()==playerId) {
             r.eatfood(eatType, playerId, TargetPlayerID, targetbodyID);
             ArrayList<Integer> list = new ArrayList<>();
             list.add(eatType);
@@ -178,7 +181,8 @@ public class RoomImpl implements RoomInterface {
         Room r = RoomManager.getInstance().getRoom(p_user.GetRoleGID());
 		/* RoomPlayer rp = r.GetPlayer(playerID); */
         logic.LogRecord.Log(null, "收到玩家吐球消息");
-        if (r != null)
+        RoomPlayer roomPlayer = r.GetPlayer(p_user);
+        if (r != null&&roomPlayer!=null&&roomPlayer.getID()==playerID)
             r.broadcast(RoomInterface.MID_BROADCAST_QIU, playerID, list, time);
     }
 
@@ -188,7 +192,8 @@ public class RoomImpl implements RoomInterface {
                               @PL long time) {
         // TODO Auto-generated method stub
         Room r = RoomManager.getInstance().getRoom(p_user.GetRoleGID());
-        if (r != null) {
+        RoomPlayer roomPlayer = r.GetPlayer(p_user);
+        if (r != null&&roomPlayer!=null&&roomPlayer.getID()==playerId){
             r.addQiu(qiuId, playerId, xpos, ypos);
         }
     }
