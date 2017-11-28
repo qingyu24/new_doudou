@@ -240,9 +240,8 @@ public class Room implements Tick {
                 if (user.GetRoleGID() == u.getRoleId()) {
                     this.m_players.remove(u);
                     if (this.m_state == eGameState.GAME_PLAYING)
-                        this.broadcast(RoomInterface.MID_BROADCAST_lEAVE, u.getID(), u.getRoleId());
+                        this.broadcast(RoomInterface.MID_BROADCAST_LEFT, u.getID(), u.getRoleId());
                     u.destroy();
-
                     /* this.m_allPlayer.remove(u.getID()); */
                     broadcast(RoomInterface.MID_BROADCAST_lEAVE,
                             user.GetRoleGID(), time);
@@ -375,6 +374,11 @@ public class Room implements Tick {
         }
     }
 
+    /**
+     * @param msgId
+     * @param arg1
+     * @param time
+     */
     public void broadcast(int msgId, int arg1, long time) {
         Iterator<RoomPlayer> it = m_players.iterator();
         while (it.hasNext()) {
@@ -388,6 +392,7 @@ public class Room implements Tick {
             }
         }
     }
+
 
     // 广播
     public void broadcast(int msgId, long roleId, ArrayList<Integer> list, long time) {
@@ -891,7 +896,7 @@ public class Room implements Tick {
 		 */
         if (m_leftTime <= 0) {
             m_state = eGameState.GAME_OVER;
-			/* gameEnd = true; */
+            /* gameEnd = true; */
             LogRecord.Log(null, "游戏结束，开始结算");
             gameOver();
             return;
@@ -958,8 +963,8 @@ public class Room implements Tick {
         if (m_leftTime < 60 * 1000 * rr.getTime() / 2) {
             return false;
         }
-		/*if(rr.getTeamNum()>0&&this.m_state!=eGameState.GAME_PREPARING){
-			return false;	
+        /*if(rr.getTeamNum()>0&&this.m_state!=eGameState.GAME_PREPARING){
+            return false;
 		}*/
         return true;
     }
@@ -1049,7 +1054,7 @@ public class Room implements Tick {
                     team2.addTeam(team);
                     team2.setM_roomID(this.m_roomId);
                     this.AddPlayer(team, team2);
-					/* TeamManager.getInstance().destroyTeam(team); */
+                    /* TeamManager.getInstance().destroyTeam(team); */
                     return team2;
                 }
             }
@@ -1267,9 +1272,7 @@ public class Room implements Tick {
                 buffer.Send(next.getUser());
             }
         }
-
     }
-
 
     public RoomPlayer GetPlayer(long roleID) {
         for (RoomPlayer m_player : this.m_players) {
