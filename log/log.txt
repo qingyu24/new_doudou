@@ -202,3 +202,6 @@
 697645 2017-11-28 11:09:14 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 11:09:14',1,4,0,35)
 698246 2017-11-28 11:09:15 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 11:09:15',1,4,0,0,0)
 776612 2017-11-28 11:10:33 [GlobalLog] SYSTEM_INFO #[#$% Õ∑≈MySQLOper:1]
+871312 2017-11-28 11:12:08 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@6cfc13d5”√ ±[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@6cfc13d5]
+871447 2017-11-28 11:12:08 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-11-28 11:12:08',1,5,0,0,0)
+871545 2017-11-28 11:12:08 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-11-28 11:12:08',1,5,0,35)
