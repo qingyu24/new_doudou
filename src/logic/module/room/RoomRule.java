@@ -23,7 +23,7 @@ public class RoomRule {
 
     public RoomRule() {
         this.m_type = eGameType.SOLO;
-        this.time = 5;
+        this.time = 1;
         this.teamNum = 6;
         this.palyerNum = 5;
         isFree = false;
