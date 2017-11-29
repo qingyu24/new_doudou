@@ -380,7 +380,7 @@ public class MyUser extends UserBase implements Tick /*,Comparable<MyUser>*/ {
 
     public void setMoney(int money) {
         this.getCenterData().getM_account().Money.Set(this.GetMoney() + money);
-        DBMgr.ExecuteSQL("update account set money=" + this.GetMoney() + " where roleId= " + this.GetRoleGID());
+        DBMgr.ExecuteSQL("update account set money=" + this.GetMoney() + " where roleId= "+ this.GetRoleGID());
     }
 
     public boolean buyShopping(long friendID, int giftID, int price) {

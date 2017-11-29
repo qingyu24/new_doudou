@@ -264,7 +264,7 @@ public class Team implements Comparable<Team> {
             }
             Collections.sort(list);
             for (RoomPlayer roomPlayer : list) {
-                roomPlayer.endpack(buffer);
+                roomPlayer.endpack(buffer,room.getUserSize());
             }
         }
     }

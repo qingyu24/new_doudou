@@ -345,7 +345,7 @@ public class RoomPlayer implements Comparable<RoomPlayer> {
 
     }
 
-    public void endpack(SendMsgBuffer buffer) {
+    public void endpack(SendMsgBuffer buffer,int allPlayer) {
         // TODO Auto-generated method stub
 
         buffer.Add(this.getID());
@@ -361,7 +361,11 @@ public class RoomPlayer implements Comparable<RoomPlayer> {
         buffer.Add(eatNum);
         buffer.Add(this.getWeight());
         LogRecords.Log(null, "现在体重" + (this.getWeight() == 0 ? 10 : this.getWeight()));
-        buffer.Add(this.EarnMoney(this.getRanking()));// 获得金币
+     if(allPlayer>=15) {
+         buffer.Add(this.EarnMoney(this.getRanking()));// 获得金币
+     }else{
+         buffer.Add(0);
+     }
         buffer.Add(this.getTeamName());
         buffer.Add(this.getRanking());
     }
@@ -374,13 +378,14 @@ public class RoomPlayer implements Comparable<RoomPlayer> {
     // 玩家结算
     public void calGame(int size) {
         // TODO Auto-generated method stub
-        if (this.getGrade().storeChange(this.ranking) && size >= 15) {
+        if (this.getGrade().storeChange(this.ranking)) {
 
-            this.m_user.changeMoney(EarnMoney(ranking));
+
+            this.m_user.changeScore(1);
         }
-        ;
-
- /*       this.m_user.changeMoney(EarnMoney(ranking));*/
+        this.m_user.changeMoney(EarnMoney(ranking));
+/*
+        this.m_user.changeMoney(EarnMoney(ranking));*/
     }
 
     private int EarnMoney(int ranking) {

@@ -10,8 +10,6 @@ import manager.RoomManager;
 import manager.TeamManager;
 import manager.ThornBallManager;
 
-import java.io.Serializable;
-import java.lang.reflect.Method;
 import java.util.*;
 import java.util.Map.Entry;
 import java.util.concurrent.ExecutorService;
@@ -395,9 +393,6 @@ public class Room implements Tick {
         }
 
     }
-
-
-
 
 
     // 广播
@@ -834,7 +829,6 @@ public class Room implements Tick {
                 while (ite.hasNext()) {
                     Integer its = (Integer) ite.next();
                     buffer.Add(its);
-
                 }
                 buffer.Add(time);
                 buffer.Send(user.getUser());
@@ -915,11 +909,14 @@ public class Room implements Tick {
     private void gameOver() {
         // TODO Auto-generated method stub
         // 结算积分
-        Iterator<RoomPlayer> it = m_players.iterator();
-        while (it.hasNext()) {
-            RoomPlayer player = (RoomPlayer) it.next();
-            player.calGame(this.getUserSize());
 
+        if (this.getUserSize() >= 15) {
+            Iterator<RoomPlayer> it = m_players.iterator();
+            while (it.hasNext()) {
+                RoomPlayer player = (RoomPlayer) it.next();
+                player.calGame(this.getUserSize());
+
+            }
         }
         // 广播
         Iterator<RoomPlayer> its = m_players.iterator();
@@ -933,7 +930,7 @@ public class Room implements Tick {
             if (!isTeamGame) {
                 for (int i = 0; i < getUserSize(); i++) {
                     if (m_players.get(i).getID() != 0) {
-                        m_players.get(i).endpack(buffer);
+                        m_players.get(i).endpack(buffer,getUserSize());
                         LogRecord.Log(null, "团战结算当前玩家" + m_players.get(i).getID()
                                 + "名次" + m_players.get(i).getRanking());
                     }
@@ -942,7 +939,6 @@ public class Room implements Tick {
                 Collections.sort(m_allTeams);
                 for (Team team : m_allTeams) {
                     team.endPack(buffer);
-
                 }
             }
             if (roomPlayer.getID() != 0) {
@@ -953,9 +949,7 @@ public class Room implements Tick {
             roomPlayer.getGrade().endPack(buffer);
             buffer.Add(System.currentTimeMillis());
             buffer.Send(roomPlayer.getUser());
-
         }
-
         RoomManager.getInstance().removeRoom(m_roomId);
     }
 
@@ -996,7 +990,6 @@ public class Room implements Tick {
             while (it.hasNext()) {
                 Team team = (Team) it.next();
                 if (team.m_users.size() + size <= rr.getPalyerNum()) {
-
                     return true;
                 }
             }
@@ -1039,7 +1032,6 @@ public class Room implements Tick {
             Team team = (Team) it.next();
             p.Add(team.getM_teamID());
             p.Add(team.m_users.size());
-
         }
     }
 
@@ -1183,7 +1175,7 @@ public class Room implements Tick {
 
     public void packSize(SendMsgBuffer p) {
         // TODO Auto-generated method stub
-		/* p.Add(this.rr.getRoomName()); */
+        /* p.Add(this.rr.getRoomName()); */
         p.Add(this.m_roomId);
         if (owner != null) {
             p.Add(owner.GetRoleGID());
