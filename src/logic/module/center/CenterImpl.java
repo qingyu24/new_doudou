@@ -67,6 +67,13 @@ public class CenterImpl implements CenterInterface {
     @RFC(ID = 4)
     public void JoinTeam(@PU MyUser p_user, @PI int p_teamID,
                          @PL long m_friendID) {
+        //如果加入已经开始的房间 解除注释
+   /*     Team team1 = TeamManager.getInstance().getTeam(p_teamID);
+        if(team1!=null&&team1.getM_roomID()!=0){
+
+            p_user.sendError(eErrorCode.Error_2);
+            return;
+        }*/
         Team team = TeamManager.getInstance().joinTeam(p_user, p_teamID);
         if (team != null) {
             team.boradcast(p_user, true);

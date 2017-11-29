@@ -41,7 +41,7 @@ public class RoomImpl implements RoomInterface {
             //
         } else if (room2 != null && room2.getRr().isFree()) { //进入自建房
             /*	Room room2 = RoomManager.getInstance().getRoom(roomID);*/
-            if (room2.canJoin()) {
+            if (room2.canJoin()&&room2.getM_state()==eGameState.GAME_PREPARING) {
                 RoomManager.getInstance().joinRoom(p_user, room2.getID());
                 RoomPlayer player = room2.AddPlayer(p_user);
                 if (room2.getRr().isTeam()) {

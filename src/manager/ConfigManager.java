@@ -38,6 +38,8 @@ public class ConfigManager {
         return _instance = new ConfigManager();
     }
 
+    public static  boolean isSqlserver=true;
+
     /**
      * 初始化所有的服务器配置文件；
      */
