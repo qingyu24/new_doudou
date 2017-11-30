@@ -1,10 +1,7 @@
 package logic.module.center;
 
 import core.detail.impl.socket.SendMsgBuffer;
-import core.remote.PI;
-import core.remote.PL;
-import core.remote.PU;
-import core.remote.RFC;
+import core.remote.*;
 import logic.*;
 import logic.module.room.Room;
 import logic.module.room.RoomRule;
@@ -47,7 +44,7 @@ public class CenterImpl implements CenterInterface {
             boolean s = roomID == 0 && team != null && !team.contain(m_friendID);
             boolean b = (user.getRoomId() != roomID && roomID != 0);
 
-            if (user != null && (b || s)&&user.GetRoleGID()!=p_user.GetRoleGID()) {
+            if (user != null && (b || s) && user.GetRoleGID() != p_user.GetRoleGID()) {
                 SendMsgBuffer p = PackBuffer.GetInstance().Clear().AddID(Reg.CENTER, CenterInterface.MID_BROADCAST_INVITATION);
                 p.Add(p_ID);
                 p.Add(p_user.getTickName());
@@ -130,9 +127,9 @@ public class CenterImpl implements CenterInterface {
     @RFC(ID = 13)
     // 自建房 创建房间规则
     public void creatRoomRule(@PU MyUser p_user, @PI int isTeam,
-                              @PI int gameTime, @PI int teNumber, @PI int eachSize) {
+                              @PI int gameTime, @PI int teNumber, @PI int eachSize, @PS String roomName, @PI int roomPass) {
 
-        RoomRule rule = new RoomRule(isTeam, gameTime, teNumber, eachSize);
+        RoomRule rule = new RoomRule(isTeam, gameTime, teNumber, eachSize, roomName, roomPass);
 
         Room room = RoomManager.getInstance().createFreeRoom(p_user, rule);
         if (isTeam == 1) {
@@ -174,6 +171,20 @@ public class CenterImpl implements CenterInterface {
             myUser.packDate(p);
         }
         p.Send(p_user);
+    }
+
+    @Override
+    @RFC(ID = 8)
+    public void visitPlayer(@PU MyUser p_user, @PI int roomID) {
+        Room room = RoomManager.getInstance().getRoom(roomID);
+        if (room != null && room.getM_state() == eGameState.GAME_PLAYING) {
+            SendMsgBuffer p = PackBuffer.GetInstance().Clear()
+                    .AddID(Reg.CENTER, CenterInterface.MID_BROADCAST_PLAYER);
+            room.packPlayers(p);
+            p.Send(p_user);
+        }
+
+
     }
 
 

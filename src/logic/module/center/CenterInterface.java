@@ -19,7 +19,7 @@ public interface CenterInterface {
     static final int MID_BROADCAST_NEWTEAM = 11; // 广播给其他玩家新进入队伍的信息
 
     static final int MID_BROADCAST_INVITATION = 9;//广播收到好友邀请
-    static final int MID_BROADCAST_GAMESTRAT = 8; // 各队伍准备就绪 开始游戏
+    static final int MID_BROADCAST_PLAYER = 8; // 房间玩家列表
     static final int MID_TEAM_MATCH = 10; // 开始匹配团队 ，进入匹配界面
     static final int MID_TEAM_RETREAT = 12; // 退出队伍
     static final int MID_TEAM_OWNERCHANGE = 16; // 退出队伍
@@ -45,12 +45,16 @@ public interface CenterInterface {
     void RetreatTeam(@PU MyUser p_user, @PL long roleID, @PI int p_teamID);
 
     @RFC(ID = MID_ROOM_RULE)
-    void creatRoomRule(@PU MyUser p_user, @PI int isTeam, @PI int gameTime, @PI int teNumber, @PI int eachSize);
+    void creatRoomRule(@PU MyUser p_user, @PI int isTeam, @PI int gameTime, @PI int teNumber, @PI int eachSize, @PS String roomName, @PI int roomPass);
 
     @RFC(ID = MID_ROOM_FREEROOMCENTER)
     void EnterFreeRoomCenter(@PU MyUser p_user, @PI int isEnter, @PI int isTeam);
 
     @RFC(ID = MID_VISIT_LIST)
     void visitList(@PU MyUser p_user);
+
+    @RFC(ID = MID_BROADCAST_PLAYER)
+    void visitPlayer(@PU MyUser p_user,@PI int roomID);
+
 
 }

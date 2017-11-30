@@ -217,10 +217,10 @@ public class RoomManager {
         while (its.hasNext()) {
 
             Room room = (Room) its.next();
+      boolean is=  room.getRr().getM_type().ID() == isTeam||isTeam==2;
 		/*	if(room.check)*/
-            if (room.getRr().getM_type().ID() == isTeam && room.getM_state() != eGameState.GAME_PLAYING) {
+            if (is && room.getM_state() != eGameState.GAME_PLAYING) {
                 i++;
-                ;
             }
         }
 
@@ -230,7 +230,8 @@ public class RoomManager {
         System.err.println(i);
         while (it.hasNext()) {
             Room room = (Room) it.next();
-            if (room.getRr().getM_type().ID() == isTeam && room.getM_state() != eGameState.GAME_PLAYING) {
+            boolean is=  room.getRr().getM_type().ID() == isTeam||isTeam==2;
+            if (is && room.getM_state() != eGameState.GAME_PLAYING) {
                 room.packSize(p);
             }
         }

@@ -930,7 +930,7 @@ public class Room implements Tick {
             if (!isTeamGame) {
                 for (int i = 0; i < getUserSize(); i++) {
                     if (m_players.get(i).getID() != 0) {
-                        m_players.get(i).endpack(buffer,getUserSize());
+                        m_players.get(i).endpack(buffer, getUserSize());
                         LogRecord.Log(null, "团战结算当前玩家" + m_players.get(i).getID()
                                 + "名次" + m_players.get(i).getRanking());
                     }
@@ -1191,6 +1191,9 @@ public class Room implements Tick {
         p.Add(this.rr.getPalyerNum());
         p.Add(this.getUserSize());
         p.Add(this.rr.getAllNum());
+        p.Add(rr.getRoomName());
+        p.Add(rr.getRoomPass());
+
     }
 
     public void broadcastFree(int isTeam) {
@@ -1281,4 +1284,15 @@ public class Room implements Tick {
         return null;
 
     }
+
+    public void packPlayers(SendMsgBuffer p) {
+        p.Add((short) getUserSize());
+        for (RoomPlayer player : this.m_players) {
+            if (player.getID() != 0) {
+                player.getUser().packDate(p);
+            }
+        }
+
+    }
+
 }
