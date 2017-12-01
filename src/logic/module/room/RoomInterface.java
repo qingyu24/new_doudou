@@ -24,7 +24,7 @@ public interface RoomInterface {
     static final int MID_BROADCAST_SPLIT = 11; // 广播分离;
     static final int MID_BROADCAST_LEFT = 12; // 广播离开    ;
     static final int MID_BROADCAST_QIU = 18; // 广播吐球;
-    static final int MID_BROADCAST_QIUPLACE = 20; // 广播吐球;
+    static final int MID_PLAYER_REMOVE = 20; // 踢人;
     static final int MID_BROADCAST_THORNBALL = 21; // 广播刺球球;
     static final int MID_BROADCAST_REBIRTH = 24; // 广播复活;
     static final int MID_BODY_EATFOOD = 13; // 吃食物;
@@ -115,6 +115,10 @@ public interface RoomInterface {
     void visitGame(@PU(Index = Reg.ROOM) MyUser p_user, @PL long  roleID);
 
     @RFC(ID = MID_ROOM_SPEAKING)
+
     void speaking (@PU(Index = Reg.ROOM) MyUser p_user, @PS String talking);
+
+    @RFC(ID = MID_PLAYER_REMOVE)
+    void removePlayer(@PU(Index = Reg.ROOM) MyUser p_user, @PI int targetID, @PI int teamID);
 
 }

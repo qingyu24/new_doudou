@@ -45,7 +45,7 @@ public interface CenterInterface {
     void RetreatTeam(@PU MyUser p_user, @PL long roleID, @PI int p_teamID);
 
     @RFC(ID = MID_ROOM_RULE)
-    void creatRoomRule(@PU MyUser p_user, @PI int isTeam, @PI int gameTime, @PI int teNumber, @PI int eachSize, @PS String roomName, @PI int roomPass);
+    void creatRoomRule(@PU MyUser p_user, @PI int isTeam, @PI int gameTime, @PI int teNumber, @PI int eachSize, @PS String roomName, @PS String roomPass);
 
     @RFC(ID = MID_ROOM_FREEROOMCENTER)
     void EnterFreeRoomCenter(@PU MyUser p_user, @PI int isEnter, @PI int isTeam);

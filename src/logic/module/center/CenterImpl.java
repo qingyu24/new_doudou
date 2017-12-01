@@ -127,7 +127,7 @@ public class CenterImpl implements CenterInterface {
     @RFC(ID = 13)
     // 自建房 创建房间规则
     public void creatRoomRule(@PU MyUser p_user, @PI int isTeam,
-                              @PI int gameTime, @PI int teNumber, @PI int eachSize, @PS String roomName, @PI int roomPass) {
+                              @PI int gameTime, @PI int teNumber, @PI int eachSize, @PS String roomName, @PS String roomPass) {
 
         RoomRule rule = new RoomRule(isTeam, gameTime, teNumber, eachSize, roomName, roomPass);
 
@@ -184,8 +184,8 @@ public class CenterImpl implements CenterInterface {
             p.Send(p_user);
         }
 
-
     }
+
 
 
 }

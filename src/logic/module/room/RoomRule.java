@@ -9,7 +9,7 @@ public class RoomRule {
     private int palyerNum; // 每队人数
     private String roomName; // 房间名称
     private boolean isFree; //是否是自建房
-    private int roomPass;
+    private String  roomPass;
 
     public RoomRule(int type, int time, int teamNum, int palyerNum) {
         super();
@@ -30,7 +30,7 @@ public class RoomRule {
         isFree = false;
     }
 
-    public RoomRule(int type, int time, int teamNum, int palyerNum, String roomName, int roomPass) {
+    public RoomRule(int type, int time, int teamNum, int palyerNum, String roomName, String roomPass) {
         super();
         this.m_type = (type == 1) ? eGameType.TEAM : eGameType.SOLO;
         this.time = time;
@@ -41,7 +41,7 @@ public class RoomRule {
         isFree = true;
     }
 
-    public int getRoomPass() {
+    public String getRoomPass() {
         return roomPass;
     }
 

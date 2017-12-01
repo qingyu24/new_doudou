@@ -41,7 +41,7 @@ public class RoomImpl implements RoomInterface {
             //
         } else if (room2 != null && room2.getRr().isFree()) { //进入自建房
             /*	Room room2 = RoomManager.getInstance().getRoom(roomID);*/
-            if (room2.canJoin()&&room2.getM_state()==eGameState.GAME_PREPARING) {
+            if (room2.canJoin() && room2.getM_state() == eGameState.GAME_PREPARING) {
                 RoomManager.getInstance().joinRoom(p_user, room2.getID());
                 RoomPlayer player = room2.AddPlayer(p_user);
                 if (room2.getRr().isTeam()) {
@@ -91,7 +91,7 @@ public class RoomImpl implements RoomInterface {
         if (r != null) {
             RoomPlayer rp = r.GetPlayer(playerID);
 
-            if (rp != null&&rp.getID()==playerID) {
+            if (rp != null && rp.getID() == playerID) {
                 rp.updatePlace(list);
           /*      LogRecord.Log("收到位置"+list.toString());*/
                 /* LogRecord.Log(p_user, "发来为止信息"+list.toString()); */
@@ -113,7 +113,7 @@ public class RoomImpl implements RoomInterface {
         Room r = RoomManager.getInstance().getRoom(p_user.GetRoleGID());
         if (r != null) {
             RoomPlayer rp = r.GetPlayer(playerID);
-            if (rp != null&&rp.getID()==playerID) {
+            if (rp != null && rp.getID() == playerID) {
                 rp.splitBody();
                 r.broadcast(RoomInterface.MID_BROADCAST_SPLIT, playerID, m_xpos, m_ypos, list, time);
             }
@@ -149,7 +149,7 @@ public class RoomImpl implements RoomInterface {
 
         Room r = RoomManager.getInstance().getRoom(p_user.GetRoleGID());
         RoomPlayer player = r.GetPlayer(p_user);
-        if (r != null&&player!=null&&player.getID()==playerId) {
+        if (r != null && player != null && player.getID() == playerId) {
             r.eatfood(eatType, playerId, TargetPlayerID, targetbodyID);
             ArrayList<Integer> list = new ArrayList<>();
             list.add(eatType);
@@ -179,10 +179,10 @@ public class RoomImpl implements RoomInterface {
     public void SplitQiu(@PU MyUser p_user, @PI int playerID, @PVI ArrayList<Integer> list, @PL long time) {
         // TODO Auto-generated method stub
         Room r = RoomManager.getInstance().getRoom(p_user.GetRoleGID());
-		/* RoomPlayer rp = r.GetPlayer(playerID); */
+        /* RoomPlayer rp = r.GetPlayer(playerID); */
         logic.LogRecord.Log(null, "收到玩家吐球消息");
         RoomPlayer roomPlayer = r.GetPlayer(p_user);
-        if (r != null&&roomPlayer!=null&&roomPlayer.getID()==playerID)
+        if (r != null && roomPlayer != null && roomPlayer.getID() == playerID)
             r.broadcast(RoomInterface.MID_BROADCAST_QIU, playerID, list, time);
     }
 
@@ -193,7 +193,7 @@ public class RoomImpl implements RoomInterface {
         // TODO Auto-generated method stub
         Room r = RoomManager.getInstance().getRoom(p_user.GetRoleGID());
         RoomPlayer roomPlayer = r.GetPlayer(p_user);
-        if (r != null&&roomPlayer!=null&&roomPlayer.getID()==playerId){
+        if (r != null && roomPlayer != null && roomPlayer.getID() == playerId) {
             r.addQiu(qiuId, playerId, xpos, ypos);
         }
     }
@@ -205,14 +205,14 @@ public class RoomImpl implements RoomInterface {
         // TODO Auto-generated method stub
         LogRecord.Log("收到复活消息" + p_user.GetRoleGID());
         Room r = RoomManager.getInstance().getRoom(p_user.GetRoleGID());
-       if(r!=null){
-        RoomPlayer rp = r.GetPlayer(playerId);
-        if (rp != null) {
-            PlayerBody body = rp.reset();
-            r.broadcast(RoomInterface.MID_BROADCAST_REBIRTH, rp, time);
-            LogRecord.Log("收到复活消息并广播结束");
+        if (r != null) {
+            RoomPlayer rp = r.GetPlayer(playerId);
+            if (rp != null) {
+                PlayerBody body = rp.reset();
+                r.broadcast(RoomInterface.MID_BROADCAST_REBIRTH, rp, time);
+                LogRecord.Log("收到复活消息并广播结束");
+            }
         }
-       }
         LogRecord.writePing("EatBody执行时间", System.currentTimeMillis() - millis);
     }
 
@@ -260,7 +260,7 @@ public class RoomImpl implements RoomInterface {
                 }
                 player.setTeamID(team.getM_teamID());
             }
-		/*	team.addUser(p_user);*/
+        /*	team.addUser(p_user);*/
             TeamManager.getInstance().joinTeam(p_user, team.getM_teamID());
             room.free_addTeam(team);
 			/*room.addTeam(team);*/
@@ -351,14 +351,15 @@ public class RoomImpl implements RoomInterface {
                 return;
             }
         }
-                SendMsgBuffer ps = PackBuffer.GetInstance().Clear().AddID(Reg.ROOM, RoomInterface.MID_ROOM_VISIT);
+        SendMsgBuffer ps = PackBuffer.GetInstance().Clear().AddID(Reg.ROOM, RoomInterface.MID_ROOM_VISIT);
 
-                ps.Add(Long.parseLong("0"));
+        ps.Add(Long.parseLong("0"));
 
-                ps.Send(p_user);
+        ps.Send(p_user);
 
 
     }
+
     @Override
     @RFC(ID = 38)
     public void speaking(@PU MyUser p_user, @PS String talking) {
@@ -367,5 +368,24 @@ public class RoomImpl implements RoomInterface {
         if (room != null) {
             room.broadcast(RoomInterface.MID_ROOM_SPEAKING, talking, p_user);
         }
+    }
+
+    @Override
+    @RFC(ID = 20)
+    public void removePlayer(MyUser p_user, @PI int targetID, @PI int teamID) {
+        Room r = RoomManager.getInstance().getRoom(p_user.getRoomId());
+        Team team = TeamManager.getInstance().getTeam(teamID);
+        if (r != null && r.getRr().isFree()) {
+            RoomPlayer roomPlayer = r.GetPlayer(targetID);
+            if (roomPlayer != null)
+                r.RemovePlayer(p_user, System.currentTimeMillis());
+
+            if (team != null) {
+                team.removeUser(p_user);
+            }
+            r.broadcastFree(r.getRr().getM_type().ID());
+
+        }
+
     }
 }
