@@ -119,6 +119,6 @@ public interface RoomInterface {
     void speaking (@PU(Index = Reg.ROOM) MyUser p_user, @PS String talking);
 
     @RFC(ID = MID_PLAYER_REMOVE)
-    void removePlayer(@PU(Index = Reg.ROOM) MyUser p_user, @PI int targetID, @PI int teamID);
+    void removePlayer(@PU(Index = Reg.ROOM) MyUser p_user, @PL long targetID, @PI int teamID);
 
 }

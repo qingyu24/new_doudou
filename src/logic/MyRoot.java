@@ -45,7 +45,7 @@ public class MyRoot extends Root implements Tick {
 
         RootConfig c = RootConfig.GetInstance();
         c.Init();
-
+/*        c.SqlServer = true;*/
         TimeMethod.Init();
 
         if (c.OpenSecurityService) {
@@ -122,6 +122,8 @@ public class MyRoot extends Root implements Tick {
         }
 
     }
+
+
 
     public static String readFileByLines(String fileName) {
         File file = new File(fileName);

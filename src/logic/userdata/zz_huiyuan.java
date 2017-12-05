@@ -130,7 +130,7 @@ public class zz_huiyuan extends RoleDataBase {
 
     public DBString mingxiangsi;//
 
-    public DBString tongbuketang;//
+ /*   public DBString tongbuketang;//*/
 
     public DBString zuoye_shuxue;//
 
@@ -173,6 +173,7 @@ public class zz_huiyuan extends RoleDataBase {
     public DBString qitazonghe;//
 
     public DBString jiazhangusername;//
+
 
     public DBInt isjiaqian;//
 
@@ -234,7 +235,7 @@ public class zz_huiyuan extends RoleDataBase {
         buffer.Add(login_token.Get());
         buffer.Add(yuxile.Get());
         buffer.Add(mingxiangsi.Get());
-        buffer.Add(tongbuketang.Get());
+/*        buffer.Add(tongbuketang.Get());*/
         buffer.Add(zuoye_shuxue.Get());
         buffer.Add(zuoye_yuwen.Get());
         buffer.Add(zuoye_yingyu.Get());

@@ -7,7 +7,6 @@ import logic.MyUser;
 import logic.PackBuffer;
 import logic.Reg;
 import logic.loader.hui_userLoader;
-import manager.LoaderManager;
 import manager.RankingManager;
 import manager.UserManager;
 
@@ -238,7 +237,7 @@ public class CenterDateImpl implements CenterDateInterface {
     public void rankingPerson(@PU MyUser p_user, @PI int list_type, @PI int number, @PI int size) {
 
         //1 all   2市  3 school
-        hui_userLoader loader = (hui_userLoader) LoaderManager.getInstance().getLoader(LoaderManager.hui_User);
+        hui_userLoader loader = hui_userLoader.getInstance();
         loader.sendRaning_All(list_type, p_user);
 
     }

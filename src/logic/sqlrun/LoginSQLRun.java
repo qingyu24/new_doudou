@@ -25,7 +25,7 @@ public class LoginSQLRun extends MySQLRun {
     /*	private static final String m_user_query = "select * from zz_huiyuan where Name = '%s'";
         //这是只是注册账号的，以后还会有微信登录的；
         private static final String m_user_create = "insert into zz_huiyuan(RoleID, Name, Password, Icon) values (%d, '%s', '%s',%d)";//
-    */    private static final String m_MaxRoleData = "SELECT * FROM zz_huiyuan ORDER BY id DESC LIMIT 1";
+    */    private static final String m_MaxRoleData = "SELECT * FROM zz_huiyuan ORDER BY RoleID DESC LIMIT 1";
     private static final String m_user_query = "select * from zz_huiyuan where username = '%s'";
     private static final String m_user_create = "insert into zz_huiyuan(Id, username, Password) values (%d, '%s', '%s)";//
     private static logindata m_LoginData = new logindata();    ///<这个只当成模板用,没实际效果
@@ -221,6 +221,7 @@ public class LoginSQLRun extends MySQLRun {
             //我现在哪roleid当openid来用；
             long userID = build.Get();
             p2.RoleID.Set(userID);
+            p_User.SetRoleGID(userID);
             DBMgr.ExecuteSQL("update zz_huiyuan set roleid=" + userID + " where username=" + p2.username.Get() + " and password = " + p2.password.Get());
 
         }

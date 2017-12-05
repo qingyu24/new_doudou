@@ -1,8 +1,7 @@
 package logic.loader;
 
-import core.DBLoaderEx;
+import core.DBMgr;
 import core.detail.impl.socket.SendMsgBuffer;
-import jxl.read.biff.SharedDateFormulaRecord;
 import logic.MyUser;
 import logic.PackBuffer;
 import logic.Reg;
@@ -10,11 +9,10 @@ import logic.userdata.CenterDateInterface;
 import logic.userdata.hui_user;
 
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.concurrent.ConcurrentLinkedQueue;
 
-public class hui_userLoader extends DBLoaderEx<hui_user> {
+public class hui_userLoader /*extends DBLoaderEx<hui_user>*/ {
 
+/*
 
     public hui_userLoader(hui_user p_Seed) {
         super(p_Seed);
@@ -29,17 +27,27 @@ public class hui_userLoader extends DBLoaderEx<hui_user> {
         return m_Datas;
 
     }
+*/
+public  static hui_userLoader instance;
+
+    public static hui_userLoader getInstance() {
+        if(instance==null)
+            instance=new hui_userLoader();
+        return instance;
+    }
 
 
     public void sendRaning_All(int list_type, MyUser p_user) {
         SendMsgBuffer buffer = PackBuffer.GetInstance().Clear().AddID(Reg.CENTERDATA, CenterDateInterface.MID_RANKING_PERSON);
         ArrayList<hui_user> list = new ArrayList<hui_user>();
+        hui_user[] hui_users = DBMgr.ReadSQL(new hui_user(), hui_user.Sql(null, " 0,50"));
 
-        Iterator<hui_user> iterator = this.getCenterDate().iterator();
+
         int size = 0;//一共发送前几名
         int isbegin = 1;
-        while (iterator.hasNext()) {
-            hui_user next = iterator.next();
+        for (hui_user hui_user : hui_users) {
+
+            hui_user next = hui_user;
             if (match(next, list_type, p_user)) {
                 list.add(next);
                 if (size++ > 30) break;//一共发送多少人

@@ -372,14 +372,15 @@ public class RoomImpl implements RoomInterface {
 
     @Override
     @RFC(ID = 20)
-    public void removePlayer(MyUser p_user, @PI int targetID, @PI int teamID) {
-        Room r = RoomManager.getInstance().getRoom(p_user.getRoomId());
+    public void removePlayer(MyUser p_user,  @PL long targetID, @PI int teamID) {
+        Room r = RoomManager.getInstance().getRoom(p_user.GetRoleGID());
         Team team = TeamManager.getInstance().getTeam(teamID);
         if (r != null && r.getRr().isFree()) {
             RoomPlayer roomPlayer = r.GetPlayer(targetID);
             if (roomPlayer != null)
-                r.RemovePlayer(p_user, System.currentTimeMillis());
-
+                r.RemovePlayer(roomPlayer.getUser(), System.currentTimeMillis());
+            SendMsgBuffer p = PackBuffer.GetInstance().Clear().AddID(Reg.ROOM, RoomInterface.MID_PLAYER_REMOVE);
+            p.Send(roomPlayer.getUser());
             if (team != null) {
                 team.removeUser(p_user);
             }

@@ -18,6 +18,9 @@ public class UserClass implements Comparable<UserClass>{
     public DBInt por;//¶Ó³¤Í·Ïñ
 public  DBInt score;
 
+    public UserClass() {
+    }
+
     @Override
     public String toString() {
         return "UserClass{" +

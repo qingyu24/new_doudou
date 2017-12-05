@@ -7,7 +7,6 @@ import logic.PackBuffer;
 import logic.Reg;
 import logic.eGameState;
 import logic.loader.HuiyuanLoader;
-import logic.loader.hui_userLoader;
 import logic.module.room.Room;
 import logic.module.room.RoomPlayer;
 import logic.userdata.*;
@@ -106,23 +105,23 @@ public class UserManager {
 
         ArrayList<hui_user> list = new ArrayList<hui_user>();
 
-        hui_userLoader loader = (hui_userLoader) LoaderManager.getInstance().getLoader(LoaderManager.hui_User);
-        for (logic.userdata.hui_user zz_huiyuan : loader.getCenterDate()) {
-            if (zz_huiyuan.schoolID.Get() == nianJi.get(0) && zz_huiyuan.grade.Get() == nianJi.get(1) && zz_huiyuan.banji.Get() == nianJi.get(2) && zz_huiyuan.RoleID.Get() != p_user.GetRoleGID()) {
-                list.add(zz_huiyuan);
-            }
-        }
+     String sql=" zz_huiyuan.school=%d and zz_huiyuan.grade=%d and zz_huiyuan.banji=%d";
+
+        hui_user[] hui_users = DBMgr.ReadSQL(new hui_user(), hui_user.Sql(String.format(sql, nianJi.get(0), nianJi.get(1), nianJi.get(2)),null));
+
         int isbegin = 1;
         ArrayList<hui_user> huis = new ArrayList<>();
-        for (int i = 0; i < list.size(); i++) {
-            huis.add(list.get(i));
-            if (huis.size() > 30 || i == list.size() - 1) {
-                this.sendClass(huis, p_user, isbegin);
-                huis.clear();
-                isbegin = 0;
+
+        for (hui_user user : hui_users) {
+            if (user.RoleID.Get() != p_user.GetRoleGID()) {
+                huis.add(user);
+                if (huis.size() > 30 ) {
+                    this.sendClass(huis, p_user, isbegin);
+                    huis.clear();
+                    isbegin = 0;
+                }
             }
         }
-
     }
 
     public void sendClass(ArrayList<hui_user> list, MyUser p_user, int isbegin) {

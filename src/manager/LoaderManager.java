@@ -1,10 +1,12 @@
 package manager;
 
 import core.DBLoader;
-import core.DBMgr;
-import core.db.RoleIDUniqueID;
-import logic.loader.*;
-import logic.userdata.*;
+import logic.loader.SchoolLoader;
+import logic.loader.shengLoader;
+import logic.loader.shiLoader;
+import logic.userdata.zz_school;
+import logic.userdata.zz_sheng2;
+import logic.userdata.zz_shi2;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -18,7 +20,7 @@ public class LoaderManager {
     public static String zz_sheng2 = "zz_sheng2";
     public static String zz_shi2 = "zz_shi2";
 
-    public static String hui_User = "hui_User";
+/*    public static String hui_User = "hui_User";*/
 
 
 
@@ -37,13 +39,13 @@ public class LoaderManager {
         shengLoader shengLoader = new shengLoader(new zz_sheng2());
         shiLoader shiLoader = new shiLoader(new zz_shi2());
         SchoolLoader schoolLoader = new SchoolLoader(new zz_school());
-        hui_userLoader huiUserLoader = new hui_userLoader(new hui_user());
+    /*    hui_userLoader huiUserLoader = new hui_userLoader(new hui_user());*/
      /*   UserLoader users = new UserLoader(new account());
         HuiyuanLoader huiyuan = new HuiyuanLoader(new zz_huiyuan());*/
         m_list.put(zz_school,schoolLoader);
         m_list.put(zz_shi2,shiLoader);
         m_list.put(zz_sheng2, shengLoader);
-        m_list.put(hui_User, huiUserLoader);
+  /*      m_list.put(hui_User, huiUserLoader);*/
 
 
 
