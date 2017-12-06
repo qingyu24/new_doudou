@@ -13,8 +13,8 @@ public class ThornBall {
     public ThornBall(int thId) {
         LogRecord.Log("新生成刺球"+thId);
         this.thId = thId;
-        this.xpos = (int) (-100000 + Math.random() * 200000);
-        this.ypos = (int) (-100000 + Math.random() * 200000);
+        this.xpos = (int) (-90000 + Math.random() * 180000);
+        this.ypos = (int) (-90000 + Math.random() * 180000);
         this.weight = (int) (Math.random() * 50 + 150);
     }
 

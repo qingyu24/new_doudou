@@ -217,7 +217,7 @@ public class RoomManager {
         while (its.hasNext()) {
 
             Room room = (Room) its.next();
-      boolean is= room.getRr().getM_type().ID() == isTeam&& room.getM_state() != eGameState.GAME_PLAYING ;
+            boolean is= room.getRr().getM_type().ID() == isTeam&& room.getM_state() != eGameState.GAME_PLAYING ;
 		/*	if(room.check)*/
             if (is||(isTeam==2&&room.getM_state()==eGameState.GAME_PLAYING)) {
                 i++;

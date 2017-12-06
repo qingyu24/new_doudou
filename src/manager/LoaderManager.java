@@ -38,11 +38,11 @@ public class LoaderManager {
     public void loadAll() {
         shengLoader shengLoader = new shengLoader(new zz_sheng2());
         shiLoader shiLoader = new shiLoader(new zz_shi2());
-        SchoolLoader schoolLoader = new SchoolLoader(new zz_school());
+     /*   SchoolLoader schoolLoader = new SchoolLoader(new zz_school());*/
     /*    hui_userLoader huiUserLoader = new hui_userLoader(new hui_user());*/
      /*   UserLoader users = new UserLoader(new account());
         HuiyuanLoader huiyuan = new HuiyuanLoader(new zz_huiyuan());*/
-        m_list.put(zz_school,schoolLoader);
+ /*       m_list.put(zz_school,schoolLoader);*/
         m_list.put(zz_shi2,shiLoader);
         m_list.put(zz_sheng2, shengLoader);
   /*      m_list.put(hui_User, huiUserLoader);*/
@@ -61,8 +61,9 @@ public class LoaderManager {
             shiLoader dbLoader = (shiLoader) m_list.get(zz_shi2);
             return  dbLoader.getShi(sID);
         }else if(type==3){
-            SchoolLoader dbLoader = (SchoolLoader) m_list.get(zz_school);
-        return  dbLoader.getSchool(ID);
+    /*        SchoolLoader dbLoader = (SchoolLoader) m_list.get(zz_school);*/
+
+        return   SchoolLoader.getInstance().getSchool(ID);
         }
 
         return  null;

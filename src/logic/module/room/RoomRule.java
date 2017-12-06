@@ -39,7 +39,6 @@ public class RoomRule {
         this.roomName = roomName;
         this.roomPass = roomPass;
         isFree = true;
-
     }
 
     public String getRoomPass() {

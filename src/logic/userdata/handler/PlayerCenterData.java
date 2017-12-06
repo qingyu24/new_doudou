@@ -149,7 +149,7 @@ public class PlayerCenterData implements UserData {
             long gid = p_User.GetRoleGID();
             System.out.println("ss" + gid);
             account[] data = DBMgr.ReadRoleIDData(gid, new account());
-            zz_huiyuan[] datas = DBMgr.ReadRoleIDData(gid, new zz_huiyuan());
+            zz_huiyuan[] datas = DBMgr.ReadSQL( new zz_huiyuan(),"select *from zz_huiyuan where RoleID="+gid);
             shopping[] shoppings = DBMgr.ReadRoleIDData(gid, new shopping());
             for (int i = 0; i < shoppings.length; i++) {
                 skins.add(shoppings[i].shopID.Get());

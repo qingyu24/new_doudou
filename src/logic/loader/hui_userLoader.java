@@ -40,7 +40,7 @@ public  static hui_userLoader instance;
     public void sendRaning_All(int list_type, MyUser p_user) {
         SendMsgBuffer buffer = PackBuffer.GetInstance().Clear().AddID(Reg.CENTERDATA, CenterDateInterface.MID_RANKING_PERSON);
         ArrayList<hui_user> list = new ArrayList<hui_user>();
-        hui_user[] hui_users = DBMgr.ReadSQL(new hui_user(), hui_user.Sql(null, " 0,50"));
+        hui_user[] hui_users = DBMgr.ReadSQL(new hui_user(), hui_user.Sql(null));
 
 
         int size = 0;//一共发送前几名

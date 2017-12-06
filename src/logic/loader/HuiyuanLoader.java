@@ -14,7 +14,7 @@ public class HuiyuanLoader extends DBLoaderEx<zz_huiyuan> {
 
     private static ArrayList<String> m_codes = new ArrayList<String>();
     private static String sql_add = "insert into charge_record(RoleID, TargetRoleID, card)values(%d, %d, %d)";
-    private static String sql_rank = "select * from zz_huiyuan order by winCount desc limit %d";
+    private static String sql_rank = "select * from zz_huiyuan order by winCount desc ";
     private static String sql_query_rank = "SELECT * FROM (SELECT (@rownum:=@rownum+1) AS rownum, a.RoleID FROM `zz_huiyuan` a, (SELECT @rownum:= 0 ) r  ORDER BY a.`winCount` DESC) AS b  WHERE RoleID = %d";
 
     public HuiyuanLoader(zz_huiyuan p_Seed) {
@@ -99,7 +99,7 @@ public class HuiyuanLoader extends DBLoaderEx<zz_huiyuan> {
             */
         LogRecords.Log(null, "即将验证账户信息" + "电话名" + name + "密码" + passwrd);
 
-        String m_MaxRoleData = "SELECT * FROM zz_huiyuan ORDER BY id DESC LIMIT 1";
+        String m_MaxRoleData = "SELECT * FROM zz_huiyuan ORDER BY id ";
         zz_huiyuan[] zz_huiyuans = DBMgr.ReadSQL(new zz_huiyuan(), m_MaxRoleData);
         if (zz_huiyuans.length > 0) {
             if (zz_huiyuans[0].username.Get() == name && zz_huiyuans[0].password.Get() == passwrd) {

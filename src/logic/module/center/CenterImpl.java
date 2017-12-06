@@ -40,7 +40,6 @@ public class CenterImpl implements CenterInterface {
         // TODO Auto-generated method stub
         MyUser user = UserManager.getInstance().getUser(m_friendID);
         Team team = TeamManager.getInstance().getTeam(p_teamID);
-
         if (user != null) {
             boolean s = roomID == 0 && team != null && !team.contain(m_friendID);
             boolean b = (user.getRoomId() != roomID && roomID != 0);

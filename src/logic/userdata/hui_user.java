@@ -23,8 +23,8 @@ public class hui_user extends RoleDataBase {
 
     public void packDate(SendMsgBuffer buffer, MyUser p_user) {
         buffer.Add(this.RoleID.Get());  //id
-        buffer.Add(this.xm.Get());//ÐÕÃû
-        buffer.Add(this.portrait.Get() == 0 ? 1 : this.portrait.Get());//Í·ÏñID
+        buffer.Add(this.xm.Get());//ï¿½ï¿½ï¿½ï¿½
+        buffer.Add(this.portrait.Get() == 0 ? 1 : this.portrait.Get());//Í·ï¿½ï¿½ID
         buffer.Add(CountGrade.getInstance().getnewLevel(this.score.Get()));
         buffer.Add(CountGrade.getInstance().getnewStar(this.score.Get()));
         buffer.Add(this.grade.Get());
@@ -36,8 +36,8 @@ public class hui_user extends RoleDataBase {
 
     public void packDate(SendMsgBuffer buffer) {
         buffer.Add(RoleID.Get());
-        buffer.Add(this.xm.Get());//ÐÕÃû
-        buffer.Add(this.portrait.Get() == 0 ? 1 : this.portrait.Get());//Í·ÏñID
+        buffer.Add(this.xm.Get());//ï¿½ï¿½ï¿½ï¿½
+        buffer.Add(this.portrait.Get() == 0 ? 1 : this.portrait.Get());//Í·ï¿½ï¿½ID
         buffer.Add(CountGrade.getInstance().getnewLevel(this.score.Get()));
         buffer.Add(CountGrade.getInstance().getnewStar(this.score.Get()));
 /*        buffer.Add(school.Get());*/
@@ -46,18 +46,14 @@ public class hui_user extends RoleDataBase {
 
     }
 
-    public static String Sql(String where,String limit) {
-        StringBuilder sql = new StringBuilder("select `zz_huiyuan`.`RoleID` AS `RoleID`,`zz_huiyuan`.`school` AS `schoolID`,`zz_school`.`SchoolName` AS `school`,`zz_huiyuan`.`grade` AS `grade`,`zz_huiyuan`.`banji` AS `banji`,`account`.`Garde` AS `score`,`account`.`portrait` AS `portrait`,`zz_huiyuan`.`xm` AS `xm`,`zz_huiyuan`.`usertype` AS `usertype`,`zz_usertype`.`title` AS `type` from (((`zz_huiyuan` left join `account` on((`account`.`RoleID` = `zz_huiyuan`.`RoleID`))) left join `zz_school` on((`zz_huiyuan`.`school` = `zz_school`.`id`))) left join `zz_usertype` on((`zz_usertype`.`ID` = `zz_huiyuan`.`usertype`))) ");
+    public static String Sql(String where) {
+        StringBuilder sql = new StringBuilder("select top 50 zz_huiyuan.RoleID AS RoleID,zz_huiyuan.school AS schoolID,zz_school.SchoolName AS school,zz_huiyuan.grade AS grade,zz_huiyuan.banji AS banji,account.Garde AS score,account.portrait AS portrait,zz_huiyuan.xm AS xm,zz_huiyuan.usertype AS usertype,zz_usertype.title AS type from (((zz_huiyuan left join account on((account.RoleID = zz_huiyuan.RoleID))) left join zz_school on((zz_huiyuan.school = zz_school.id))) left join zz_usertype on((zz_usertype.ID = zz_huiyuan.usertype))) ");
         if (where != null) {
             sql.append(" where  ");
             sql.append(where);
         }
-        sql.append("  order by `account`.`Garde` desc");
-        if(limit!=null){
-            sql.append(" limit "+limit);
+        sql.append("  order by account.Garde desc");
 
-        }
-        LogRecord.Log(sql.toString());
         return sql.toString();
     }
 }

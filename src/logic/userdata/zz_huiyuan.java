@@ -274,5 +274,91 @@ public class zz_huiyuan extends RoleDataBase {
         buffer.Add(banji.Get());
 
     }
+
+    @Override
+    public String toString() {
+        return "zz_huiyuan{"+
+                "RoleID="+ RoleID.Get()+
+                ", id="+ id.Get( )+
+                ", username="+ username.Get( )+
+                ", password="+ password.Get( )+
+                ", addtime="+ addtime.Get( )+
+                ", uptime="+ uptime.Get( )+
+                ", ip="+ ip.Get( )+
+                ", dl="+ dl.Get( )+
+                ", xm="+ xm.Get( )+
+                ", jiazhangname="+ jiazhangname.Get( )+
+                ", usertype="+ usertype.Get( )+
+                ", userstatus="+ userstatus.Get( )+
+                ", xb="+ xb.Get( )+
+                ", school="+ school.Get( )+
+                ", grade="+ grade.Get( )+
+                ", banji="+ banji.Get( )+
+                ", StartDate="+ StartDate.Get( )+
+                ", StopDate="+ StopDate.Get( )+
+                ", BirthDate="+ BirthDate.Get( )+
+                ", dh="+ dh.Get( )+
+                ", sj="+ sj.Get( )+
+                ", QQ="+ QQ.Get( )+
+                ", email="+ email.Get( )+
+                ", dizhi="+ dizhi.Get( )+
+                ", yb="+ yb.Get( )+
+                ", dengji="+ dengji.Get( )+
+                ", jjkaitong="+ jjkaitong.Get( )+
+                ", jjcishu="+ jjcishu.Get( )+
+                ", iosid="+ iosid.Get( )+
+                ", pcid="+ pcid.Get( )+
+                ", pccishu="+ pccishu.Get( )+
+                ", azid="+ azid.Get( )+
+                ", azcishu="+ azcishu.Get( )+
+                ", creatorid="+ creatorid.Get( )+
+                ", creatortype="+ creatortype.Get( )+
+                ", xueshengid="+ xueshengid.Get( )+
+                ", courseclass="+ courseclass.Get( )+
+                ", sheng2="+ sheng2.Get( )+
+                ", shi2="+ shi2.Get( )+
+                ", qu2="+ qu2.Get( )+
+                ", xuexiao2="+ xuexiao2.Get( )+
+                ", addday="+ addday.Get( )+
+                ", xuexiaoid="+ xuexiaoid.Get( )+
+                ", online="+ online.Get( )+
+                ", jiaofeiyueshu="+ jiaofeiyueshu.Get( )+
+                ", tikuanjine="+ tikuanjine.Get( )+
+                ", userheaderimg="+ userheaderimg.Get( )+
+                ", jibie="+ jibie.Get( )+
+                ", jifen="+ jifen.Get( )+
+                ", gongsi="+ gongsi.Get( )+
+                ", sheng="+ sheng.Get( )+
+                ", shi="+ shi.Get( )+
+                ", signintime="+ signintime.Get( )+
+                ", shifouyikayi="+ shifouyikayi.Get( )+
+                ", istixian="+ istixian.Get( )+
+                ", login_token="+ login_token.Get( )+
+                ", yuxile="+ yuxile.Get( )+
+                ", mingxiangsi="+ mingxiangsi.Get( )+
+                ", zuoye_shuxue="+ zuoye_shuxue.Get( )+
+                ", zuoye_yuwen="+ zuoye_yuwen.Get( )+
+                ", zuoye_yingyu="+ zuoye_yingyu.Get( )+
+                ", zuoye_wuli="+ zuoye_wuli.Get( )+
+                ", zuoye_huaxue="+ zuoye_huaxue.Get( )+
+                ", zuoye_dili="+ zuoye_dili.Get( )+
+                ", zuoye_lishi="+ zuoye_lishi.Get( )+
+                ", zuoye_shengwu="+ zuoye_shengwu.Get( )+
+                ", zuoye_zhengzhi="+ zuoye_zhengzhi.Get( )+
+                ", zuoye_kexue="+ zuoye_kexue.Get( )+
+                ", zuoye_lizong="+ zuoye_lizong.Get( )+
+                ", zuoye_wenzong="+ zuoye_wenzong.Get( )+
+                ", qichuang="+ qichuang.Get( )+
+                ", shuijiao="+ shuijiao.Get( )+
+                ", mingrizhixing="+ mingrizhixing.Get( )+
+                ", wangzhe="+ wangzhe.Get( )+
+                ", shengzici="+ shengzici.Get( )+
+                ", guoguan="+ guoguan.Get( )+
+                ", jishiyouxi="+ jishiyouxi.Get( )+
+                ", qitazonghe="+ qitazonghe.Get( )+
+                ", jiazhangusername="+ jiazhangusername.Get( )+
+                ", isjiaqian="+ isjiaqian.Get( )+
+                '}';
+    }
 }
 

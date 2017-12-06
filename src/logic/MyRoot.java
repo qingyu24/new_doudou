@@ -45,7 +45,7 @@ public class MyRoot extends Root implements Tick {
 
         RootConfig c = RootConfig.GetInstance();
         c.Init();
-/*        c.SqlServer = true;*/
+        c.SqlServer = true;
         TimeMethod.Init();
 
         if (c.OpenSecurityService) {
