@@ -1,10 +1,8 @@
 package logic.userdata;
 
 import core.DBMgr;
+import core.db.*;
 import core.db.DBInt;
-import core.db.DBInt;
-import core.db.DBString;
-import core.db.RoleDataBase;
 import core.detail.impl.socket.SendMsgBuffer;
 
 /**
@@ -14,7 +12,7 @@ import core.detail.impl.socket.SendMsgBuffer;
  * @time:Aug-01-17 14:39:15
  **/
 public class account extends RoleDataBase {
-    public DBInt RoleID;//用户id
+    public DBLong RoleID;//用户id
 
     public DBString Name;//
 
@@ -35,8 +33,7 @@ public class account extends RoleDataBase {
     public DBInt Skin;//皮肤
 
     public void packData(SendMsgBuffer buffer) {
-        buffer.Add(RoleID.Get());
-
+        buffer.Add((long)RoleID.Get());
         buffer.Add(TickName.Get());
         buffer.Add(portrait.Get());
         if(Skin.Get()==0){

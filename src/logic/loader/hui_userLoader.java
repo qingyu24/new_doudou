@@ -12,22 +12,6 @@ import java.util.ArrayList;
 
 public class hui_userLoader /*extends DBLoaderEx<hui_user>*/ {
 
-/*
-
-    public hui_userLoader(hui_user p_Seed) {
-        super(p_Seed);
-    }
-
-    public hui_userLoader(hui_user p_Seed, boolean p_bSave) {
-        super(p_Seed, p_bSave);
-    }
-
-    public ConcurrentLinkedQueue<hui_user> getCenterDate() {
-        // TODO Auto-generated method stub
-        return m_Datas;
-
-    }
-*/
 public  static hui_userLoader instance;
 
     public static hui_userLoader getInstance() {
@@ -36,19 +20,22 @@ public  static hui_userLoader instance;
         return instance;
     }
 
-
     public void sendRaning_All(int list_type, MyUser p_user) {
         SendMsgBuffer buffer = PackBuffer.GetInstance().Clear().AddID(Reg.CENTERDATA, CenterDateInterface.MID_RANKING_PERSON);
         ArrayList<hui_user> list = new ArrayList<hui_user>();
-        hui_user[] hui_users = DBMgr.ReadSQL(new hui_user(), hui_user.Sql(null));
-
-
+        String sql=null;
+        switch (list_type){
+            case 1:sql=null;break;
+            case 2:sql="province ="+p_user.getCenterData().province;break;
+            case 3:sql=" school = "+p_user.getSchool();
+        }
+        hui_user[] hui_users = DBMgr.ReadSQL(new hui_user(), hui_user.Sql(sql));
         int size = 0;//一共发送前几名
         int isbegin = 1;
         for (hui_user hui_user : hui_users) {
 
             hui_user next = hui_user;
-            if (match(next, list_type, p_user)) {
+            if (true) {
                 list.add(next);
                 if (size++ > 30) break;//一共发送多少人
                 if (list.size() == 30) {
@@ -60,8 +47,8 @@ public  static hui_userLoader instance;
             }
         }
 
-/*        if (list.size() > 0)
-            this.rankBuffer(list, CenterDateInterface.MID_RANKING_PERSON, isbegin, p_user, list_type);*/
+        if (list.size() > 0)
+            this.rankBuffer(list, CenterDateInterface.MID_RANKING_PERSON, isbegin, p_user, list_type);
     }
 
     private boolean match(hui_user next, int list_type, MyUser p_user) {

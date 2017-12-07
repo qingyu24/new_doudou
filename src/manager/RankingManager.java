@@ -51,22 +51,22 @@ public class RankingManager {
 
     public UserClass[] geByClass(int type, MyUser p_user) {
 
-        String all = "SELECT  top 50 * FROM UserClass";
-        String inSchool = "SELECT  top 50 * FROM UserClass Where school = " + p_user.getSchool();
+        String all = "SELECT  top 30 * FROM UserClass";
+        String inSchool = "SELECT  top 30 * FROM UserClass Where school = " + p_user.getSchool();
 
-        String inshi = "SELECT  top 50 * FROM UserClass Where province= %d";
+        String inshi = "SELECT  top 30 * FROM UserClass Where province= %d";
         String order = " order by av_grade desc";
         switch (type) {
             case 1:
                 return DBMgr.ReadSQL(new UserClass(), all + order);
             case 2:
                 int i = 0;
-                zz_school[] forNums = DBMgr.ReadSQL(new zz_school(), "select * from  zz_school where id =" + p_user.getSchool());
+               /* zz_school[] forNums = DBMgr.ReadSQL(new zz_school(), "select * from  zz_school where id =" + p_user.getSchool());
                 if (forNums.length > 0) {
 
                     i = forNums[0].Province.Get();
-                }
-                return DBMgr.ReadSQL(new UserClass(), String.format(inshi, i) + order);
+                }*/
+                return DBMgr.ReadSQL(new UserClass(), String.format(inshi, p_user.getCenterData().province) + order);
             case 3:
                 return DBMgr.ReadSQL(new UserClass(), inSchool + order);
         }
@@ -80,7 +80,7 @@ public class RankingManager {
 
         if (list != null && userClasses != null) {
             for (UserClass userClass : userClasses) {
-                if (userClass.av_grade.Get() != 0) {
+                if (userClass.av_grade.Get() != -1) {
                     list.add(userClass);
                 }
             }

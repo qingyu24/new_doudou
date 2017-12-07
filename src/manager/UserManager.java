@@ -105,7 +105,7 @@ public class UserManager {
 
         ArrayList<hui_user> list = new ArrayList<hui_user>();
 
-     String sql=" zz_huiyuan.school=%d and zz_huiyuan.grade=%d and zz_huiyuan.banji=%d";
+     String sql=" school=%d and grade=%d and banji=%d";
 
         hui_user[] hui_users = DBMgr.ReadSQL(new hui_user(), hui_user.Sql(String.format(sql, nianJi.get(0), nianJi.get(1), nianJi.get(2))));
 

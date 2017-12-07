@@ -47,6 +47,7 @@ public class MyUser extends UserBase implements Tick /*,Comparable<MyUser>*/ {
     private ArrayList<MyUser> friends;
     private ArrayList<MyUser> classmates;
     private eGameType type;
+    public int province;
 
     public eGameType getType() {
         return type;

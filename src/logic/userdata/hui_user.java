@@ -20,6 +20,7 @@ public class hui_user extends RoleDataBase {
     public DBString xm;
     public DBInt usertype;
     public DBString type;
+    public DBInt province;
 
     public void packDate(SendMsgBuffer buffer, MyUser p_user) {
         buffer.Add(this.RoleID.Get());  //id
@@ -47,7 +48,7 @@ public class hui_user extends RoleDataBase {
     }
 
     public static String Sql(String where) {
-        StringBuilder sql = new StringBuilder("select top 50 zz_huiyuan.RoleID AS RoleID,zz_huiyuan.school AS schoolID,zz_school.SchoolName AS school,zz_huiyuan.grade AS grade,zz_huiyuan.banji AS banji,account.Garde AS score,account.portrait AS portrait,zz_huiyuan.xm AS xm,zz_huiyuan.usertype AS usertype,zz_usertype.title AS type from (((zz_huiyuan left join account on((account.RoleID = zz_huiyuan.RoleID))) left join zz_school on((zz_huiyuan.school = zz_school.id))) left join zz_usertype on((zz_usertype.ID = zz_huiyuan.usertype))) ");
+        StringBuilder sql = new StringBuilder("select top 30 zz_huiyuan.RoleID AS RoleID,zz_huiyuan.school AS schoolID,zz_school.SchoolName AS school,zz_huiyuan.grade AS grade,zz_huiyuan.banji AS banji,account.Garde AS score,account.portrait AS portrait,zz_huiyuan.xm AS xm,zz_school.Province AS province,zz_huiyuan.usertype AS usertype,zz_usertype.title AS type from (((zz_huiyuan left join account on((account.RoleID = zz_huiyuan.RoleID))) left join zz_school on((zz_huiyuan.school = zz_school.id))) left join zz_usertype on((zz_usertype.ID = zz_huiyuan.usertype))) ");
         if (where != null) {
             sql.append(" where  ");
             sql.append(where);

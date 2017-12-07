@@ -172,8 +172,8 @@ public class CenterDateImpl implements CenterDateInterface {
 
         buffer.Add(list_type);
 
-       /* buffer.Add((short) (list.length>30?30:list.length));*/
-       buffer.Add((short)list.size());
+        buffer.Add((short) (list.size()>30?30:list.size()));
+ /*      buffer.Add((short)list.size());*/
         int i=0;
         for (UserClass userClass : list) {
             if(i++>30) break;

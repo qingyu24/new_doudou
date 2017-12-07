@@ -6,10 +6,7 @@ import core.UserData;
 import core.detail.impl.socket.SendMsgBuffer;
 import logic.MyUser;
 import logic.sqlrun.MySQLRun;
-import logic.userdata.Friends;
-import logic.userdata.account;
-import logic.userdata.shopping;
-import logic.userdata.zz_huiyuan;
+import logic.userdata.*;
 import manager.UserManager;
 
 import java.util.ArrayList;
@@ -25,6 +22,7 @@ public class PlayerCenterData implements UserData {
     private zz_huiyuan m_huiyuan;
     private int m_gid;
     private int m_gid2;
+    public int  province;
     private ArrayList<Integer> skins = new ArrayList<Integer>();
 
     public PlayerCenterData(MyUser user) {
@@ -192,6 +190,12 @@ public class PlayerCenterData implements UserData {
 
 
             UserManager.getInstance().addUser(p_User);
+          /*  int i = 0;*/
+            zz_school[] forNums = DBMgr.ReadSQL(new zz_school(), "select * from  zz_school where id =" + m_user.getSchool());
+            if (forNums.length > 0) {
+
+                province = forNums[0].Province.Get();
+            }
             m_dataReady = true;
 
         }
