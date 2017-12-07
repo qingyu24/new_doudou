@@ -16,7 +16,7 @@ public class LoaderManager {
 
 /*    public static String Users = "Users";
     public static String Huiyuan = "huiyuan";*/
-    public static String zz_school = "zz_school";
+/*    public static String zz_school = "zz_school";*/
     public static String zz_sheng2 = "zz_sheng2";
     public static String zz_shi2 = "zz_shi2";
 

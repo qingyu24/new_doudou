@@ -98,9 +98,23 @@ public class LoginSQLRun extends MySQLRun {
         zz_huiyuan d = null;
         if (ds.length > 1) {
             //读取到多条数据,程序不处理,让玩家找GM协助
-            eLoginDebugLogType.LOGINSQL_ERR_CREATE.Log(p_User);
+          /*  eLoginDebugLogType.LOGINSQL_ERR_CREATE.Log(p_User);
             p_User.setLoginData(null, eLoginErrorCode.UNKNOW);
-            return;
+
+            return;*/
+            for (zz_huiyuan zz_huiyuan : ds) {
+                if(zz_huiyuan.usertype.Get()==2){
+                    d=zz_huiyuan;
+                    break;
+                }
+            }
+
+            if(d==null){
+             /*  eLoginDebugLogType.LOGINSQL_ERR_CREATE.Log(p_User);
+            p_User.setLoginData(null, eLoginErrorCode.UNKNOW);
+
+            return;*/
+            }
         } else if (ds.length == 1) {
             d = ds[0];
         }
